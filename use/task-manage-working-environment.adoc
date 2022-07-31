@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: use/task-manage-working-environment.html 
+keywords: amazon fsx for ontap, fsx, manage working environment, delete working environment, remove working environment, throughput capacity, change throughput, 
+summary: Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 처리량 capcity를 변경하고 작업 환경을 제거 또는 삭제할 수 있습니다. 
+---
+= ONTAP 작업 환경을 위한 Amazon FSx를 관리합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 처리량 capcity를 변경하고 작업 환경을 제거 또는 삭제할 수 있습니다.
+
+
+
+== 처리량 용량을 변경합니다
+
+ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지 처리량 용량을 변경할 수 있습니다.
+
+활성 상태가 필요합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["커넥터를 사용하여 AWS에 연결합니다"^].
+
+.단계
+. ONTAP 작업 환경을 위한 FSx를 엽니다.
+. 개요 * 탭에서 * 기능 * 을 클릭합니다.
++
+image:screenshot-change-thruput.png["변경 처리량 용량 메뉴의 위치 스크린샷"]
+
+. 연필 아이콘(image:icon-pencil.png["연필 편집 아이콘의 이미지."])를 클릭하여 * Throughput Capacity * 편집 페이지를 엽니다.
+. 드롭다운에서 새 처리량 용량을 선택하고 * 업데이트 * 를 클릭합니다. 이 변경 사항을 적용하려면 최대 25분이 소요될 수 있으며 데이터 액세스를 중단시키지 않습니다.
+
+
+
+
+== 작업 영역에서 ONTAP용 FSx를 제거합니다
+
+ONTAP 계정 또는 볼륨에 대한 FSx를 삭제하지 않고 Cloud Manager에서 ONTAP용 FSx를 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 Cloud Manager에 다시 추가할 수 있습니다.
+
+.단계
+. 작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 문제를 무시하고 작업 환경 제거를 계속할 수 있습니다.
+. 페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 작업 영역에서 제거 * 를 클릭합니다.
++
+image:screenshot_fsx_working_environment_remove.png["클라우드 관리자 인터페이스에서 ONTAP용 FSx에 대한 제거 옵션 스크린샷"]
+
+. Cloud Manager에서 ONTAP용 FSx를 제거하려면 * 제거 * 를 클릭합니다.
+
+
+
+
+== ONTAP 작업 환경의 FSx를 삭제합니다
+
+Cloud Manager에서 ONTAP용 FSx를 삭제할 수 있습니다.
+
+.시작하기 전에
+* 반드시 해야 합니다 link:task-manage-fsx-volumes.html#delete-volumes["모든 볼륨을 삭제합니다"] 파일 시스템과 연결되어 있습니다.
+
+
+
+NOTE: 볼륨을 제거 또는 삭제하려면 AWS의 활성 커넥터가 필요합니다.
+
+* 오류가 발생한 볼륨이 있는 작업 환경은 삭제할 수 없습니다. ONTAP 파일 시스템용 FSx를 삭제하기 전에 AWS 관리 콘솔 또는 CLI를 사용하여 실패한 볼륨을 삭제해야 합니다.
+
+
+
+WARNING: 이 작업을 수행하면 작업 환경과 관련된 모든 리소스가 삭제됩니다. 이 작업은 실행 취소할 수 없습니다.
+
+.단계
+. 작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 작업을 무시하고 작업 환경 삭제를 계속할 수 있습니다.
+. 페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 삭제 * 를 클릭합니다.
++
+image:screenshot_fsx_working_environment_delete.png["클라우드 관리자 인터페이스에서 ONTAP용 FSx에 대한 삭제 옵션 스크린샷"]
+
+. 작업 환경의 이름을 입력하고 * 삭제 * 를 클릭합니다.
+

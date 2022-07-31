@@ -20,9 +20,7 @@ summary: 작업 환경을 설정한 후 ONTAP 볼륨, 클론 및 스냅샷에 �
 
 == 볼륨 생성
 
-Cloud Manager의 ONTAP 작업 환경을 위한 FSx에서 NFS 및 CIFS 볼륨을 생성하고 관리할 수 있습니다. ONTAP CLI를 사용하여 생성된 NFS 및 CIFS 볼륨은 ONTAP 작업 환경의 FSx에도 표시됩니다.
-
-ONTAP CLI, ONTAP API 또는 Cloud Manager API를 사용하여 iSCSI 볼륨을 생성하고 FSx for ONTAP 작업 환경에서 Cloud Manager를 사용하여 관리할 수 있습니다.
+Cloud Manager의 ONTAP 작업 환경을 위한 FSx에서 NFS, CIFS 및 iSCSI 볼륨을 생성하고 관리할 수 있습니다. ONTAP CLI를 사용하여 생성된 볼륨은 ONTAP 작업 환경의 FSx에도 표시됩니다.
 
 필요한 사항:
 
@@ -53,7 +51,7 @@ image:screenshot_fsx_volume_details.png["ONTAP 볼륨 생성을 위한 FSx의 �
 
 
 
-. * 프로토콜 *: NFS 또는 CIFS 볼륨 프로토콜을 선택합니다.
+. * 프로토콜 *: NFS, CIFS 또는 iSCSI 볼륨 프로토콜을 선택합니다.
 +
 .. NFS의 경우:
 +
@@ -105,6 +103,20 @@ TIP: 이 작업 환경의 첫 번째 CIFS 볼륨인 경우 _Active Directory_또
 | NTP 서버 | Active Directory DNS를 사용하여 NTP 서버를 구성하려면 * NTP 서버 구성 활성화 * 를 선택합니다. 다른 주소를 사용하여 NTP 서버를 구성해야 하는 경우 API를 사용해야 합니다. 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-automation/index.html["Cloud Manager 자동화 문서"^] 를 참조하십시오. 
 |===
 *** 워크그룹 설정을 선택한 경우 CIFS용으로 구성된 워크그룹의 서버 및 워크그룹 이름을 입력합니다.
+
+
+.. iSCSI의 경우: 기존 이니시에이터 그룹을 사용하거나 새 이니시에이터 그룹을 생성하여 LUN을 연결할 수 있습니다. 기존 이니시에이터 그룹을 매핑하려면 운영 체제와 하나 이상의 이니시에이터 그룹을 선택합니다.
++
+새 이니시에이터 그룹을 생성하려면 다음을 수행합니다.
+
++
+... ** 새로 만들기** 를 선택합니다.
+... 운영 체제를 선택합니다.
+... 하나 이상의 호스트 iSCSI 정규화된 이름(IQN)을 추가하려면 클릭합니다. 기존 IQN을 선택하거나 새 IQN을 추가할 수 있습니다. 볼륨의 IQN을 찾는 방법에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-connect-lun.html["호스트를 LUN에 연결합니다"^].
+... ** 이니시에이터 그룹 이름** 을 입력합니다.
++
+image:screenshot-volume-protocol-iscsi.png["ONTAP 볼륨 생성을 위한 iSCSI 구성 FSx의 스크린샷."]
+
 
 
 .. 다음 * 을 클릭합니다.

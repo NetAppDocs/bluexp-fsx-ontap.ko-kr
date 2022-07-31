@@ -26,8 +26,10 @@ sidebar:
       url: "/requirements/reference-security-groups-fsx.html"
   - title: ONTAP에 Amazon FSx를 사용합니다
     entries:
-    - title: 작업 환경을 만들고 관리합니다
+    - title: 작업 환경을 만들거나 검색합니다
       url: "/use/task-creating-fsx-working-environment.html"
+    - title: 작업 환경 관리
+      url: "/use/task-manage-working-environment.html"
     - title: 볼륨을 생성 및 마운트합니다
       url: "/use/task-add-fsx-volumes.html"
     - title: 볼륨 및 데이터 서비스 관리
@@ -56,8 +58,10 @@ homepage:
       url: "/requirements/reference-security-groups-fsx.html"
   - title: ONTAP에 Amazon FSx를 사용합니다
     links:
-    - title: 작업 환경을 만들고 관리합니다
+    - title: 작업 환경을 만들거나 검색합니다
       url: "/use/task-creating-fsx-working-environment.html"
+    - title: 작업 환경을 관리합니다
+      url: "/use/task-manage-working-environment.html"
     - title: 볼륨을 생성 및 마운트합니다
       url: "/use/task-add-fsx-volumes.html"
     - title: 볼륨 및 데이터 서비스 관리
