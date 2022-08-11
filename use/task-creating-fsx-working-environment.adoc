@@ -152,8 +152,6 @@ image:screenshot-opportunities.png["ONTAP용 FSx의 내 기회 페이지 스크�
 
 AWS 관리 콘솔을 사용하여 추가한 ONTAP용 FSx 파일 시스템이나 이전에 Cloud Manager에서 제거한 FSx를 수동으로 검색할 수 있습니다.
 
-image:screenshot_fsx_working_environment_select.png["AWS 지역 및 작업 환경 선택 스크린샷"]
-
 .단계
 . Cloud Manager에서 * 작업 환경 추가 * 를 클릭하고 * Amazon Web Services * 를 선택합니다.
 . ONTAP * 용 * 아마존 FSx 를 선택하고 * 여기를 클릭 * 을 클릭합니다.
