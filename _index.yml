@@ -1,49 +1,41 @@
 ---
-settings:
-  name: Amazon FSx for ONTAP
-  platform: cloud
-  internal:
-    pdf_enabled: true
-  prod:
-    pdf_enabled: true
-    harmony_enabled: false
-  rss_page: whats-new.html
-  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
-sidebar:
-  entries:
-  - title: ONTAP용 Amazon FSx 문서
-    url: "/index.html"
-  - title: 릴리스 정보
-    url: "/whats-new.html"
+indexpage:
+  lead: NetApp ONTAP용 Amazon FSx는 일관된 하이브리드 클라우드 경험을 제공하는 네이티브 AWS 관리 서비스에 ONTAP의
+    모든 기능을 제공합니다. 이 문서에서는 NetApp Cloud Manager를 사용하여 ONTAP용 FSx를 관리하는 방법에 대해 설명합니다.
+  tiles:
   - title: 시작하십시오
-    entries:
-    - title: ONTAP용 FSx에 대해 자세히 알아보십시오
+    links:
+    - title: 릴리스 정보
+      url: "/whats-new.html"
+    - title: ONTAP용 Amazon FSx에 대해 자세히 알아보십시오
       url: "/start/concept-fsx-aws.html"
     - title: 빠른 시작
       url: "/start/task-getting-started-fsx.html"
-    - title: ONTAP용 FSx에 대한 권한을 설정합니다
+    - title: 권한 설정
       url: "/requirements/task-setting-up-permissions-fsx.html"
-    - title: ONTAP용 FSx에 대한 보안 그룹 규칙입니다
+    - title: 보안 그룹 규칙
       url: "/requirements/reference-security-groups-fsx.html"
   - title: ONTAP에 Amazon FSx를 사용합니다
-    entries:
+    links:
     - title: 작업 환경을 만들거나 검색합니다
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: 작업 환경 관리
+    - title: 작업 환경을 관리합니다
       url: "/use/task-manage-working-environment.html"
     - title: 볼륨을 생성 및 마운트합니다
       url: "/use/task-add-fsx-volumes.html"
     - title: 볼륨 및 데이터 서비스 관리
       url: "/use/task-manage-fsx-volumes.html"
   - title: 지식 및 지원
-    entries:
+    links:
     - title: 지원을 위해 등록하십시오
       url: "/support/task-support-registration.html"
     - title: 도움을 받으십시오
       url: "/support/task-get-help.html"
-  - title: 법적 고지
-    url: "/legal-notices.html"
-product-family:
-  name: Cloud Manager
-  repo: cloud-manager-family
-  sidebar_label: All Cloud Manager documentation
+  - title: 블로그 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central 블로그
+      url: https://cloud.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://cloud.netapp.com/events
