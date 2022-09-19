@@ -96,10 +96,6 @@
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">볼륨을 마운트합니다</block>
   <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">Cloud Manager 내에서 마운트 지침에 액세스하여 볼륨을 호스트에 마운트할 수 있습니다.</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">작업 환경을 엽니다.</block>
-  <block id="7dae500c424af1807e52460f734b857e" category="list-text">볼륨 메뉴를 열고 * 볼륨 마운트 * 를 선택합니다.</block>
-  <block id="958a7394acfcee5d86c01e758be4f1c2" category="inline-image-macro">볼륨 메뉴를 열 때 사용할 수 있는 작업의 스크린샷</block>
-  <block id="54b1fe05786347782bfe7e4a3e5de355" category="paragraph"><block ref="54b1fe05786347782bfe7e4a3e5de355" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="38aa5b57f82843fe74bb954a343bf4e0" category="list-text">지침에 따라 볼륨을 마운트합니다.</block>
   <block id="54e54adb33e337b5c804d6820b674b9a" category="inline-link-macro">Cloud Manager를 사용하여 IT에 대해 알아보십시오</block>
   <block id="e5375c42110b0016231f311272774e83" category="paragraph">첫 번째 단계는 ONTAP 작업 환경에 대한 FSx를 생성하는 것입니다. AWS 관리 콘솔에서 ONTAP용 FSx 파일 시스템을 이미 생성한 경우 를 사용할 수 있습니다 <block ref="6a48f5b54424256e49232bb9af7a3d2f" category="inline-link-macro-rx"></block>.</block>
   <block id="faa4b07ffa49aaead3b9217354fd2e07" category="paragraph">Cloud Manager에서 ONTAP 작업 환경을 위한 FSx를 생성하기 전에 다음이 필요합니다.</block>
@@ -139,7 +135,6 @@
   <block id="5f7b5a6773d6263d66627f6153905a67" category="inline-image-macro">ONTAP용 FSx의 기본 마스터 키를 설정하는 스크린샷</block>
   <block id="18ee551ad9864bd46a8f5c35b900c641" category="paragraph"><block ref="18ee551ad9864bd46a8f5c35b900c641" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8c4dc6a5ccac057271e4a3a6b3213037" category="list-text">스토리지 구성:</block>
-  <block id="44c0eb6e7e1c5fab261de20248c94791" category="list-text">선택적으로 IOPS 값을 지정할 수 있습니다. IOPS 값을 지정하지 않으면 Cloud Manager가 입력된 총 용량의 GiB당 3 IOPS를 기준으로 기본값을 설정합니다. 예를 들어, 총 용량에 대해 2000GiB를 입력하고 IOPS 값이 없으면 유효 IOPS 값은 6000으로 설정됩니다.</block>
   <block id="72c6f5d2cfeaf6fab82a1ddb12885786" category="inline-image-macro">잘못된 IOPS 값이 설정된 경우 오류 메시지의 스크린샷</block>
   <block id="6885d04a0fda617d746b2123b3620e51" category="admonition">최소 요구 사항을 충족하지 않는 IOPS 값을 지정하면 작업 환경을 추가할 때 오류가 발생합니다.<block ref="302f4fa129241cdd96ffd6dc709561e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8088a4fa7d414a887d0eb3f19623bc06" category="inline-image-macro">ONTAP용 FSx에 대한 저장소 구성 설정 스크린샷</block>
@@ -168,10 +163,8 @@
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">작업 영역에서 ONTAP용 FSx를 제거합니다</block>
   <block id="619c35c80b530c32704e964530d66517" category="paragraph">ONTAP 계정 또는 볼륨에 대한 FSx를 삭제하지 않고 Cloud Manager에서 ONTAP용 FSx를 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 Cloud Manager에 다시 추가할 수 있습니다.</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 문제를 무시하고 작업 환경 제거를 계속할 수 있습니다.</block>
-  <block id="960f6c85ef871302e3e408b649cf6e70" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 작업 영역에서 제거 * 를 클릭합니다.</block>
   <block id="410c78448ff59a132a6ef7e7c2bf2f4e" category="inline-image-macro">클라우드 관리자 인터페이스에서 ONTAP용 FSx에 대한 제거 옵션 스크린샷</block>
   <block id="47f6e6061b4eadfbf907049dcd591b28" category="paragraph"><block ref="47f6e6061b4eadfbf907049dcd591b28" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a3c7ec91e48d6cb0479b63af7c30a498" category="list-text">Cloud Manager에서 ONTAP용 FSx를 제거하려면 * 제거 * 를 클릭합니다.</block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">ONTAP 작업 환경의 FSx를 삭제합니다</block>
   <block id="4de2a58fbc41a8206c0c53a3dd1da960" category="paragraph">Cloud Manager에서 ONTAP용 FSx를 삭제할 수 있습니다.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
@@ -181,32 +174,24 @@
   <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">오류가 발생한 볼륨이 있는 작업 환경은 삭제할 수 없습니다. ONTAP 파일 시스템용 FSx를 삭제하기 전에 AWS 관리 콘솔 또는 CLI를 사용하여 실패한 볼륨을 삭제해야 합니다.</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">이 작업을 수행하면 작업 환경과 관련된 모든 리소스가 삭제됩니다. 이 작업은 실행 취소할 수 없습니다.</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 작업을 무시하고 작업 환경 삭제를 계속할 수 있습니다.</block>
-  <block id="5c026b5b99b1471c1695d12c5be5e3d9" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 삭제 * 를 클릭합니다.</block>
   <block id="eea2ce15389bae978a0efc5763b9cdac" category="inline-image-macro">클라우드 관리자 인터페이스에서 ONTAP용 FSx에 대한 삭제 옵션 스크린샷</block>
   <block id="636c7339a775dda79a1b6b37974a27b3" category="paragraph"><block ref="636c7339a775dda79a1b6b37974a27b3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7c1e5f31ebf2bb33eb06de268374f840" category="list-text">작업 환경의 이름을 입력하고 * 삭제 * 를 클릭합니다.</block>
   <block id="00b56458820e0abf51f147bc4e399a7e" category="summary">Cloud Manager를 사용하여 볼륨, 클론, 스냅샷을 관리하고 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">ONTAP용 Amazon FSx의 볼륨을 관리합니다</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">볼륨을 편집합니다</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">볼륨을 생성한 후에는 언제든지 수정할 수 있습니다.</block>
-  <block id="e3c15b55dc36cad58edc7cb73ae80e2c" category="list-text">볼륨 메뉴를 열고 * 편집 * 을 선택합니다.</block>
   <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">NFS의 경우 크기와 태그를 수정할 수 있습니다.</block>
   <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">CIFS의 경우 필요에 따라 공유 이름, 사용자, 권한 및 스냅샷 정책을 수정할 수 있습니다.</block>
-  <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">적용 * 을 클릭합니다.</block>
   <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">클론 볼륨</block>
   <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">볼륨을 생성한 후 새 스냅샷으로부터 새 읽기-쓰기 볼륨을 생성할 수 있습니다.</block>
-  <block id="343bf0d675ca357b025fb7472514438f" category="list-text">볼륨 메뉴를 열고 * 클론 * 을 선택합니다.</block>
   <block id="5e5db467595563d87880b20fec615319" category="list-text">복제된 볼륨의 이름을 입력합니다.</block>
-  <block id="8215bd5d2f1e1b1cb3002f32795c762e" category="list-text">클론 * 을 클릭합니다.</block>
   <block id="e479d2534f323a1275e2ed0809755e56" category="section-title">스냅샷 복사본을 관리합니다</block>
   <block id="13d23436eebf5663e94f902e862ce3bb" category="paragraph">Snapshot 복사본은 볼륨의 시점 복사본을 제공합니다. 스냅샷 복사본을 생성하고 데이터를 새 볼륨으로 복원합니다.</block>
-  <block id="c841bd422df65ac6f48f90c6d842cfc8" category="list-text">볼륨 메뉴를 열고 사용 가능한 옵션 중 하나를 선택하여 스냅샷 복사본을 관리합니다.</block>
   <block id="77920e8d9473162a2167976898eaa180" category="list-text">* 스냅샷 복사본 생성 *</block>
   <block id="fa41e2569b3e81d19868356601d4d103" category="list-text">* 스냅샷 복사본에서 복원 *</block>
   <block id="df95b2ddbeefe0bd257bae9d1c7d663a" category="list-text">프롬프트에 따라 선택한 작업을 완료합니다.</block>
   <block id="9f4aa892debf403a854859b0ca9c9ff6" category="section-title">계층화 정책을 변경합니다</block>
   <block id="3a2ff6a4c845ba47894d1dd10a1b908f" category="paragraph">볼륨에 대한 계층화 정책을 변경합니다.</block>
-  <block id="d5f25d8802c3b7804d35fc3426a2f809" category="list-text">볼륨 메뉴를 열고 * 계층화 정책 변경 * 을 선택합니다.</block>
   <block id="baef40813f00b62c8e9dcc643a76c881" category="list-text">새 볼륨 계층화 정책을 선택하고 * Change * 를 클릭합니다.</block>
   <block id="016049d3662ab4f0c21871ed98f2bb37" category="section-title">데이터 복제 및 동기화</block>
   <block id="abca63d751ec4cebd209af264e376ee4" category="inline-link">시스템 간 데이터 복제</block>
@@ -214,7 +199,6 @@
   <block id="f91674f3b22216fc484532cd24dda908" category="section-title">볼륨을 삭제합니다</block>
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">더 이상 필요하지 않은 볼륨을 삭제합니다.</block>
   <block id="08d16a95ed82f881bcc5359ecb0c8769" category="paragraph">Cloud Manager를 사용하여 SnapMirror 관계의 이전 부분이었던 볼륨을 삭제할 수 없습니다. SnapMirror 볼륨은 AWS 관리 콘솔 또는 CLI를 사용하여 삭제해야 합니다.</block>
-  <block id="fa41d7948af66c69407c3a05211bb4b9" category="list-text">볼륨 메뉴를 열고 * 삭제 * 를 선택합니다.</block>
   <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">작업 환경 이름을 입력하고 볼륨 삭제를 확인합니다. Cloud Manager에서 볼륨이 완전히 제거되기까지 최대 1시간이 걸릴 수 있습니다.</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">복제된 볼륨을 삭제하려고 하면 오류가 발생합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
@@ -511,12 +495,8 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. 클라우드 관리자 개선에 도움이 되는 피드백을 제출해 주십시오.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 엔지니어와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">NetApp 기술 지원을 위한 전화 번호를 찾으려면 * 문의하다</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">문제 열기 * 를 클릭하고 옵션 중 하나를 선택한 다음 * 보내기 * 를 클릭합니다.</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 담당자가 귀하의 케이스를 검토하고 곧 다시 귀하에 연락을 드릴 것입니다.</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">권한 설정</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">보안 그룹 규칙</block>
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">Connector에서 fsxadmin 관리 LIF로 액세스하여 FSx로 API 호출을 전송합니다</block>
@@ -549,7 +529,6 @@
   <block id="c3948e9af2286480c185296c8233504b" category="summary">Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다.</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">ONTAP 작업 환경을 위한 Amazon FSx를 생성하거나 검색합니다</block>
   <block id="ce077de6f3a969e5aa4cd26e1b3b5793" category="paragraph">Cloud Manager를 사용하여 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다.</block>
-  <block id="1854a29768044309b55fe7b58108c6b2" category="list-text">처리량, 용량 및 단위를 선택합니다. 언제든지 처리량 용량을 변경할 수 있습니다.</block>
   <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">AWS 관리 콘솔을 사용하여 ONTAP용 FSx 파일 시스템을 생성했거나 이전에 제거한 작업 환경을 복구하려는 경우** My Opportunities** 또는 Manually를 사용하여 검색할 수 있습니다.</block>
   <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">My Opportunities를 사용하여 탐색</block>
   <block id="2727507bf62cbd85fbf2b9c615630c53" category="paragraph">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 * My Opportunities * 는 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.</block>
@@ -573,17 +552,11 @@
   <block id="ecfc70ae41156684ed148266abaf3a62" category="list-text">** 이니시에이터 그룹 이름** 을 입력합니다.</block>
   <block id="ccb9a070caab16c4e464e89fd6afe362" category="inline-image-macro">ONTAP 볼륨 생성을 위한 iSCSI 구성 FSx의 스크린샷.</block>
   <block id="f157bba0d98c84b6de3aaefa71426f09" category="paragraph"><block ref="f157bba0d98c84b6de3aaefa71426f09" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a20dc51cbd898b34e33a20c14094ed53" category="summary">Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 처리량 capcity를 변경하고 작업 환경을 제거 또는 삭제할 수 있습니다.</block>
   <block id="faac9e60f93091e9068b8f347b36ec75" category="doc">ONTAP 작업 환경을 위한 Amazon FSx를 관리합니다</block>
   <block id="8539ab4c6f55c58d2fab4f2b3261bde9" category="section-title">처리량 용량을 변경합니다</block>
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지 처리량 용량을 변경할 수 있습니다.</block>
   <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">활성 상태가 필요합니다<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>.</block>
-  <block id="753a4005737100e35c99c30e52ef2c44" category="list-text">개요 * 탭에서 * 기능 * 을 클릭합니다.</block>
-  <block id="2e68dd5f8760ab98fc603405ef786ad2" category="inline-image-macro">변경 처리량 용량 메뉴의 위치 스크린샷</block>
-  <block id="ba4f4a5f2fc20fe299d66d82a707dcfa" category="paragraph"><block ref="ba4f4a5f2fc20fe299d66d82a707dcfa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">연필 편집 아이콘의 이미지.</block>
-  <block id="956ab3e11e7c49feef0401b3df8ea2ef" category="list-text">연필 아이콘(<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 * Throughput Capacity * 편집 페이지를 엽니다.</block>
-  <block id="3ce3cdf8360d5fadb6de611684221e5f" category="list-text">드롭다운에서 새 처리량 용량을 선택하고 * 업데이트 * 를 클릭합니다. 이 변경 사항을 적용하려면 최대 25분이 소요될 수 있으며 데이터 액세스를 중단시키지 않습니다.</block>
   <block id="f6dfc77133ec0d2399d3f1b82fd008fe" category="list-text">현재 Cloud Manager는 온프레미스 또는 Cloud Volumes ONTAP의 데이터를 ONTAP의 경우 FSx, ONTAP의 경우 FSx에서 온-프레미스 또는 ONTAP 시스템의 경우 다른 FSx로 복제할 수 있습니다.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.</block>
@@ -598,4 +571,77 @@
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">작업 환경을 만들거나 검색합니다</block>
   <block id="6faf2fd9ba5b0e89a953f43cd89d6c46" category="sidebar">작업 환경 관리</block>
   <block id="3109e49414b9edf951cefa41b4e6edeb" category="sidebar">작업 환경을 관리합니다</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
+  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
+  <block id="0e36458fd86c678ff613e05396096775" category="paragraph">이제 가능합니다 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
+  <block id="af1b15a700df7234e9ad68515cde3f5b" category="summary">Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 처리량과 스토리지 용량 및 IOPS를 변경하고 작업 환경을 제거 또는 삭제할 수 있습니다.</block>
+  <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">개요 * 탭에서 * 기능 * 을 선택합니다.</block>
+  <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">연필 아이콘(<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 * Throughput Capacity * 편집 페이지를 엽니다.</block>
+  <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">처리량 용량 변경 메뉴의 위치 스크린샷</block>
+  <block id="e09dc417c2d896d165ca331477153842" category="paragraph"><block ref="e09dc417c2d896d165ca331477153842" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="230f70d1e5d26fbe6e5ad10f5308cabe" category="list-text">드롭다운에서 새 처리량 용량을 선택하고 * Update * 를 선택합니다. 이 변경 사항을 적용하려면 최대 25분이 소요될 수 있으며 데이터 액세스를 중단시키지 않습니다.</block>
+  <block id="a0ebe9e341b2c5054b22afc7d98d1401" category="section-title">스토리지 용량 및 IOPS를 변경합니다</block>
+  <block id="f3c93b45ca50102a9f0b7eae1e06d071" category="paragraph">ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지 저장소 용량과 IOPS를 변경할 수 있습니다.</block>
+  <block id="048b8d92cffbe45e8afec553ae5bdab0" category="list-text">연필 아이콘(<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 * 스토리지 용량 및 IOPS * 편집 페이지를 엽니다.</block>
+  <block id="d6684930c2875391fe70b5eb14401bbb" category="inline-image-macro">스토리지 용량 변경 및 IOPS 메뉴 위치의 스크린샷</block>
+  <block id="687579d242782f9a851dc5bb5ba9abc9" category="paragraph"><block ref="687579d242782f9a851dc5bb5ba9abc9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dfb628b495d5e0828edcde206a117a0d" category="list-text">스토리지 용량과 IOPS는 6시간마다 한 번씩 변경할 수 있습니다. 보다 자주 변경하려고 하면 오류가 발생합니다.</block>
+  <block id="e67f7cfa37e5dcd4f3836e76f5301a68" category="inline-image-macro">스토리지 용량 및 IOPS 값을 변경하는 페이지의 스크린샷</block>
+  <block id="f5aa006a4894acbba121bdb32f513ead" category="paragraph"><block ref="f5aa006a4894acbba121bdb32f513ead" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c17ed8503d69fa2ad1c61b6c92a2255" category="list-text">Data Tiering 성능을 유지하고 추가 데이터를 위한 용량을 허용하려면 권장되는 최대 스토리지 용량 활용률이 80%입니다.</block>
+  <block id="e8036e0ac9189e05af8ebeb943ee3fd3" category="list-text">Automatic * IOPS를 선택하면 최대 80,000개의 운영 스토리지 GiB당 프로비저닝된 SSD IOPS 3개의 비율이 유지됩니다. IOPS 값 80,000 이상을 수동으로 프로비저닝할 수 없습니다.</block>
+  <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">스토리지 용량 변경이 ONTAP 서비스용 FSx의 비용에 영향을 미치고 6시간 동안 추가 변경이 불가능함을 확인하려면 확인란을 선택합니다.</block>
+  <block id="1f25673463b8f906d801bd291ad45315" category="list-text">변경 사항을 확인하려면 * 업데이트 * 를 선택합니다.</block>
+  <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 작업 영역에서 제거 * 를 선택합니다.</block>
+  <block id="695c6322f28397cda2ea2ea4d49f33fc" category="list-text">Cloud Manager에서 ONTAP용 FSx를 제거하려면 * 제거 * 를 선택합니다.</block>
+  <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 삭제 * 를 선택합니다.</block>
+  <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">작업 환경의 이름을 입력하고 * 삭제 * 를 선택합니다.</block>
+  <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">처리량, 용량 및 단위를 선택합니다. 언제든지 처리량 및 스토리지 용량 값을 변경할 수 있습니다.</block>
+  <block id="7f234f33b9862c892e7c8dbf9dd91bc5" category="list-text">선택적으로 IOPS 값을 지정할 수 있습니다. IOPS 값을 지정하지 않으면 Cloud Manager가 입력된 총 용량의 GiB당 3 IOPS를 기준으로 기본값을 설정합니다. 예를 들어, 총 용량에 대해 2000GiB를 입력하고 IOPS 값이 없으면 유효 IOPS 값은 6000으로 설정됩니다. IOPS 값은 언제든지 변경할 수 있습니다.</block>
+  <block id="c39def9377c6bd394b8633558a53f581" category="paragraph">Cloud Manager를 사용하여 볼륨, 클론, 스냅샷을 보고 관리할 수 있으며, ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
+  <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">볼륨 세부 정보를 봅니다</block>
+  <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">볼륨을 생성한 후 구성 세부 정보를 볼 수 있습니다.</block>
+  <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">볼륨 이름 위로 마우스를 가져가면 볼륨 유형이 표시됩니다.</block>
+  <block id="a99a1e91f5b89a3a1bb26badc77c44b1" category="list-text">볼륨 탭을 열고 * 볼륨 관리 * 를 선택하여 * 볼륨 조치 * 메뉴를 엽니다.</block>
+  <block id="bc113f9071c312c1d14ec49df82aa928" category="list-text">볼륨 세부 정보 보기 * 를 선택합니다.</block>
+  <block id="a324b09bde8b0186d3f43692b7556fd9" category="list-text">Edit volume settings * 를 선택합니다.</block>
+  <block id="24347b3ddf5a25cc9c27e54ae285ade1" category="list-text">Apply * 를 선택합니다.</block>
+  <block id="d64b993d52f8a267e9dfb902139ad672" category="list-text">Clone the volume * 을 선택합니다.</block>
+  <block id="9de0e2b17d7e1e2da6c0ce7e9dc6e377" category="list-text">클론 * 을 선택합니다.</block>
+  <block id="8b5f6e4263eafb9559eeaffe98711978" category="list-text">볼륨 탭을 열고 * 볼륨 관리 * 를 선택하여 * 보호 조치 * 메뉴를 엽니다.</block>
+  <block id="f5baa7ceb1673e19b71f0f856feee19a" category="list-text">사용 가능한 옵션 중 하나를 선택하여 스냅샷 복사본을 관리합니다.</block>
+  <block id="f879ed761f1ca2475598c0bea304d10d" category="list-text">볼륨 탭을 열고 * 볼륨 관리 * 를 선택하여 * 고급 작업 * 메뉴를 엽니다.</block>
+  <block id="dedc9eb7ac0cb065a0b90f9f63104b01" category="list-text">계층화 정책 변경 * 을 선택합니다.</block>
+  <block id="f596a753aac59df7e240140c2eb96e99" category="list-text">볼륨 삭제 * 를 선택합니다.</block>
+  <block id="87ab0ddecc6298e066c5bf52a6e57341" category="list-text">볼륨 * 탭과 * 볼륨 관리 * 를 선택하여 * 볼륨 조치 * 메뉴를 엽니다.</block>
+  <block id="1cffe537ba60b23c60608f4b7ec02e43" category="inline-image-macro">볼륨 작업 메뉴를 여는 방법에 대한 스크린샷</block>
+  <block id="b43e642ae439f1f795292eb5df5f84d3" category="paragraph"><block ref="b43e642ae439f1f795292eb5df5f84d3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78c27b88e2a8142906bb69594e5b22a6" category="list-text">Mount command * 를 선택하고 지침에 따라 볼륨을 마운트합니다.</block>
+  <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">이제 볼륨이 호스트에 마운트되었습니다.</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">케이스 생성 * 기능을 사용하려면 먼저 Cloud Manager 계정 ID 일련 번호(예: 960xxxx) NetApp 포함 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 전문가와 함께 티켓을 엽니다.</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support 사이트 계정 *: 지원 케이스를 여는 사람과 관련된 해당 NSS 계정을 선택합니다. 이 담당자는 아래에 제공된 추가 이메일 외에 NetApp에 연락할 수 있는 기본 담당자가 됩니다.</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">NSS 계정이 표시되지 않으면 Cloud Manager의 지원 섹션 내의 * NSS 관리 * 탭으로 이동하여 해당 계정을 추가할 수 있습니다.</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, Cloud Manager가 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제를 해결할 수 있는 경우에 해당합니다.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 Cloud Manager 계정, 작업 공간 및 커넥터의 범위 내에 있습니다.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">* 문제 설명 * : 해당 오류 메시지 또는 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공합니다.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">* 추가 이메일 주소 *: 다른 사람에게 이 문제를 알고자 할 경우 추가 이메일 주소를 입력하십시오.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetApp Support로 케이스를 생성할 수 있는 케이스 생성 양식 스크린샷</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">지원 케이스 번호와 함께 팝업이 나타납니다. NetApp 지원 전문가가 귀사의 사례를 검토하고 곧 다시 연결해 드릴 것입니다.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 일정 * 을 클릭하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">케이스를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">이 오류는 NSS 계정과 연결된 레코드 회사가 Cloud Manager 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 케이스 생성 * 양식 상단의 NSS 계정 목록을 확인하여 올바른 일치 항목을 찾거나 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">요구 사항</block>
+  <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMe 및 iSCSI 호스트 구성</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
 </blocks>

@@ -11,6 +11,8 @@ indexpage:
       url: "/start/concept-fsx-aws.html"
     - title: 빠른 시작
       url: "/start/task-getting-started-fsx.html"
+  - title: 요구 사항
+    links:
     - title: 권한 설정
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: 보안 그룹 규칙
@@ -25,6 +27,8 @@ indexpage:
       url: "/use/task-add-fsx-volumes.html"
     - title: 볼륨 및 데이터 서비스 관리
       url: "/use/task-manage-fsx-volumes.html"
+    - title: NVMe 및 iSCSI 호스트 구성
+      url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 지식 및 지원
     links:
     - title: 지원을 위해 등록하십시오

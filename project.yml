@@ -21,6 +21,8 @@ sidebar:
       url: "/start/concept-fsx-aws.html"
     - title: 빠른 시작
       url: "/start/task-getting-started-fsx.html"
+  - title: 요구 사항
+    entries:
     - title: ONTAP용 FSx에 대한 권한을 설정합니다
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: ONTAP용 FSx에 대한 보안 그룹 규칙입니다
@@ -46,4 +48,4 @@ sidebar:
 product-family:
   name: Cloud Manager
   repo: cloud-manager-family
-  sidebar_label: All Cloud Manager documentation
+  sidebar_label: 모든 Cloud Manager 설명서

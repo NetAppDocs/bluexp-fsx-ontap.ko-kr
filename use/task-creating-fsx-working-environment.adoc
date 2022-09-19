@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: use/task-creating-fsx-working-environment.html 
-keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover 
+keywords: amazon fsx for ontap, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput 
 summary: Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다. 
 ---
 = ONTAP 작업 환경을 위한 Amazon FSx를 생성하거나 검색합니다
@@ -91,8 +91,8 @@ image:screenshot_add_fsx_encryption.png["ONTAP용 FSx의 기본 마스터 키를
 
 . 스토리지 구성:
 +
-.. 처리량, 용량 및 단위를 선택합니다. 언제든지 처리량 용량을 변경할 수 있습니다.
-.. 선택적으로 IOPS 값을 지정할 수 있습니다. IOPS 값을 지정하지 않으면 Cloud Manager가 입력된 총 용량의 GiB당 3 IOPS를 기준으로 기본값을 설정합니다. 예를 들어, 총 용량에 대해 2000GiB를 입력하고 IOPS 값이 없으면 유효 IOPS 값은 6000으로 설정됩니다.
+.. 처리량, 용량 및 단위를 선택합니다. 언제든지 처리량 및 스토리지 용량 값을 변경할 수 있습니다.
+.. 선택적으로 IOPS 값을 지정할 수 있습니다. IOPS 값을 지정하지 않으면 Cloud Manager가 입력된 총 용량의 GiB당 3 IOPS를 기준으로 기본값을 설정합니다. 예를 들어, 총 용량에 대해 2000GiB를 입력하고 IOPS 값이 없으면 유효 IOPS 값은 6000으로 설정됩니다. IOPS 값은 언제든지 변경할 수 있습니다.
 +
 
 WARNING: 최소 요구 사항을 충족하지 않는 IOPS 값을 지정하면 작업 환경을 추가할 때 오류가 발생합니다.image:screenshot_fsx_working_environment_failed_iops.png["잘못된 IOPS 값이 설정된 경우 오류 메시지의 스크린샷"]
