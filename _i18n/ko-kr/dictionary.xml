@@ -393,7 +393,6 @@
   <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">ONTAP용 Amazon FSx는 AWS 최초의 솔루션입니다. 이 서비스를 사용하는 AWS FSx 파일 시스템, 인프라 또는 AWS 솔루션과 관련된 질문이나 기술 지원 문제가 있는 경우 AWS 콘솔의 Support Center를 사용하여 AWS에 지원 케이스를 접수하십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
   <block id="1db5f4a1a813c32af28e132cf45cac0f" category="paragraph">Cloud Manager 또는 Cloud Manager 마이크로 서비스와 관련된 일반적인 질문은 인라인 Cloud Manager 채팅으로 시작할 수 있습니다.</block>
   <block id="409924e4cb5560dcfd0701e1ac237826" category="paragraph">Cloud Manager 또는 내의 마이크로 서비스와 관련된 기술 지원 문제의 경우 Cloud Manager 계정 레벨 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 지원을 활성화하려면 Cloud Manager 일련 번호를 등록해야 합니다.</block>
-  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
   <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시오.</block>
   <block id="bf7ec532103402eaed4653738655f6ad" category="doc">ONTAP용 Amazon FSx를 시작하십시오</block>
   <block id="fbda414afc779c9e1e46c45b74091adb" category="paragraph">몇 단계만 거치면 ONTAP용 FSx를 시작할 수 있습니다.</block>
@@ -462,10 +461,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS 계정을 추가합니다</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">지원 대시보드를 이용하면 모든 NetApp Support 사이트 계정을 단일 위치에서 추가 및 관리할 수 있습니다.</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">1인 등록</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">아직 NetApp Support 사이트 계정이 없는 경우<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>.</block>
   <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -473,12 +468,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">이 작업을 수행하면 Cloud Manager에서 NSS 계정을 사용할 수 있습니다.</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">참고 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">계정을 등록하여 지원을 받을 수 있습니다</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">지원 등록은 지원 대시보드의 Cloud Manager에서 가능합니다.</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">Resources * 탭에서 * Register for Support * 를 클릭합니다.</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">등록할 NSS 자격 증명을 선택한 다음 * 등록 * 을 클릭합니다.</block>
   <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp은 다양한 방법으로 Cloud Manager 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">자체 지원</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
@@ -498,8 +487,6 @@
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">권한 설정</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">보안 그룹 규칙</block>
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">Connector에서 fsxadmin 관리 LIF로 액세스하여 FSx로 API 호출을 전송합니다</block>
-  <block id="63b0ed0469bbbea547bdb73446ef6e8f" category="inline-link-macro">ONTAP CLI를 사용하여 지원됩니다</block>
-  <block id="8e134e23e64a574b08ee8f4a104b33a7" category="list-text">현재 ONTAP용 FSx의 SnapMirror 복제는 입니다 <block ref="cab6d77018231492052744a391f5eb40" category="inline-link-macro-rx"></block>.</block>
   <block id="74925aadd53e4f7b65df21759c37451d" category="paragraph"><block ref="74925aadd53e4f7b65df21759c37451d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f737b6b92ce7095e05c485d6d1b3acfe" category="paragraph"><block ref="f737b6b92ce7095e05c485d6d1b3acfe" category="inline-image-macro-rx" type="image"></block></block>
   <block id="29608e98541844ed43ec551876108d97" category="paragraph"><block ref="29608e98541844ed43ec551876108d97" category="inline-image-macro-rx" type="image"></block></block>
@@ -555,7 +542,6 @@
   <block id="4b1f2fea7e8048c8ccd3036ead1c2a76" category="paragraph">ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지 처리량 용량을 변경할 수 있습니다.</block>
   <block id="e85b82fa898245e765ecb2eab8ee886e" category="paragraph">활성 상태가 필요합니다<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>.</block>
   <block id="7ccd7b62d91207f4ba83029de9cebfce" category="inline-image-macro">연필 편집 아이콘의 이미지.</block>
-  <block id="f6dfc77133ec0d2399d3f1b82fd008fe" category="list-text">현재 Cloud Manager는 온프레미스 또는 Cloud Volumes ONTAP의 데이터를 ONTAP의 경우 FSx, ONTAP의 경우 FSx에서 온-프레미스 또는 ONTAP 시스템의 경우 다른 FSx로 복제할 수 있습니다.</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.</block>
   <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">내 기회를 사용하여 ONTAP용 FSx를 검색합니다</block>
@@ -644,4 +630,59 @@
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
   <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Manager에 대한 알림</block>
   <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
+  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 Cloud Manager에 추가한 다음 지원을 등록해야 합니다.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
+  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud Manager 계정 ID 지원 구독 등록(Cloud Manager의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
+  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">이 ID는 Cloud Manager 내의 모든 서비스에 대한 단일 지원 구독 ID로 사용됩니다. 각 Cloud Manager 계정 레벨 지원 구독을 등록해야 합니다.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
+  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">이러한 일련 번호를 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 구축 시 Cloud Manager에서 생성됩니다.</block>
+  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">두 유형의 제품 번호를 등록하면 지원 티켓 열기, 자동 케이스 생성 및 Active IQ 등의 기능을 사용할 수 있습니다.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">등록 방법은 신규 고객인지, 기존 고객인지 또는 파트너인지에 따라 다릅니다.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">기존 고객 또는 파트너</block>
+  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">기존 NetApp 고객 또는 파트너는 NSS(NetApp Support 사이트) SSO 계정을 사용하여 위에서 이러한 등록을 수행할 수 있습니다. 지원 대시보드에서 Cloud Manager는 NSS 계정을 추가할 수 있는 * NSS 관리 * 페이지를 제공합니다. NSS 계정을 추가하면 Cloud Manager에서 자동으로 이러한 일련 번호를 등록합니다.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSS 계정을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp이 처음입니다</block>
+  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">NetApp이 처음인 파트너는 NetApp의 지원 등록 사이트에서 Cloud Manager 계정 ID 일련 번호를 한 번 등록해야 합니다. 이 등록을 완료하고 새 NSS 계정을 만들면 Cloud Manager에서 이 계정을 사용하여 앞으로 자동 등록할 수 있습니다.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">NetApp에 등록하는 방법을 알아보십시오</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">NSS 계정을 Cloud Manager에 추가합니다</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 Cloud Manager와 함께 사용할 수 있습니다.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
+  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">이러한 작업을 통해 Cloud Manager는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
+  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSS 계정을 가진 NetApp 고객은 Cloud Manager를 통해 지원을 위해 등록하기만 하면 됩니다.</block>
+  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">아직 추가하지 않은 경우 NSS 계정을 Cloud Manager에 추가합니다.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Resources * 페이지에서 * Register for Support * 를 클릭합니다.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">계정 일련 번호 및 지원 등록 옵션을 보여 주는 스크린샷</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">기존 사용권 및 제품 번호를 가지고 있지만 _NO_NSS 계정을 가지고 있는 기존 NetApp 고객은 NSS 계정을 만들어야 합니다.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">를 완료하여 NetApp Support 사이트 계정을 생성합니다<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">적절한 사용자 레벨(일반적으로 * NetApp 고객/최종 사용자 *)을 선택해야 합니다.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">일련 번호 필드에 위에서 사용된 Cloud Manager 계정 일련 번호(960xxxx)를 복사합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp이 처음이었습니다</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp의 새로운 브랜드이고 NSS 계정이 없는 경우 아래의 각 단계를 수행하십시오.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">지원 등록 페이지에서 Cloud Manager 계정 ID 일련 번호를 찾습니다.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp의 지원 등록 사이트</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동합니다<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 를 선택하고 * 등록된 NetApp 고객이 아닙니다 * 를 선택합니다.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 필드(빨간색 별표가 있는 필드)를 입력합니다.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[제품 라인] * 필드에서 * Cloud Manager * 를 선택한 다음 해당 청구 공급자를 선택합니다.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">위의 2단계에서 Cloud Manager 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
+  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support 사이트 계정이 있으면 Cloud Manager로 이동하여 향후 등록을 위해 이 NSS 계정을 추가할 수 있습니다.</block>
 </blocks>
