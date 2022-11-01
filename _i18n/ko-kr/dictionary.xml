@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link-macro"></block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
   <block id="27210695b4aa1995052b8f142c07c5f6" category="summary">ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.</block>
   <block id="a04f5ee3ae030d60ed2d9e76b7b821ff" category="doc">ONTAP용 Amazon FSx의 새로운 기능</block>
@@ -83,8 +81,6 @@
   <block id="c11b541f2dc51346609bbd4f84450b6b" category="cell">DNS 도메인</block>
   <block id="314c2b52f53238e133233b60949a6d36" category="cell">SVM(스토리지 가상 머신)용 DNS 도메인 대부분의 경우 도메인은 AD 도메인과 동일합니다.</block>
   <block id="225f0204cd2ca87530c681aeae9b7f3e" category="cell">NTP 서버</block>
-  <block id="339d2db752bad623389940365590a650" category="inline-link">Cloud Manager 자동화 문서</block>
-  <block id="e55b48803bc81da61ac823b49b9b4344" category="cell">Active Directory DNS를 사용하여 NTP 서버를 구성하려면 * NTP 서버 구성 활성화 * 를 선택합니다. 다른 주소를 사용하여 NTP 서버를 구성해야 하는 경우 API를 사용해야 합니다. 를 참조하십시오<block ref="42b82f9ba6c1ea0d7f3f7e3fde7e922d" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="c806fc6088504aece33ec1078f7edf13" category="list-text">워크그룹 설정을 선택한 경우 CIFS용으로 구성된 워크그룹의 서버 및 워크그룹 이름을 입력합니다.</block>
   <block id="77329b4991542c66635b8dd3f7a6f518" category="list-text">* 사용 프로필 및 계층화 *:</block>
   <block id="0458d209a53113bf4e745280c9316fc5" category="list-text">기본적으로 * 스토리지 효율성 * 은 사용되지 않습니다. 이 설정을 변경하여 중복제거 및 압축을 활성화할 수 있습니다.</block>
@@ -94,18 +90,11 @@
   <block id="f3a303dc17c6a2c91073ff0eb515587f" category="list-text">* 검토 *: 볼륨 구성을 검토합니다. Previous * (이전 *)를 클릭하여 설정을 변경하거나 * Add * (추가 *)를 클릭하여 볼륨을 만듭니다.</block>
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">새 볼륨이 작업 환경에 추가됩니다.</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">볼륨을 마운트합니다</block>
-  <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">Cloud Manager 내에서 마운트 지침에 액세스하여 볼륨을 호스트에 마운트할 수 있습니다.</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">작업 환경을 엽니다.</block>
-  <block id="54e54adb33e337b5c804d6820b674b9a" category="inline-link-macro">Cloud Manager를 사용하여 IT에 대해 알아보십시오</block>
-  <block id="e5375c42110b0016231f311272774e83" category="paragraph">첫 번째 단계는 ONTAP 작업 환경에 대한 FSx를 생성하는 것입니다. AWS 관리 콘솔에서 ONTAP용 FSx 파일 시스템을 이미 생성한 경우 를 사용할 수 있습니다 <block ref="6a48f5b54424256e49232bb9af7a3d2f" category="inline-link-macro-rx"></block>.</block>
-  <block id="faa4b07ffa49aaead3b9217354fd2e07" category="paragraph">Cloud Manager에서 ONTAP 작업 환경을 위한 FSx를 생성하기 전에 다음이 필요합니다.</block>
-  <block id="110ca3ef191558286fc6a6b28dc94cb5" category="inline-link-macro">Cloud Manager에 AWS 자격 증명 추가</block>
   <block id="122aefb3c8684a0e38fb50d87247ad18" category="list-text">ONTAP용 FSx 인스턴스를 생성할 지역 및 VPN 정보</block>
-  <block id="86e4fb4adcc1e79cfd5f41b2e24492a4" category="list-text">Cloud Manager에서 새 작업 환경을 추가하고 * Amazon Web Services * 위치를 선택한 후 * 다음 * 을 클릭합니다.</block>
   <block id="b270ee1d45588367ac774fa0f727fc7b" category="list-text">ONTAP * 용 * 아마존 FSx 를 선택하고 * 다음 * 을 클릭합니다.</block>
   <block id="f8b92939989132d828cfc3eea521a293" category="inline-image-macro">ONTAP용 Amazon FSx의 작업 환경을 추가하는 스크린샷</block>
   <block id="61a727936c57251e32cb54d629e03313" category="paragraph"><block ref="61a727936c57251e32cb54d629e03313" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e8d84f3aa4d4c8f84d1addb4f10b99e6" category="list-text">Cloud Manager에서 ONTAP에 대한 FSx를 인증합니다.</block>
   <block id="ecda29eb0e0827e3bc560f177dcde537" category="list-text">계정에 ONTAP용 FSx에 대한 올바른 AWS 권한이 있는 기존 IAM 역할이 있는 경우 드롭다운에서 해당 역할을 선택합니다.</block>
   <block id="bc7877d082a71bb780b2cfe54a2f56db" category="inline-image-macro">AWS 역할 드롭다운을 보여 주는 스크린샷</block>
   <block id="88c29361a495a558e8e94ba0f1787827" category="paragraph"><block ref="88c29361a495a558e8e94ba0f1787827" category="inline-image-macro-rx" type="image"></block></block>
@@ -127,7 +116,6 @@
   <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS Transit Gateway를 참조하십시오</block>
   <block id="98cd8d548fd2fa5186e8dc1c1123f9f6" category="list-text">CIDR Range_Empty를 그대로 두고 * Next * 를 클릭하여 사용 가능한 범위를 자동으로 설정합니다. 선택적으로 를 사용할 수 있습니다<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 범위를 수동으로 구성합니다.</block>
   <block id="7cc0a94cd1ccce02b23807753272d589" category="paragraph"><block ref="7cc0a94cd1ccce02b23807753272d589" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a034482e4ab702e672ecf4a4f7a47766" category="list-text">부동 IP 주소에 대한 라우트가 포함된 라우팅 테이블을 선택합니다. VPC(기본 경로 테이블)에 있는 서브넷에 대한 경로 테이블이 하나만 있는 경우 Cloud Manager는 해당 경로 테이블에 부동 IP 주소를 자동으로 추가합니다. 계속하려면 * 다음 * 을 클릭합니다.</block>
   <block id="efae399de597884ba9e25be68c488178" category="inline-image-macro">ONTAP용 FSx에 대한 라우트 테이블 선택 스크린샷</block>
   <block id="9e3037d0c83106b66f9113f03ee4fb10" category="paragraph"><block ref="9e3037d0c83106b66f9113f03ee4fb10" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9993ec838a8efa5cfb29506f884deca" category="inline-link">AWS KMS 설정</block>
@@ -145,12 +133,9 @@
   <block id="b5bd94a09b2ad1fd2dba6c4a902a9fd3" category="list-text">설정을 적용하고 작업 환경을 만들려면 * 추가 * 를 클릭합니다.</block>
   <block id="ef80142d18e6c5a6d15e4724ab6810b8" category="inline-image-macro">ONTAP용 FSx 설정을 검토하는 스크린샷</block>
   <block id="e8b9477d45071756ecb4a2cc5082344a" category="paragraph"><block ref="e8b9477d45071756ecb4a2cc5082344a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fa726dbeb2fe46e53fc49ecac75ac6d7" category="paragraph">클라우드 관리자는 Canvas 페이지에 ONTAP용 FSx 구성을 표시합니다.</block>
   <block id="45d8e5da7753a5571797f6a81a9c4e3c" category="inline-image-macro">작업 환경 페이지의 ONTAP용 Amazon FSx 스크린샷</block>
   <block id="26682ff9a292960b61e97b937520b135" category="paragraph"><block ref="26682ff9a292960b61e97b937520b135" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="11fa7924f258843d0c6a8377f70c698c" category="paragraph">이제 Cloud Manager를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.</block>
   <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">ONTAP 파일 시스템용 기존 FSx를 검색합니다</block>
-  <block id="3eb13290c3d1e4b57acf05410a485779" category="list-text">Cloud Manager에서 * 작업 환경 추가 * 를 클릭하고 * Amazon Web Services * 를 선택합니다.</block>
   <block id="6800849898be1086bb69e4658dd59629" category="list-text">ONTAP * 용 * 아마존 FSx 를 선택하고 * 여기를 클릭 * 을 클릭합니다.</block>
   <block id="e574e1da19f282b48ebb67c362fbc5cc" category="inline-image-macro">ONTAP용 Amazon FSx의 작업 환경을 발견한 스크린샷</block>
   <block id="72e0dd6fd0d4009c79805d8504e7e490" category="paragraph"><block ref="72e0dd6fd0d4009c79805d8504e7e490" category="inline-image-macro-rx" type="image"></block></block>
@@ -159,14 +144,9 @@
   <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">AWS 지역 및 작업 환경 선택 스크린샷</block>
   <block id="daf8847714f7e326bcf10553bdbffa28" category="paragraph"><block ref="daf8847714f7e326bcf10553bdbffa28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
-  <block id="3fca24f4054dbd7b229807ef3910d4b7" category="paragraph">ONTAP 파일 시스템에 대해 검색된 FSx가 클라우드 관리자에 표시됩니다.</block>
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">작업 영역에서 ONTAP용 FSx를 제거합니다</block>
-  <block id="619c35c80b530c32704e964530d66517" category="paragraph">ONTAP 계정 또는 볼륨에 대한 FSx를 삭제하지 않고 Cloud Manager에서 ONTAP용 FSx를 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 Cloud Manager에 다시 추가할 수 있습니다.</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 문제를 무시하고 작업 환경 제거를 계속할 수 있습니다.</block>
-  <block id="410c78448ff59a132a6ef7e7c2bf2f4e" category="inline-image-macro">클라우드 관리자 인터페이스에서 ONTAP용 FSx에 대한 제거 옵션 스크린샷</block>
-  <block id="47f6e6061b4eadfbf907049dcd591b28" category="paragraph"><block ref="47f6e6061b4eadfbf907049dcd591b28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">ONTAP 작업 환경의 FSx를 삭제합니다</block>
-  <block id="4de2a58fbc41a8206c0c53a3dd1da960" category="paragraph">Cloud Manager에서 ONTAP용 FSx를 삭제할 수 있습니다.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
   <block id="b917a1d8451423450873eef39565dca3" category="inline-link-macro">모든 볼륨을 삭제합니다</block>
   <block id="7b41e03b81e97660913781a8239006df" category="list-text">반드시 해야 합니다 <block ref="54cc4f96ff154d8637a706e7f5511434" category="inline-link-macro-rx"></block> 파일 시스템과 연결되어 있습니다.</block>
@@ -174,9 +154,6 @@
   <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">오류가 발생한 볼륨이 있는 작업 환경은 삭제할 수 없습니다. ONTAP 파일 시스템용 FSx를 삭제하기 전에 AWS 관리 콘솔 또는 CLI를 사용하여 실패한 볼륨을 삭제해야 합니다.</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">이 작업을 수행하면 작업 환경과 관련된 모든 리소스가 삭제됩니다. 이 작업은 실행 취소할 수 없습니다.</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 작업을 무시하고 작업 환경 삭제를 계속할 수 있습니다.</block>
-  <block id="eea2ce15389bae978a0efc5763b9cdac" category="inline-image-macro">클라우드 관리자 인터페이스에서 ONTAP용 FSx에 대한 삭제 옵션 스크린샷</block>
-  <block id="636c7339a775dda79a1b6b37974a27b3" category="paragraph"><block ref="636c7339a775dda79a1b6b37974a27b3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="00b56458820e0abf51f147bc4e399a7e" category="summary">Cloud Manager를 사용하여 볼륨, 클론, 스냅샷을 관리하고 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">ONTAP용 Amazon FSx의 볼륨을 관리합니다</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">볼륨을 편집합니다</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">볼륨을 생성한 후에는 언제든지 수정할 수 있습니다.</block>
@@ -198,8 +175,6 @@
   <block id="35931d34af92c203401fd4bb760eb1cf" category="inline-link">동기화 관계를 생성합니다</block>
   <block id="f91674f3b22216fc484532cd24dda908" category="section-title">볼륨을 삭제합니다</block>
   <block id="9497c556620605c0441cf034ff68a527" category="paragraph">더 이상 필요하지 않은 볼륨을 삭제합니다.</block>
-  <block id="08d16a95ed82f881bcc5359ecb0c8769" category="paragraph">Cloud Manager를 사용하여 SnapMirror 관계의 이전 부분이었던 볼륨을 삭제할 수 없습니다. SnapMirror 볼륨은 AWS 관리 콘솔 또는 CLI를 사용하여 삭제해야 합니다.</block>
-  <block id="a1757cd330af9ddfc6b1f315176b17e9" category="list-text">작업 환경 이름을 입력하고 볼륨 삭제를 확인합니다. Cloud Manager에서 볼륨이 완전히 제거되기까지 최대 1시간이 걸릴 수 있습니다.</block>
   <block id="590368745da00a61c492e4b834d9568e" category="admonition">복제된 볼륨을 삭제하려고 하면 오류가 발생합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
   <block id="72999cd653b12474752fb77bab9691e3" category="inline-link-macro">Cloud Backup에 대한 알림</block>
@@ -210,7 +185,6 @@
   <block id="3754b5e44654d3dc7bfaa36f213a8795" category="list-text"><block ref="3754b5e44654d3dc7bfaa36f213a8795" category="inline-link-macro-rx"></block></block>
   <block id="73f420c03909a74fdc36f2bebeb15d52" category="inline-link-macro">클라우드 데이터 센스에 대한 고지 사항</block>
   <block id="ef4a4eef354631d5e99b3e1ea91d46d7" category="list-text"><block ref="ef4a4eef354631d5e99b3e1ea91d46d7" category="inline-link-macro-rx"></block></block>
-  <block id="e55bdaae79868c01c7cc36c1283eb425" category="summary">Cloud Manager는 Cloud Manager 및 FSx for ONTAP가 성공적으로 운영하는 데 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다.</block>
   <block id="e87d6ed459b274ad7c388e0797013c9f" category="doc">ONTAP용 FSx에 대한 보안 그룹 규칙입니다</block>
   <block id="9f415057e43c73d4e37a0068a0ca9486" category="section-title">ONTAP의 FSx 규칙</block>
   <block id="1b3884b38c271fe13c8142e1355e4523" category="section-title">인바운드 규칙</block>
@@ -341,35 +315,25 @@
   <block id="22043367a89ddcf3eb99eec509a967ba" category="cell">API 호출</block>
   <block id="172ef5a94b4dd0aa120c6878fc29f70c" category="cell">8088</block>
   <block id="168342a53455f99d5b1d8d7d95e99567" category="cell">API에서 S3로 백업을 호출합니다</block>
-  <block id="dd8679112f038315d04028c46da1fef7" category="cell">Cloud Manager에서 DNS Resolve에 사용됩니다</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="cell">클라우드 데이터 감지</block>
   <block id="6cf25d0dcbf586ed6aff3b930e4d8019" category="cell">클라우드 데이터 감지 인스턴스</block>
   <block id="059ace13ef3980df592dafb754ef8883" category="cell">Cloud Volumes ONTAP에 대한 클라우드 데이터 감지</block>
   <block id="f6ebedc10f620647623a6be7cd7cb8a5" category="summary">ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 ONTAP용 FSx 권한이 있는 IAM 사용자 역할에 대한 AWS 액세스 키 및 암호 키가 있어야 합니다.</block>
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">ONTAP용 FSx에 대한 권한을 설정합니다</block>
-  <block id="b84143bbdad7df35ec2c66cf2071f420" category="paragraph">ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 Cloud Manager에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 Cloud Manager에 추가해야 합니다.</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">IAM 역할을 설정합니다</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">대상 계정에서 IAM 콘솔로 이동합니다.</block>
   <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">액세스 관리에서 * 역할 &gt; 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.</block>
   <block id="e1a3d580d5cb42904b96dc05c0e0903d" category="paragraph">다음을 수행하십시오.</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.</block>
   <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">다음 권한이 포함된 정책을 만듭니다.</block>
-  <block id="e08f06cebc90d5cc269f643f2df5ab95" category="list-text">다음 단계에서 Cloud Manager에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">이제 IAM 역할에 필요한 권한이 있습니다.</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">자격 증명을 추가합니다</block>
-  <block id="497de2fdf34143e76f1d2110f9556188" category="paragraph">필요한 권한을 IAM 역할에 제공한 후 ARN 역할을 Cloud Manager에 추가합니다.</block>
-  <block id="5138a631dd35ae5628a6137742d99bcc" category="paragraph">방금 IAM 역할을 생성한 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. 몇 분 후에 Cloud Manager에 자격 증명을 추가합니다.</block>
-  <block id="660dd8cc813d5a986fc14efa52264b91" category="list-text">Cloud Manager 콘솔의 오른쪽 위에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.</block>
-  <block id="4305773753b9ba702b13934db50507c2" category="inline-image-macro">Cloud Manager 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷</block>
-  <block id="e595ee8d0b73c843696b78f80de0bad2" category="paragraph"><block ref="e595ee8d0b73c843696b78f80de0bad2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">자격 증명 추가 * 를 클릭하고 마법사의 단계를 따릅니다.</block>
-  <block id="15d1c1365d4f855b7d77c93232a59906" category="list-text">* 자격 증명 위치 *: * Amazon Web Services &gt; Cloud Manager * 를 선택합니다.</block>
   <block id="8cf335d7d3b1dd5cdac30699d20489c0" category="list-text">* 자격 증명 정의 *: IAM 역할의 ARN(Amazon Resource Name)을 제공합니다.</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">* 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 클릭합니다.</block>
   <block id="c0abab76d53e87b10c7a7de184fc0f53" category="paragraph">이제 ONTAP 작업 환경에 대한 FSx를 생성할 때 자격 증명을 사용할 수 있습니다.</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">관련 링크</block>
   <block id="97911b3c54a4e826b34c1f79026316c5" category="inline-link">AWS 자격 증명 및 권한</block>
-  <block id="6bccb09f2c81a00c03cd35c87a54b03f" category="inline-link">Cloud Manager의 AWS 자격 증명 관리</block>
   <block id="603ec1431df96260c06b8b0fc539dca4" category="summary">ONTAP용 Amazon FSx는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 시작하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 현재 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.</block>
   <block id="2373ee05a5847e8f92338b8835c8a17b" category="paragraph"><block ref="96821e1e659978c978732a5dc24298ac" category="inline-link-macro-rx"></block> 는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 실행하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
@@ -378,32 +342,23 @@
   <block id="f6ad83cb7f527e383e392f709849a098" category="list-text">자주 액세스하지 않는(IA) 스토리지 계층을 사용하여 저렴한 비용으로 사실상 제한 없는 데이터 스토리지 용량을 확보할 수 있습니다.</block>
   <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">Oracle RAC를 포함하여 지연 시간에 민감한 애플리케이션에서 실행되도록 인증받았습니다.</block>
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">번들 및 용량제 가격 선택 가능</block>
-  <block id="4b892d08b42aafcd301b83ab05b6e993" category="section-title">추가 기능은 Cloud Manager에서 제공됩니다</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">자세한 정보</block>
   <block id="d9bf9116e04a89e455600416ad7872f3" category="list-text">클라우드 데이터 센스는 인공 지능(AI) 기반 기술을 사용하여 데이터 컨텍스트를 이해하고 FSx for ONTAP 계정에 상주하는 중요한 데이터를 식별하는 데 도움을 줄 수 있습니다.<block ref="ff015941fa4b0cfada66f8159ed80c63" category="inline-link-rx"></block>.</block>
   <block id="1f944a9ec2785c18a692aeedf9839548" category="list-text">NetApp Cloud Sync를 사용하면 클라우드 또는 사내 타겟으로 데이터 마이그레이션을 자동화할 수 있습니다.<block ref="0d960aec46349f597fec0ba1ad479bc2" category="inline-link-rx"></block></block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="8bffb197ac66e59166722f267ae2aa89" category="inline-link">ONTAP용 Amazon FSx 시작 가이드</block>
-  <block id="b63f9ea0c064f36284d9518a04bb2394" category="paragraph">ONTAP용 FSx 계정은 Cloud Manager가 아니라 AWS에서 유지 관리됩니다.<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
   <block id="bcde5e61b57c391c5832e7ea9a5bf2b1" category="paragraph">AWS에서 커넥터를 사용하는 것과 Cloud Sync 및 데이터 센스와 같은 선택적 데이터 서비스를 사용하는 것과 관련된 추가 비용이 있습니다.</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">지원 지역</block>
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">지원되는 아마존 지역을 봅니다.</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">도움말 보기</block>
   <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">ONTAP용 Amazon FSx는 AWS 최초의 솔루션입니다. 이 서비스를 사용하는 AWS FSx 파일 시스템, 인프라 또는 AWS 솔루션과 관련된 질문이나 기술 지원 문제가 있는 경우 AWS 콘솔의 Support Center를 사용하여 AWS에 지원 케이스를 접수하십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
-  <block id="1db5f4a1a813c32af28e132cf45cac0f" category="paragraph">Cloud Manager 또는 Cloud Manager 마이크로 서비스와 관련된 일반적인 질문은 인라인 Cloud Manager 채팅으로 시작할 수 있습니다.</block>
-  <block id="409924e4cb5560dcfd0701e1ac237826" category="paragraph">Cloud Manager 또는 내의 마이크로 서비스와 관련된 기술 지원 문제의 경우 Cloud Manager 계정 레벨 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 지원을 활성화하려면 Cloud Manager 일련 번호를 등록해야 합니다.</block>
   <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시오.</block>
   <block id="bf7ec532103402eaed4653738655f6ad" category="doc">ONTAP용 Amazon FSx를 시작하십시오</block>
   <block id="fbda414afc779c9e1e46c45b74091adb" category="paragraph">몇 단계만 거치면 ONTAP용 FSx를 시작할 수 있습니다.</block>
-  <block id="2db8ac87c99d0b6932322889e2e22b9e" category="inline-link-macro">Cloud Manager SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS용 커넥터</block>
-  <block id="173cc3f2694be1fa38808fdd8021304c" category="paragraph">Cloud Manager를 사용하여 ONTAP 볼륨용 FSx를 생성할 수 있습니다.</block>
-  <block id="711497cf466e121cf263849d7f648140" category="paragraph">Cloud Manager를 사용하여 볼륨을 관리하고 복제, Cloud Sync, 데이터 센스와 같은 추가 서비스를 구성합니다.</block>
-  <block id="4d36bd7ea566aabab173cf25b707699a" category="inline-link">Cloud Manager에서 커넥터 생성</block>
   <block id="de737ba84e61f1a8380fd351112b7183" category="inline-link">AWS Marketplace에서 커넥터 실행</block>
   <block id="c8f9fcb2d5c182f76e53507a00efe037" category="inline-link">Linux 호스트에 Connector 소프트웨어 설치</block>
-  <block id="80ff3e3b4817bcd801ad60d27676fed7" category="summary">NetApp ONTAP용 Amazon FSx는 일관된 하이브리드 클라우드 경험을 제공하는 네이티브 AWS 관리 서비스에 ONTAP의 모든 기능을 제공합니다. 이 문서에서는 NetApp Cloud Manager를 사용하여 ONTAP용 FSx를 관리하는 방법에 대해 설명합니다.</block>
   <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">ONTAP용 Amazon FSx 문서</block>
   <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">ONTAP용 Amazon FSx 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
@@ -420,9 +375,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="2aeb3bf14f4c88c233b9054f0d5f9f46" category="list-text">활성<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>.</block>
   <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
-  <block id="0f9f43c114be6c5746b95fa092ad10b2" category="list-text"><block ref="0f9f43c114be6c5746b95fa092ad10b2" category="inline-link-rx"></block></block>
-  <block id="885bf112deac8aef76c696fd4369622f" category="paragraph">가 있어야 합니다<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. Connector가 필요한 경우 Cloud Manager에서 아직 추가되지 않은 경우 이를 묻습니다.</block>
-  <block id="300de2fff5e8bf53f93ce557eb141f27" category="list-text"><block ref="300de2fff5e8bf53f93ce557eb141f27" category="inline-link-rx"></block></block>
   <block id="f184c656bf02dee61743212967601db4" category="list-text"><block ref="f184c656bf02dee61743212967601db4" category="inline-link-rx"></block></block>
   <block id="86a342f075ca5d85dc5033d1092f71cd" category="list-text"><block ref="86a342f075ca5d85dc5033d1092f71cd" category="inline-link-rx"></block></block>
   <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>.</block>
@@ -432,11 +384,6 @@
   <block id="b84e3c9bb4ac9216f14349e3b5be8ec3" category="paragraph"><block ref="173ddc048bd16ccfb71d77420d7581cb" category="inline-link-macro-rx"></block>.</block>
   <block id="b7dd73bfb5bbb0ec2884525999924384" category="paragraph"><block ref="e85a369c316ea87dc3d5da27638bd157" category="inline-link-macro-rx"></block>.</block>
   <block id="d35e6fa404873b4a616b1313e98cf3d9" category="paragraph"><block ref="6e3374d20d69610b03c5ed3fa5af9a08" category="inline-link-macro-rx"></block>.</block>
-  <block id="69bfbe4affa79598268226d5fa65599d" category="list-text">ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 클라우드 관리자에게 제공하는 IAM 역할의 ARN 을 참조하십시오 <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="20b3b63ea7f8892dc0d3f3b25bea6c49" category="list-text">계정에 IAM 역할이 없는 경우 * 자격 증명 페이지 * 를 클릭하고 마법사의 단계에 따라 ONTAP 자격 증명을 위한 FSx를 사용하여 AWS IAM 역할에 대한 ARN을 추가합니다. 을 참조하십시오 <block ref="e74b530483dfdc11dbf81674fda787f8" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="b2e8050cf49252f7b06bd379448c5e15" category="paragraph">Cloud Manager를 사용하여 스토리지 환경 간에 데이터를 복제할 수 있습니다. ONTAP 복제에 대해 FSx를 구성하려면 를 참조하십시오<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>.</block>
-  <block id="12fc3818f5e3f781c2bf4eb8b8d50ffc" category="paragraph">Cloud Manager에서 Cloud Sync를 사용하여 동기화 관계를 생성할 수 있습니다. 동기화 관계를 구성하려면 를 참조하십시오<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>.</block>
-  <block id="9d662ce44c324aa67c253be893864c71" category="paragraph">볼륨을 추가하기 전에 ONTAP 작업 환경을 위한 Amazon FSx를 생성해야 합니다. 이 작업을 수행해야 합니다 <block ref="afb5d18769390df2b32a585a478c27d2" category="inline-link-macro-rx"></block>.</block>
   <block id="a4f557d4dc5603464fae9d733ed96263" category="paragraph">ONTAP용 FSx 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. 이 다이어그램은 ONTAP 네트워킹 구성 및 보안 그룹 요구 사항에 대한 FSx를 보여 줍니다.</block>
   <block id="804e1541ef4556a247ad9499202fb6e2" category="inline-image-macro">ONTAP 보안 그룹 구성을 위한 FSx 다이어그램</block>
   <block id="bca6ab005ba14ce4d09f6862e9acbd0d" category="paragraph"><block ref="bca6ab005ba14ce4d09f6862e9acbd0d" category="inline-image-macro-rx" type="image"></block></block>
@@ -461,28 +408,21 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 클릭합니다.</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp은 다양한 방법으로 Cloud Manager 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">자체 지원</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">Cloud Manager 기술 자료를 검색하여 문제를 해결할 수 있는 유용한 문서를 찾습니다.</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">Cloud Manager 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만들어보십시오.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">현재 보고 있는 Cloud Manager 문서입니다.</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. 클라우드 관리자 개선에 도움이 되는 피드백을 제출해 주십시오.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">권한 설정</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">보안 그룹 규칙</block>
@@ -501,32 +441,20 @@
   <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
   <block id="604034876d198af3f8d6cece2f09d984" category="list-text">지역 및 VPC를 선택합니다.</block>
   <block id="d7387928ac1cfa971f35a613cd81907c" category="paragraph">여러 가용성 영역의 경우 각 노드가 전용 가용성 영역에 있도록 두 개 이상의 가용성 영역에서 서브넷을 선택합니다.</block>
-  <block id="32d764103d092c07b147433d048bb586" category="paragraph">Cloud Manager가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.</block>
-  <block id="97b63fa093616f832ba5318ba00447ce" category="list-text">다른 AWS 계정 * 을 선택하고 Cloud Manager의 ID를 입력합니다.</block>
-  <block id="81d51fac54904448b89f95abe2f40178" category="list-text">Cloud Manager SaaS의 경우: 952013314444</block>
-  <block id="4aaa495471a5ae62d8384762205bf782" category="inline-link-macro">Cloud Manager 정책 페이지</block>
-  <block id="c8a9420eac272cc5ace307e15c1a05cc" category="paragraph">에서 Connector 배포 정책을 봅니다 <block ref="890ffa37b9e517890ec4308e2dc353ce" category="inline-link-macro-rx"></block>.</block>
   <block id="a7cf2ac8ff4dd10d1e304f0abd7fe0bd" category="list-text">AWS GovCloud(US) 계정을 사용하는 경우, * AWS GovCloud(US) 계정을 사용하고 있는지 확인하십시오 *.</block>
   <block id="045e30d9d567e729274d9202eee4ff62" category="inline-image-macro">GovCloud(US) 계정 확인란 스크린샷</block>
   <block id="c03a6ecd27b7a5ea40ee52d99c7a247a" category="paragraph"><block ref="c03a6ecd27b7a5ea40ee52d99c7a247a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9891de406800116bd9cb8226be9beb9" category="list-text">AWS GovCloud를 사용하여 인증하면 SaaS 플랫폼이 비활성화됩니다. 이는 계정에 대한 영구적인 변경이며 실행 취소할 수 없습니다.</block>
   <block id="319c3fdfa37c6b0ae4e91a351706489b" category="list-text">AWS GovCloud(미국): 033442085313</block>
-  <block id="c3948e9af2286480c185296c8233504b" category="summary">Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다.</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">ONTAP 작업 환경을 위한 Amazon FSx를 생성하거나 검색합니다</block>
-  <block id="ce077de6f3a969e5aa4cd26e1b3b5793" category="paragraph">Cloud Manager를 사용하여 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다.</block>
   <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">AWS 관리 콘솔을 사용하여 ONTAP용 FSx 파일 시스템을 생성했거나 이전에 제거한 작업 환경을 복구하려는 경우** My Opportunities** 또는 Manually를 사용하여 검색할 수 있습니다.</block>
   <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">My Opportunities를 사용하여 탐색</block>
-  <block id="2727507bf62cbd85fbf2b9c615630c53" category="paragraph">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 * My Opportunities * 는 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.</block>
-  <block id="748e7605a5624d9bdbf81964bc29f2e4" category="list-text">Cloud Manager에서 * My Opportunities * 탭을 클릭합니다.</block>
   <block id="e9ba45e021b291739ba996c9cde18a78" category="list-text">ONTAP 파일 시스템에 대해 검색된 FSx의 수가 표시됩니다. 검색 * 을 클릭합니다.</block>
   <block id="7208d8184b0d0e6e3c7bcf475c8f9bd2" category="inline-image-macro">ONTAP용 FSx의 내 기회 페이지 스크린샷</block>
   <block id="9e4da126e3095f89c00bb676d98195d8" category="paragraph"><block ref="9e4da126e3095f89c00bb676d98195d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b4a4c841d4545b117e4104be254a0e8" category="list-text">하나 이상의 파일 시스템을 선택하고 * Discover * 를 클릭하여 Canvas에 추가합니다.</block>
   <block id="0187b41b8a735f30cc0556afd7387b9d" category="list-text">이름이 지정되지 않은 클러스터를 선택하면 클러스터의 이름을 입력하라는 메시지가 표시됩니다.</block>
-  <block id="288a9d1552741aacac0fe590629b3a7e" category="list-text">Cloud Manager에서 ONTAP 파일 시스템용 FSx를 관리하는 데 필요한 자격 증명이 없는 클러스터를 선택하면 필요한 권한이 있는 자격 증명을 선택하라는 메시지가 표시됩니다.</block>
   <block id="1d064916590560310250a3e94aec4539" category="section-title">수동으로 검색</block>
-  <block id="93961f8d67912180ee53e84885a6e38b" category="paragraph">AWS 관리 콘솔을 사용하여 추가한 ONTAP용 FSx 파일 시스템이나 이전에 Cloud Manager에서 제거한 FSx를 수동으로 검색할 수 있습니다.</block>
-  <block id="9ac28c312ffcaefaeb68547b62383018" category="paragraph">Cloud Manager의 ONTAP 작업 환경을 위한 FSx에서 NFS, CIFS 및 iSCSI 볼륨을 생성하고 관리할 수 있습니다. ONTAP CLI를 사용하여 생성된 볼륨은 ONTAP 작업 환경의 FSx에도 표시됩니다.</block>
   <block id="c0beac119c78b8228ca36d4b93ef1bc7" category="list-text">* 프로토콜 *: NFS, CIFS 또는 iSCSI 볼륨 프로토콜을 선택합니다.</block>
   <block id="7a641f2010297c1d06c28aad18308a5b" category="list-text">iSCSI의 경우: 기존 이니시에이터 그룹을 사용하거나 새 이니시에이터 그룹을 생성하여 LUN을 연결할 수 있습니다. 기존 이니시에이터 그룹을 매핑하려면 운영 체제와 하나 이상의 이니시에이터 그룹을 선택합니다.</block>
   <block id="7d7217d548e427bd0d76f5081e4b4cb5" category="paragraph">새 이니시에이터 그룹을 생성하려면 다음을 수행합니다.</block>
@@ -558,7 +486,6 @@
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
   <block id="0e36458fd86c678ff613e05396096775" category="paragraph">이제 가능합니다 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
-  <block id="af1b15a700df7234e9ad68515cde3f5b" category="summary">Cloud Manager를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 처리량과 스토리지 용량 및 IOPS를 변경하고 작업 환경을 제거 또는 삭제할 수 있습니다.</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">개요 * 탭에서 * 기능 * 을 선택합니다.</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">연필 아이콘(<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 * Throughput Capacity * 편집 페이지를 엽니다.</block>
   <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">처리량 용량 변경 메뉴의 위치 스크린샷</block>
@@ -577,12 +504,9 @@
   <block id="d179171b709f127d6b88e332ad5ac396" category="list-text">스토리지 용량 변경이 ONTAP 서비스용 FSx의 비용에 영향을 미치고 6시간 동안 추가 변경이 불가능함을 확인하려면 확인란을 선택합니다.</block>
   <block id="1f25673463b8f906d801bd291ad45315" category="list-text">변경 사항을 확인하려면 * 업데이트 * 를 선택합니다.</block>
   <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 작업 영역에서 제거 * 를 선택합니다.</block>
-  <block id="695c6322f28397cda2ea2ea4d49f33fc" category="list-text">Cloud Manager에서 ONTAP용 FSx를 제거하려면 * 제거 * 를 선택합니다.</block>
   <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 삭제 * 를 선택합니다.</block>
   <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">작업 환경의 이름을 입력하고 * 삭제 * 를 선택합니다.</block>
   <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">처리량, 용량 및 단위를 선택합니다. 언제든지 처리량 및 스토리지 용량 값을 변경할 수 있습니다.</block>
-  <block id="7f234f33b9862c892e7c8dbf9dd91bc5" category="list-text">선택적으로 IOPS 값을 지정할 수 있습니다. IOPS 값을 지정하지 않으면 Cloud Manager가 입력된 총 용량의 GiB당 3 IOPS를 기준으로 기본값을 설정합니다. 예를 들어, 총 용량에 대해 2000GiB를 입력하고 IOPS 값이 없으면 유효 IOPS 값은 6000으로 설정됩니다. IOPS 값은 언제든지 변경할 수 있습니다.</block>
-  <block id="c39def9377c6bd394b8633558a53f581" category="paragraph">Cloud Manager를 사용하여 볼륨, 클론, 스냅샷을 보고 관리할 수 있으며, ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
   <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">볼륨 세부 정보를 봅니다</block>
   <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">볼륨을 생성한 후 구성 세부 정보를 볼 수 있습니다.</block>
   <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">볼륨 이름 위로 마우스를 가져가면 볼륨 유형이 표시됩니다.</block>
@@ -604,14 +528,10 @@
   <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">이제 볼륨이 호스트에 마운트되었습니다.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
-  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">케이스 생성 * 기능을 사용하려면 먼저 Cloud Manager 계정 ID 일련 번호(예: 960xxxx) NetApp 포함 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
   <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 전문가와 함께 티켓을 엽니다.</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support 사이트 계정 *: 지원 케이스를 여는 사람과 관련된 해당 NSS 계정을 선택합니다. 이 담당자는 아래에 제공된 추가 이메일 외에 NetApp에 연락할 수 있는 기본 담당자가 됩니다.</block>
-  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">NSS 계정이 표시되지 않으면 Cloud Manager의 지원 섹션 내의 * NSS 관리 * 탭으로 이동하여 해당 계정을 추가할 수 있습니다.</block>
-  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, Cloud Manager가 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제를 해결할 수 있는 경우에 해당합니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
-  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 Cloud Manager 계정, 작업 공간 및 커넥터의 범위 내에 있습니다.</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">* 문제 설명 * : 해당 오류 메시지 또는 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공합니다.</block>
@@ -622,36 +542,22 @@
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 일정 * 을 클릭하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">케이스를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
-  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">이 오류는 NSS 계정과 연결된 레코드 회사가 Cloud Manager 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 케이스 생성 * 양식 상단의 NSS 계정 목록을 확인하여 올바른 일치 항목을 찾거나 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">요구 사항</block>
   <block id="74e5a199ea27b8b415c0c77d75229e79" category="sidebar">NVMe 및 iSCSI 호스트 구성</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
-  <block id="d14a27b37d19411318313c75f11baf13" category="inline-link">Cloud Manager에 대한 알림</block>
-  <block id="8f4eecef1c8abf547a153a1486d48ab2" category="list-text"><block ref="8f4eecef1c8abf547a153a1486d48ab2" category="inline-link-rx"></block></block>
-  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 Cloud Manager에 추가한 다음 지원을 등록해야 합니다.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
-  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud Manager 계정 ID 지원 구독 등록(Cloud Manager의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
-  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">이 ID는 Cloud Manager 내의 모든 서비스에 대한 단일 지원 구독 ID로 사용됩니다. 각 Cloud Manager 계정 레벨 지원 구독을 등록해야 합니다.</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
-  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">이러한 일련 번호를 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 구축 시 Cloud Manager에서 생성됩니다.</block>
-  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">두 유형의 제품 번호를 등록하면 지원 티켓 열기, 자동 케이스 생성 및 Active IQ 등의 기능을 사용할 수 있습니다.</block>
   <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">등록 방법은 신규 고객인지, 기존 고객인지 또는 파트너인지에 따라 다릅니다.</block>
   <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">기존 고객 또는 파트너</block>
-  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">기존 NetApp 고객 또는 파트너는 NSS(NetApp Support 사이트) SSO 계정을 사용하여 위에서 이러한 등록을 수행할 수 있습니다. 지원 대시보드에서 Cloud Manager는 NSS 계정을 추가할 수 있는 * NSS 관리 * 페이지를 제공합니다. NSS 계정을 추가하면 Cloud Manager에서 자동으로 이러한 일련 번호를 등록합니다.</block>
   <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSS 계정을 추가하는 방법에 대해 알아봅니다</block>
-  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>.</block>
   <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp이 처음입니다</block>
-  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">NetApp이 처음인 파트너는 NetApp의 지원 등록 사이트에서 Cloud Manager 계정 ID 일련 번호를 한 번 등록해야 합니다. 이 등록을 완료하고 새 NSS 계정을 만들면 Cloud Manager에서 이 계정을 사용하여 앞으로 자동 등록할 수 있습니다.</block>
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">NetApp에 등록하는 방법을 알아보십시오</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
-  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">NSS 계정을 Cloud Manager에 추가합니다</block>
   <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 Cloud Manager와 함께 사용할 수 있습니다.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
   <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
-  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">이러한 작업을 통해 Cloud Manager는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
@@ -660,8 +566,6 @@
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
-  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSS 계정을 가진 NetApp 고객은 Cloud Manager를 통해 지원을 위해 등록하기만 하면 됩니다.</block>
-  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">아직 추가하지 않은 경우 NSS 계정을 Cloud Manager에 추가합니다.</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Resources * 페이지에서 * Register for Support * 를 클릭합니다.</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">계정 일련 번호 및 지원 등록 옵션을 보여 주는 스크린샷</block>
   <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
@@ -684,5 +588,103 @@
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
-  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support 사이트 계정이 있으면 Cloud Manager로 이동하여 향후 등록을 위해 이 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="ca9f06fa1a00f01b3d6a92ff7e6556ff" category="summary">NetApp ONTAP용 Amazon FSx는 일관된 하이브리드 클라우드 경험을 제공하는 네이티브 AWS 관리 서비스에 ONTAP의 모든 기능을 제공합니다. 이 문서에서는 NetApp BlueXP를 사용하여 ONTAP용 FSx를 관리하는 방법에 대해 설명합니다.</block>
+  <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP의 추가 기능</block>
+  <block id="61d1931826c6b4bafae8f3e532759004" category="list-text">AWS 및 BlueXP(이전의 Cloud Manager)의 Connector를 사용하여 볼륨을 생성 및 관리하고, 데이터를 복제하고, ONTAP용 FSx를 데이터 센스 및 Cloud Sync와 같은 NetApp 클라우드 서비스와 통합할 수 있습니다.</block>
+  <block id="2e1fca4dcaae8d35c81661aec02958b2" category="paragraph">ONTAP용 FSx 계정은 BlueXP가 아니라 AWS에서 관리합니다.<block ref="8ceb48ebb1fa83d69a24f299e3fde40a" category="inline-link-rx"></block></block>
+  <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">BlueXP 또는 BlueXP 마이크로 서비스와 관련된 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
+  <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">내의 BlueXP 또는 마이크로 서비스와 관련된 기술 지원 문제의 경우, BlueXP 계정 수준의 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 지원을 활성화하려면 BlueXP 일련 번호를 등록해야 합니다.</block>
+  <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다</block>
+  <block id="0120a6985fd9a638c32bf88c75ec0802" category="paragraph">볼륨을 추가하기 전에 ONTAP 작업 환경을 위한 Amazon FSx를 생성해야 합니다. 이 작업을 수행해야 합니다 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>.</block>
+  <block id="d7d767395bf3ee01260b8e372bdc033a" category="paragraph">가 있어야 합니다<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. 커넥터가 필요한 경우 아직 커넥터가 추가되지 않은 경우 BlueXP에서 확인 메시지를 표시합니다.</block>
+  <block id="17a1b5c516ad7934395e8ea2d41f50ed" category="paragraph">BlueXP를 사용하여 ONTAP 볼륨용 FSx를 생성할 수 있습니다.</block>
+  <block id="a4f149004152f60637fdf95cdc81a47d" category="paragraph">BlueXP를 사용하여 볼륨을 관리하고 복제, Cloud Sync 및 데이터 센스와 같은 추가 서비스를 구성합니다.</block>
+  <block id="9c51d38f64e8c1335e2502c05f118401" category="inline-link">BlueXP에서 커넥터 만들기</block>
+  <block id="0d5f53ba40b365132e5ed55aeb13bafc" category="list-text"><block ref="0d5f53ba40b365132e5ed55aeb13bafc" category="inline-link-rx"></block></block>
+  <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXP는 ONTAP용 BlueXP 및 FSx의 성공적인 운영에 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다.</block>
+  <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">BlueXP에서 DNS Resolve에 사용됩니다</block>
+  <block id="f7690c21dcdeafa719d4764552e4d2d7" category="paragraph">ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다.</block>
+  <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.</block>
+  <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">다른 AWS 계정 * 을 선택하고 BlueXP의 ID를 입력합니다.</block>
+  <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">BlueXP SaaS: 952013314444</block>
+  <block id="7ac66cbf6468d4b2ac580b0142eb7f7b" category="inline-link-macro">BlueXP 정책 페이지를 참조하십시오</block>
+  <block id="a4b479a41ed7a914d0dd394ff19733d2" category="paragraph">에서 Connector 배포 정책을 봅니다 <block ref="6bc39dc7152091d002dd49afe75c9615" category="inline-link-macro-rx"></block>.</block>
+  <block id="fa9df323148192800073dd2a78c81f73" category="list-text">다음 단계에서 BlueXP에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.</block>
+  <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">필요한 권한을 IAM 역할에 제공한 후 ARN 역할을 BlueXP에 추가합니다.</block>
+  <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">방금 IAM 역할을 생성한 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.</block>
+  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.</block>
+  <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷.</block>
+  <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="469d6f26b0e14d75fc0c834eeac72311" category="list-text">* 자격 증명 위치 *: * Amazon Web Services &gt; BlueXP * 를 선택합니다.</block>
+  <block id="193ad4e55afb9be5b67589ce2fc9b33d" category="inline-link">BlueXP에 대한 AWS 자격 증명 관리</block>
+  <block id="f9a91bf42987bf0077570f294d5077a4" category="list-text"><block ref="f9a91bf42987bf0077570f294d5077a4" category="inline-link-rx"></block></block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">NetApp 기술 지원 팀과 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">NetApp 기술 지원 팀의 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 BlueXP에 추가한 다음 지원 등록을 해야 합니다.</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXP 계정 ID 지원 가입 등록(BlueXP의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">이는 BlueXP 내의 모든 서비스에 대한 단일 지원 가입 ID의 역할을 합니다. 각 BlueXP 계정 수준 지원 구독을 등록해야 합니다.</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 BlueXP에서 생성됩니다.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">두 가지 유형의 일련 번호를 등록하면 지원 티켓 열기와 자동 케이스 생성 등의 기능을 사용할 수 있습니다.</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">기존 NetApp 고객 또는 파트너는 NSS(NetApp Support 사이트) SSO 계정을 사용하여 위에서 이러한 등록을 수행할 수 있습니다. 지원 대시보드에서 BlueXP는 NSS 계정을 추가할 수 있는 * NSS 관리 * 페이지를 제공합니다. NSS 계정을 추가하면 BlueXP에서 이러한 일련 번호를 자동으로 등록합니다.</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">NetApp이 처음인 파트너는 NetApp의 지원 등록 사이트에서 BlueXP 계정 ID 일련 번호를 한 번 등록해야 합니다. 이 등록을 완료하고 새 NSS 계정을 만들면 BlueXP에서 이 계정을 사용하여 앞으로 자동 등록할 수 있습니다.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">BlueXP에 NSS 계정을 추가합니다</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받기 위해 등록하기만 하면 됩니다.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">아직 추가하지 않은 경우 NSS 계정을 BlueXP에 추가합니다.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">위에 사용된 BlueXP 계정 일련 번호(960xxxx)를 일련 번호 필드에 복사해야 합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">NetApp Support 사이트 계정이 있으면 BlueXP로 이동하여 나중에 등록하기 위해 이 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp은 다양한 방법으로 BlueXP를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp은 다양한 방법으로 BlueXP 및 클라우드 서비스를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">문제를 해결하는 데 도움이 되는 문서를 찾으려면 BlueXP 기술 자료를 검색하십시오.</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">현재 보고 있는 BlueXP 문서입니다.</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">케이스 생성* 기능을 사용하려면 먼저 BlueXP 계정 ID 일련 번호( 960xxxx) NetApp 포함 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXP에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">NSS 계정이 표시되지 않으면 BlueXP의 지원 섹션에서 * NSS 관리 * 탭으로 이동하여 추가할 수 있습니다.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">이 오류는 NSS 계정과 연결된 레코드 회사가 BlueXP 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 케이스 생성 * 양식 상단의 NSS 계정 목록을 확인하여 올바른 일치 항목을 찾거나 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.</block>
+  <block id="0f845867deaf035383ffc217279b9c7f" category="paragraph">BlueXP의 ONTAP 작업 환경에서 FSx에서 NFS, CIFS 및 iSCSI 볼륨을 생성하고 관리할 수 있습니다. ONTAP CLI를 사용하여 생성된 볼륨은 ONTAP 작업 환경의 FSx에도 표시됩니다.</block>
+  <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">BlueXP 자동화 문서</block>
+  <block id="40093c43e131165eb7dd2a980ff78509" category="cell">Active Directory DNS를 사용하여 NTP 서버를 구성하려면 * NTP 서버 구성 활성화 * 를 선택합니다. 다른 주소를 사용하여 NTP 서버를 구성해야 하는 경우 API를 사용해야 합니다. 를 참조하십시오<block ref="cf06621be2a2bfce0ef0595deee16955" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">볼륨을 호스트에 마운트할 수 있도록 BlueXP 내에서 마운트 지침에 액세스합니다.</block>
+  <block id="0aab21b00fa6135e62b29e7f8bb6778e" category="summary">BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 처리량과 스토리지 용량 및 IOPS를 변경하고 작업 환경을 제거 또는 삭제할 수 있습니다.</block>
+  <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">ONTAP 계정 또는 볼륨에 대한 FSx를 삭제하지 않고 BlueXP에서 ONTAP용 FSx를 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 BlueXP에 다시 추가할 수 있습니다.</block>
+  <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">BlueXP 인터페이스에서 ONTAP용 FSx 제거 옵션 스크린샷</block>
+  <block id="00e44395dfa88719cfdde0d3aafb0b4c" category="paragraph"><block ref="00e44395dfa88719cfdde0d3aafb0b4c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="39c686ea51a2e3f3412988ea98942824" category="list-text">BlueXP에서 ONTAP용 FSx를 제거하려면 * 제거 * 를 선택합니다.</block>
+  <block id="6835d2c119b318a48de9e93b2e641517" category="paragraph">BlueXP에서 ONTAP용 FSx를 삭제할 수 있습니다.</block>
+  <block id="84aebfd9255ade9edf5ed1e04d2d7983" category="inline-image-macro">BlueXP 인터페이스에서 ONTAP용 FSx에 대한 삭제 옵션 스크린샷</block>
+  <block id="fa1673decfda6b90d421cf8b1ec087b0" category="paragraph"><block ref="fa1673decfda6b90d421cf8b1ec087b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b1c694fb2ebede3c4d4ab22be547bed9" category="summary">BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다.</block>
+  <block id="adb79c4b4ae467a33d5b66931e4b3a81" category="paragraph">BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다.</block>
+  <block id="a32ac0ad801a437e03bc65b1bb97d7bd" category="inline-link-macro">BlueXP를 사용하여 검색합니다</block>
+  <block id="3e9f0002f52ffb27118b0d0540159148" category="paragraph">첫 번째 단계는 ONTAP 작업 환경에 대한 FSx를 생성하는 것입니다. AWS 관리 콘솔에서 ONTAP용 FSx 파일 시스템을 이미 생성한 경우 를 사용할 수 있습니다 <block ref="f0e62c6abb102491f5e44c803b014bee" category="inline-link-macro-rx"></block>.</block>
+  <block id="7a1088b800573a1bba3b00786182133b" category="paragraph">BlueXP에서 ONTAP 작업 환경을 위한 FSx를 생성하기 전에 다음이 필요합니다.</block>
+  <block id="74e0ba9ea27cef4d0c11560e135b281e" category="inline-link-macro">BlueXP에 AWS 자격 증명 추가</block>
+  <block id="02e21891e6a4d87f518207b9609ebed1" category="list-text">ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 BlueXP에 제공하는 IAM 역할의 ARN입니다. 을 참조하십시오 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="6b13ffee707f25ae8bcd9dc0e4d7b4d6" category="list-text">BlueXP에서 새 작업 환경을 추가하고 * Amazon Web Services * 위치를 선택한 후 * 다음 * 을 클릭합니다.</block>
+  <block id="07c0b2e93427e88c842be765301e4e63" category="list-text">BlueXP에서 ONTAP용 FSx를 인증합니다.</block>
+  <block id="b7a36240333d2de8502faca756504977" category="list-text">계정에 IAM 역할이 없는 경우 * 자격 증명 페이지 * 를 클릭하고 마법사의 단계에 따라 ONTAP 자격 증명을 위한 FSx를 사용하여 AWS IAM 역할에 대한 ARN을 추가합니다. 을 참조하십시오 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="274f0b3b024e5cbf45b403266b2d8e00" category="list-text">부동 IP 주소에 대한 라우트가 포함된 라우팅 테이블을 선택합니다. VPC(주 경로 테이블)에 있는 서브넷에 대해 하나의 라우팅 테이블만 있는 경우 BlueXP는 해당 라우팅 테이블에 부동 IP 주소를 자동으로 추가합니다. 계속하려면 * 다음 * 을 클릭합니다.</block>
+  <block id="c43f98768b6bade26ae94ab84f81134f" category="list-text">선택적으로 IOPS 값을 지정할 수 있습니다. IOPS 값을 지정하지 않으면 BlueXP는 입력된 총 용량의 3GiB당 IOPS를 기준으로 기본값을 설정합니다. 예를 들어, 총 용량에 대해 2000GiB를 입력하고 IOPS 값이 없으면 유효 IOPS 값은 6000으로 설정됩니다. IOPS 값은 언제든지 변경할 수 있습니다.</block>
+  <block id="69a6a9ad9378e16228ecd670e9d167c8" category="paragraph">BlueXP는 Canvas 페이지에 ONTAP용 FSx 구성을 표시합니다.</block>
+  <block id="9e35167248d4118a73a969017acba1d8" category="paragraph">이제 BlueXP를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.</block>
+  <block id="decbe5e805a0a9516184b64d9bad01c3" category="paragraph">이전에 BlueXP에 AWS 자격 증명을 제공한 경우 * My Opportunities * 는 자동으로 ONTAP 파일 시스템용 FSx를 검색하여 BlueXP를 사용하여 추가 및 관리할 것을 제안할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.</block>
+  <block id="b74bb93cbb66b60fd6c91eba3c535cb2" category="list-text">BlueXP에서 * 내 기회 * 탭을 클릭합니다.</block>
+  <block id="547dba06b4fcfe3fa41996e831e9fb1c" category="list-text">BlueXP에서 ONTAP 파일 시스템용 FSx를 관리하는 데 필요한 자격 증명이 없는 클러스터를 선택하면 필요한 권한이 있는 자격 증명을 선택하라는 메시지가 표시됩니다.</block>
+  <block id="494021d1d3a9a769ede7819e9cf10cf6" category="paragraph">AWS 관리 콘솔을 사용하여 추가한 ONTAP 파일 시스템용 FSx 또는 BlueXP에서 이전에 제거한 FSx를 수동으로 검색할 수 있습니다.</block>
+  <block id="c13815d75af2d8f4f6b97743a5731dae" category="list-text">BlueXP에서 * 작업 환경 추가 * 를 클릭하고 * Amazon Web Services * 를 선택합니다.</block>
+  <block id="02ebf3de367dc7096d28e785a65d8c78" category="paragraph">BlueXP는 검색된 ONTAP 파일 시스템용 FSx를 표시합니다.</block>
+  <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">볼륨, 클론, 스냅샷을 관리하고 BlueXP를 사용하여 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
+  <block id="669f767086bf3b89606658facb29605a" category="paragraph">볼륨, 클론, 스냅샷을 보고 관리할 수 있으며 BlueXP를 사용하여 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
+  <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">BlueXP를 사용하여 스토리지 환경 간에 데이터를 복제할 수 있습니다. ONTAP 복제에 대해 FSx를 구성하려면 를 참조하십시오<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>.</block>
+  <block id="6b91242d31fee1e3576ce594b08573b5" category="paragraph">BlueXP에서 Cloud Sync를 사용하여 동기화 관계를 만들 수 있습니다. 동기화 관계를 구성하려면 를 참조하십시오<block ref="3bb02b9d4fba268ff940f67f5abfe3eb" category="inline-link-rx"></block>.</block>
+  <block id="f257be535aca4e5a3655fc2dd2887500" category="paragraph">BlueXP를 사용하여 이전에 SnapMirror 관계의 일부였던 볼륨을 삭제할 수 없습니다. SnapMirror 볼륨은 AWS 관리 콘솔 또는 CLI를 사용하여 삭제해야 합니다.</block>
+  <block id="56f7e1cad5439f90ac8bd08115c74e4a" category="list-text">작업 환경 이름을 입력하고 볼륨 삭제를 확인합니다. BlueXP에서 볼륨을 완전히 제거하는 데 최대 1시간이 걸릴 수 있습니다.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
 </blocks>

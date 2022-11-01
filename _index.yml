@@ -1,7 +1,7 @@
 ---
 indexpage:
   lead: NetApp ONTAP용 Amazon FSx는 일관된 하이브리드 클라우드 경험을 제공하는 네이티브 AWS 관리 서비스에 ONTAP의
-    모든 기능을 제공합니다. 이 문서에서는 NetApp Cloud Manager를 사용하여 ONTAP용 FSx를 관리하는 방법에 대해 설명합니다.
+    모든 기능을 제공합니다. 이 문서에서는 NetApp BlueXP를 사용하여 ONTAP용 FSx를 관리하는 방법에 대해 설명합니다.
   tiles:
   - title: 시작하십시오
     links:

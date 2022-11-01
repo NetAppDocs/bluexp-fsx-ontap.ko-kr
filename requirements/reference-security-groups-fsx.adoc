@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements/reference-security-groups-fsx.html 
 keywords: security group, security groups, rules, ports, fsx, inbound, outbound, rules 
-summary: Cloud Manager는 Cloud Manager 및 FSx for ONTAP가 성공적으로 운영하는 데 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다. 
+summary: BlueXP는 ONTAP용 BlueXP 및 FSx의 성공적인 운영에 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다. 
 ---
 = ONTAP용 FSx에 대한 보안 그룹 규칙입니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager는 Cloud Manager 및 FSx for ONTAP가 성공적으로 운
 
 
 [role="lead"]
-Cloud Manager는 Cloud Manager 및 FSx for ONTAP가 성공적으로 운영하는 데 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다.
+BlueXP는 ONTAP용 BlueXP 및 FSx의 성공적인 운영에 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다.
 
 
 
@@ -344,7 +344,7 @@ NOTE: 소스 IP 주소는 커넥터 호스트입니다.
 | API 호출 | TCP | 8088 | S3로 백업 | API에서 S3로 백업을 호출합니다 
 
 
-| DNS | UDP입니다 | 53 | DNS | Cloud Manager에서 DNS Resolve에 사용됩니다 
+| DNS | UDP입니다 | 53 | DNS | BlueXP에서 DNS Resolve에 사용됩니다 
 
 
 | 클라우드 데이터 감지 | HTTP | 80 | 클라우드 데이터 감지 인스턴스 | Cloud Volumes ONTAP에 대한 클라우드 데이터 감지 
