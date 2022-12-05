@@ -16,7 +16,11 @@ summary: 몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시�
 [role="lead"]
 몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시오.
 
-몇 단계만 거치면 ONTAP용 FSx를 시작할 수 있습니다.
+
+
+== 빠른 단계
+
+사용 link:https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP"^], 몇 단계만으로 ONTAP용 FSx를 시작할 수 있습니다.
 
 [role="quick-margin-para"]
 볼륨을 추가하기 전에 ONTAP 작업 환경을 위한 Amazon FSx를 생성해야 합니다. 이 작업을 수행해야 합니다 link:../requirements/task-setting-up-permissions-fsx.html["BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다"].
