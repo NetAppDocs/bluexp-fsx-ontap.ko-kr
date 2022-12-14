@@ -24,6 +24,7 @@ ONTAP용 FSx 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모�
 
 image:diagram-fsx-security-groups.png["ONTAP 보안 그룹 구성을 위한 FSx 다이어그램"]
 
+.시작하기 전에
 AWS 관리 콘솔을 사용하여 ENIs와 연결된 보안 그룹을 찾아야 합니다.
 
 .단계

@@ -22,6 +22,7 @@ BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검�
 
 첫 번째 단계는 ONTAP 작업 환경에 대한 FSx를 생성하는 것입니다. AWS 관리 콘솔에서 ONTAP용 FSx 파일 시스템을 이미 생성한 경우 를 사용할 수 있습니다 link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["BlueXP를 사용하여 검색합니다"].
 
+.시작하기 전에
 BlueXP에서 ONTAP 작업 환경을 위한 FSx를 생성하기 전에 다음이 필요합니다.
 
 * ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 BlueXP에 제공하는 IAM 역할의 ARN입니다. 을 참조하십시오 link:../requirements/task-setting-up-permissions-fsx.html["BlueXP에 AWS 자격 증명 추가"] 를 참조하십시오.
@@ -112,6 +113,7 @@ image:screenshot_add_fsx_review.png["ONTAP용 FSx 설정을 검토하는 스크�
 
 
 
+.결과
 BlueXP는 Canvas 페이지에 ONTAP용 FSx 구성을 표시합니다.
 
 image:screenshot_add_fsx_cloud.png["작업 환경 페이지의 ONTAP용 Amazon FSx 스크린샷"]
@@ -163,6 +165,7 @@ image:screenshot_fsx_working_environment_discover.png["ONTAP용 Amazon FSx의 �
 . 추가 * 를 클릭합니다.
 
 
+.결과
 BlueXP는 검색된 ONTAP 파일 시스템용 FSx를 표시합니다.
 
 image:screenshot_fsx_working_environment_select.png["AWS 지역 및 작업 환경 선택 스크린샷"]
