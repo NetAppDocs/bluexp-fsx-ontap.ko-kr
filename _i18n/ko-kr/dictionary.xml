@@ -22,7 +22,6 @@
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021년 9월 2일</block>
   <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">ONTAP용 Amazon FSx 지원</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP용 Amazon FSx</block>
-  <block id="a0e08ea7f36fd675a07b353350648fbe" category="list-text"><block ref="040983c31c5d3aff2795da28b0ee5564" category="inline-link-macro-rx"></block> 는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 실행하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.</block>
   <block id="43ece0944414298a29b4d72bc56373f1" category="inline-link-macro">ONTAP용 Amazon FSx에 대해 자세히 알아보십시오</block>
   <block id="9d2704a937df8ec429bf2446953b2687" category="list-text">Cloud Manager에서 ONTAP 작업 환경에 대한 FSx를 구성할 수 있습니다.</block>
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link-macro">ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다</block>
@@ -323,7 +322,6 @@
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">IAM 역할을 설정합니다</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">대상 계정에서 IAM 콘솔로 이동합니다.</block>
   <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">액세스 관리에서 * 역할 &gt; 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.</block>
-  <block id="e1a3d580d5cb42904b96dc05c0e0903d" category="paragraph">다음을 수행하십시오.</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.</block>
   <block id="30c558b7179a7e55ad7f3ae5ca262466" category="list-text">다음 권한이 포함된 정책을 만듭니다.</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">이제 IAM 역할에 필요한 권한이 있습니다.</block>
@@ -370,12 +368,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="2aeb3bf14f4c88c233b9054f0d5f9f46" category="list-text">활성<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>.</block>
   <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
-  <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>.</block>
-  <block id="bdc6d93b4370ea76238df491d9d141c4" category="paragraph">가능합니다 <block ref="88fc27d29fd6019ad989d255373b75d1" category="inline-link-macro-rx"></block> FSx for ONTAP에서</block>
-  <block id="8cb898147f5ef32e49709138a0ee48c6" category="paragraph">이제 가능합니다 <block ref="98c695f1949c26a2dd10f3c98347e43b" category="inline-link-macro-rx"></block>.</block>
-  <block id="b233fccd6a0e80b0628c8b760f808f80" category="paragraph">이제 가능합니다 <block ref="4f9c429b7c1519954500e41db7985c1c" category="inline-link-macro-rx"></block>.</block>
-  <block id="b84e3c9bb4ac9216f14349e3b5be8ec3" category="paragraph"><block ref="173ddc048bd16ccfb71d77420d7581cb" category="inline-link-macro-rx"></block>.</block>
-  <block id="b7dd73bfb5bbb0ec2884525999924384" category="paragraph"><block ref="e85a369c316ea87dc3d5da27638bd157" category="inline-link-macro-rx"></block>.</block>
   <block id="d35e6fa404873b4a616b1313e98cf3d9" category="paragraph"><block ref="6e3374d20d69610b03c5ed3fa5af9a08" category="inline-link-macro-rx"></block>.</block>
   <block id="a4f557d4dc5603464fae9d733ed96263" category="paragraph">ONTAP용 FSx 보안 그룹에는 인바운드 및 아웃바운드 규칙이 모두 필요합니다. 이 다이어그램은 ONTAP 네트워킹 구성 및 보안 그룹 요구 사항에 대한 FSx를 보여 줍니다.</block>
   <block id="804e1541ef4556a247ad9499202fb6e2" category="inline-image-macro">ONTAP 보안 그룹 구성을 위한 FSx 다이어그램</block>
@@ -426,9 +418,7 @@
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022년 7월 3일</block>
   <block id="f0e3a414b681f7ab90a3f742f40c9365" category="list-text">이제 단일 또는 다중 가용성 영역 HA 배포 모델을 선택할 수 있습니다.</block>
   <block id="324197c492971b6abe6108b6ed0e2722" category="inline-link-macro">ONTAP 작업 환경을 위한 FSx를 생성합니다</block>
-  <block id="28d4a8073a683a018eec6bfdec63098f" category="paragraph"><block ref="28d4a8073a683a018eec6bfdec63098f" category="inline-link-macro-rx"></block></block>
   <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">Cloud Manager에서 AWS GovCloud 계정 인증이 지원됩니다.</block>
-  <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
   <block id="f84135b2c550b8d738093a4346ac024d" category="list-text">단일 가용성 영역 * 또는 * 다중 가용성 영역 * HA 배포 모델을 선택합니다.</block>
   <block id="2be7f08200a1fe8660c0e3b215446b33" category="inline-image-macro">단일 또는 다중 가용성 영역 배포 모델의 선택 라디오 단추 스크린샷</block>
   <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
@@ -466,19 +456,14 @@
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022년 7월 31일</block>
   <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">이전에 AWS 자격 증명을 Cloud Manager에 제공한 경우 새로운 * My Opportunities * 기능은 ONTAP 파일 시스템용 FSx를 자동으로 검색하고 제안하여 Cloud Manager를 사용하여 추가 및 관리할 수 있습니다. My Opportunities * 탭을 통해서도 사용 가능한 데이터 서비스를 검토할 수 있습니다.</block>
   <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">내 기회를 사용하여 ONTAP용 FSx를 검색합니다</block>
-  <block id="9480b8170649423ab940807a0b920da2" category="paragraph"><block ref="9480b8170649423ab940807a0b920da2" category="inline-link-macro-rx"></block></block>
   <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">처리량 용량을 변경합니다</block>
-  <block id="c9937dd2be3306177e54f23d06f05522" category="list-text">이제 가능합니다 <block ref="506ff771d5601b67d5eec9e79bc3848f" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
   <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">데이터 복제 및 동기화</block>
-  <block id="2e54b9a897181c7862d708807a350694" category="list-text">이제 가능합니다 <block ref="8a24fd2682d2561e3f75043a6b0c8221" category="inline-link-macro-rx"></block> ONTAP용 FSx를 소스로 사용하여 온프레미스 및 ONTAP 시스템용 기타 FSx에 연결합니다.</block>
   <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다</block>
-  <block id="d6d2f19a8b69e681e2faa33500bbff6c" category="list-text">이제 가능합니다 <block ref="7bd2232976707f7841c519f0d4d2c5a6" category="inline-link-macro-rx"></block>.</block>
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">작업 환경을 만들거나 검색합니다</block>
   <block id="6faf2fd9ba5b0e89a953f43cd89d6c46" category="sidebar">작업 환경 관리</block>
   <block id="3109e49414b9edf951cefa41b4e6edeb" category="sidebar">작업 환경을 관리합니다</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
-  <block id="0e36458fd86c678ff613e05396096775" category="paragraph">이제 가능합니다 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">개요 * 탭에서 * 기능 * 을 선택합니다.</block>
   <block id="2498d03a4261c0c377ff9aa14f08a01b" category="list-text">연필 아이콘(<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 * Throughput Capacity * 편집 페이지를 엽니다.</block>
   <block id="87b240f45f566a73d19136ab81e90ad1" category="inline-image-macro">처리량 용량 변경 메뉴의 위치 스크린샷</block>
@@ -587,8 +572,6 @@
   <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.</block>
   <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">다른 AWS 계정 * 을 선택하고 BlueXP의 ID를 입력합니다.</block>
   <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">BlueXP SaaS: 952013314444</block>
-  <block id="7ac66cbf6468d4b2ac580b0142eb7f7b" category="inline-link-macro">BlueXP 정책 페이지를 참조하십시오</block>
-  <block id="a4b479a41ed7a914d0dd394ff19733d2" category="paragraph">에서 Connector 배포 정책을 봅니다 <block ref="6bc39dc7152091d002dd49afe75c9615" category="inline-link-macro-rx"></block>.</block>
   <block id="fa9df323148192800073dd2a78c81f73" category="list-text">다음 단계에서 BlueXP에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.</block>
   <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">필요한 권한을 IAM 역할에 제공한 후 ARN 역할을 BlueXP에 추가합니다.</block>
   <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">방금 IAM 역할을 생성한 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.</block>
@@ -630,7 +613,6 @@
   <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">BlueXP 자동화 문서</block>
   <block id="40093c43e131165eb7dd2a980ff78509" category="cell">Active Directory DNS를 사용하여 NTP 서버를 구성하려면 * NTP 서버 구성 활성화 * 를 선택합니다. 다른 주소를 사용하여 NTP 서버를 구성해야 하는 경우 API를 사용해야 합니다. 를 참조하십시오<block ref="cf06621be2a2bfce0ef0595deee16955" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">볼륨을 호스트에 마운트할 수 있도록 BlueXP 내에서 마운트 지침에 액세스합니다.</block>
-  <block id="0aab21b00fa6135e62b29e7f8bb6778e" category="summary">BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 처리량과 스토리지 용량 및 IOPS를 변경하고 작업 환경을 제거 또는 삭제할 수 있습니다.</block>
   <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">ONTAP 계정 또는 볼륨에 대한 FSx를 삭제하지 않고 BlueXP에서 ONTAP용 FSx를 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 BlueXP에 다시 추가할 수 있습니다.</block>
   <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">BlueXP 인터페이스에서 ONTAP용 FSx 제거 옵션 스크린샷</block>
   <block id="00e44395dfa88719cfdde0d3aafb0b4c" category="paragraph"><block ref="00e44395dfa88719cfdde0d3aafb0b4c" category="inline-image-macro-rx" type="image"></block></block>
@@ -697,4 +679,39 @@
   <block id="3a994a785ff4b046a381ab2afb6d0e17" category="paragraph">가능합니다 <block ref="c98786904f437c4c5be9aec70a11cbb2" category="inline-link-macro-rx"></block> BlueXP 사용.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">다음 단계</block>
   <block id="dae3b13fec3bf110f92a7547c071e053" category="paragraph">이제 BlueXP를 사용하여 볼륨을 관리하고 복제, Cloud Sync 및 데이터 센스와 같은 추가 서비스를 구성할 수 있습니다.</block>
+  <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023년 1월 1일</block>
+  <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">자동 용량 관리</block>
+  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">이제 를 사용하도록 선택할 수 있습니다 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 을 클릭하여 필요에 따라 증분 스토리지를 추가합니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10% 단위로 스토리지 용량을 최대 80%까지 자동으로 늘립니다.</block>
+  <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">이제 가능합니다 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
+  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
+  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">이제 가능합니다 <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> ONTAP 작업 환경을 위한 FSx를 생성한 후 언제든지</block>
+  <block id="897d994d4d024883042e664eba152417" category="list-text">이제 가능합니다 <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> ONTAP용 FSx를 소스로 사용하여 온프레미스 및 ONTAP 시스템용 기타 FSx에 연결합니다.</block>
+  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">이제 가능합니다 <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>.</block>
+  <block id="bee52cc88c0a721fa21705e43f975a38" category="paragraph"><block ref="bee52cc88c0a721fa21705e43f975a38" category="inline-link-macro-rx"></block></block>
+  <block id="68b4888c90bad97d83573c204e39d4f6" category="paragraph"><block ref="68b4888c90bad97d83573c204e39d4f6" category="inline-link-macro-rx"></block></block>
+  <block id="1a457abce740f74637d89636cb4bf465" category="paragraph"><block ref="b41a9efd67b5cf55cf548e8762fd5391" category="inline-link-macro-rx"></block>.</block>
+  <block id="878635d00100085ed9c73c84b23923a8" category="paragraph">가능합니다 <block ref="7efe0bba09b9697b63e1ec0f00c0d9bb" category="inline-link-macro-rx"></block> FSx for ONTAP에서</block>
+  <block id="b957b3c2b45d171475a7589df8173510" category="paragraph">이제 가능합니다 <block ref="e1e8315fc20ff9071c786150bb6a8fd4" category="inline-link-macro-rx"></block>.</block>
+  <block id="c3e1ff7fb2dc6fd7c64f15c4ce7d34e3" category="paragraph">이제 가능합니다 <block ref="1546ddd4150be40b2e31760299f6633d" category="inline-link-macro-rx"></block>.</block>
+  <block id="1deb64c5b7d1fce612c4ca0466dfa255" category="paragraph"><block ref="fdd32d934c03692704574175344c207a" category="inline-link-macro-rx"></block>.</block>
+  <block id="7a2732ff05563f251f1ac93ae2d0c9d5" category="paragraph"><block ref="22cb2c9bc18ba713f3606939a029b986" category="inline-link-macro-rx"></block>.</block>
+  <block id="6ba425a78c17896d93d28f52eaadb6f2" category="admonition"><block ref="350df107c59fa79663916b7955bbe306" prefix="" category="inline-code"></block> 및<block ref="db68eaa323cf27d3f429647b32e5d91b" prefix=" " category="inline-code"></block> 를 활성화해야 합니다 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>.</block>
+  <block id="9e6871113ad24ed3830e2e58ce51dfc4" category="summary">BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 자동 용량 관리를 설정하고, 처리량과 스토리지 용량 및 IOPS를 변경하고, 작업 환경을 제거 또는 삭제할 수 있습니다.</block>
+  <block id="9123b1a896e43bd47ae8708d015514ba" category="section-title">자동 용량 관리</block>
+  <block id="1c05e31e27d15b210cdcb01d01331c36" category="paragraph">필요에 따라 자동 용량 관리를 통해 증분 스토리지를 추가할 수 있습니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10%~80% 단위로 스토리지 용량을 자동으로 늘립니다.</block>
+  <block id="0b77a63f8ac25e1cd8509e906523f459" category="inline-link-macro">작업 환경을 만듭니다</block>
+  <block id="0185df25abbf3744285dd03ec2704b86" category="admonition">작업 환경을 생성할 때 IOPS 값을 수동으로 지정하지 않은 경우 BlueXP는 새 총 용량의 GiB당 IOPS를 3 IOPS로 늘립니다. IOPS 값을 지정한 경우 BlueXP는 IOPS를 조정하지 않습니다. IOPS 구성에 대한 자세한 내용은 을 참조하십시오 <block ref="54a688b79e41730a76924297f5ac42a6" category="inline-link-macro-rx"></block>.</block>
+  <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">자동 용량 관리는 기본적으로 해제되어 있습니다. AWS에서 액티브 커넥터를 사용하거나 사용하지 않고 자동 용량을 관리할 수 있습니다.</block>
+  <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">활성 커넥터 없이 자동 용량을 관리합니다</block>
+  <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">AWS의 액티브 커넥터 없이 자동 용량을 관리할 수 있습니다.</block>
+  <block id="0550d13a80e42471343b954ee5c015ec" category="inline-image-macro">점 3개 메뉴 아이콘의 이미지</block>
+  <block id="aaf6fdbd2f99b44b18a3501978c7e4b5" category="list-text">메뉴 아이콘(<block ref="166f5e453125f8a771e7eb7abd5877c7" category="inline-image-macro-rx" type="image"></block>)를 선택하고 * 자동 용량 관리 * 를 선택합니다.</block>
+  <block id="eae78abc1ac9b9443e78946ea0ac6f62" category="inline-image-macro">자동 용량 관리 메뉴 스크린샷</block>
+  <block id="8568f4aa8725b5fac6d8be22b191626f" category="paragraph"><block ref="8568f4aa8725b5fac6d8be22b191626f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7c48e42b8eb4f773ff1ba4e512f8d941" category="list-text">자동 용량 관리 * 페이지에서 다음을 수행합니다.</block>
+  <block id="fc3a15f119ad5decc28ff415b2538e29" category="list-text">자동 용량 관리를 활성화하려면 이 상자를 선택합니다.</block>
+  <block id="b7e02100f637951d6f90e4991487480c" category="list-text">이전에 활성화된 경우 자동 용량 관리를 비활성화하려면 이 상자의 선택을 취소합니다.</block>
+  <block id="d9299eb7664af835098dc63cf4cfa0a9" category="section-title">활성 커넥터로 자동 용량을 관리합니다</block>
+  <block id="24eab999bc6be3c2241c58c7aee7ae10" category="paragraph">AWS의 액티브 커넥터로 자동 용량을 관리할 수 있습니다.</block>
+  <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">연필 아이콘(<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 * 자동 용량 관리 * 페이지를 엽니다.</block>
 </blocks>

@@ -26,9 +26,6 @@ BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
 . 대상 계정에서 IAM 콘솔로 이동합니다.
 . 액세스 관리에서 * 역할 > 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.
 +
-다음을 수행하십시오.
-
-+
 ** 신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.
 ** 다른 AWS 계정 * 을 선택하고 BlueXP의 ID를 입력합니다.
 +
@@ -50,10 +47,12 @@ BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
                 "fsx:*",
                 "ec2:Describe*",
                 "ec2:CreateTags",
+                "iam:CreateServiceLinkedRole",
                 "kms:Describe*",
                 "kms:List*",
                 "kms:CreateGrant",
-                "iam:CreateServiceLinkedRole"
+                "cloudwatch:GetMetricData",
+                "cloudwatch:GetMetricStatistics"
             ],
             "Resource": "*"
         }
@@ -61,7 +60,8 @@ BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
 }
 ----
 +
-에서 Connector 배포 정책을 봅니다 link:https://mysupport.netapp.com/site/info/cloud-manager-policies["BlueXP 정책 페이지를 참조하십시오"].
+
+NOTE: `"cloudwatch:GetMetricData"` 및 `"cloudwatch:GetMetricStatistics"` 를 활성화해야 합니다 link:../use/task-manage-working-environment.html["자동 용량 관리"].
 
 
 
