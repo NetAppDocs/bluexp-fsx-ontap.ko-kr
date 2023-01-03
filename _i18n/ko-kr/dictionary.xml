@@ -353,11 +353,7 @@
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">도움말 보기</block>
   <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">ONTAP용 Amazon FSx는 AWS 최초의 솔루션입니다. 이 서비스를 사용하는 AWS FSx 파일 시스템, 인프라 또는 AWS 솔루션과 관련된 질문이나 기술 지원 문제가 있는 경우 AWS 콘솔의 Support Center를 사용하여 AWS에 지원 케이스를 접수하십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
-  <block id="7a8c8dd27a87bf665545ae7d6521b93a" category="summary">몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시오.</block>
-  <block id="bf7ec532103402eaed4653738655f6ad" category="doc">ONTAP용 Amazon FSx를 시작하십시오</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS용 커넥터</block>
-  <block id="de737ba84e61f1a8380fd351112b7183" category="inline-link">AWS Marketplace에서 커넥터 실행</block>
-  <block id="c8f9fcb2d5c182f76e53507a00efe037" category="inline-link">Linux 호스트에 Connector 소프트웨어 설치</block>
   <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">ONTAP용 Amazon FSx 문서</block>
   <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">ONTAP용 Amazon FSx 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
@@ -374,8 +370,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="2aeb3bf14f4c88c233b9054f0d5f9f46" category="list-text">활성<block ref="f8ec938ce1f3506a828c9f7802c63902" category="inline-link-rx"></block>.</block>
   <block id="3d3e910b68a6f9dc68d007376e0dae47" category="list-text"><block ref="3d3e910b68a6f9dc68d007376e0dae47" category="inline-link-rx"></block></block>
-  <block id="f184c656bf02dee61743212967601db4" category="list-text"><block ref="f184c656bf02dee61743212967601db4" category="inline-link-rx"></block></block>
-  <block id="86a342f075ca5d85dc5033d1092f71cd" category="list-text"><block ref="86a342f075ca5d85dc5033d1092f71cd" category="inline-link-rx"></block></block>
   <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>.</block>
   <block id="bdc6d93b4370ea76238df491d9d141c4" category="paragraph">가능합니다 <block ref="88fc27d29fd6019ad989d255373b75d1" category="inline-link-macro-rx"></block> FSx for ONTAP에서</block>
   <block id="8cb898147f5ef32e49709138a0ee48c6" category="paragraph">이제 가능합니다 <block ref="98c695f1949c26a2dd10f3c98347e43b" category="inline-link-macro-rx"></block>.</block>
@@ -587,12 +581,6 @@
   <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">BlueXP 또는 BlueXP 마이크로 서비스와 관련된 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
   <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">내의 BlueXP 또는 마이크로 서비스와 관련된 기술 지원 문제의 경우, BlueXP 계정 수준의 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 지원을 활성화하려면 BlueXP 일련 번호를 등록해야 합니다.</block>
   <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다</block>
-  <block id="0120a6985fd9a638c32bf88c75ec0802" category="paragraph">볼륨을 추가하기 전에 ONTAP 작업 환경을 위한 Amazon FSx를 생성해야 합니다. 이 작업을 수행해야 합니다 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>.</block>
-  <block id="d7d767395bf3ee01260b8e372bdc033a" category="paragraph">가 있어야 합니다<block ref="ee4793145cbadfb90a826d44d7b7a098" category="inline-link-rx"></block> ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. 커넥터가 필요한 경우 아직 커넥터가 추가되지 않은 경우 BlueXP에서 확인 메시지를 표시합니다.</block>
-  <block id="17a1b5c516ad7934395e8ea2d41f50ed" category="paragraph">BlueXP를 사용하여 ONTAP 볼륨용 FSx를 생성할 수 있습니다.</block>
-  <block id="a4f149004152f60637fdf95cdc81a47d" category="paragraph">BlueXP를 사용하여 볼륨을 관리하고 복제, Cloud Sync 및 데이터 센스와 같은 추가 서비스를 구성합니다.</block>
-  <block id="9c51d38f64e8c1335e2502c05f118401" category="inline-link">BlueXP에서 커넥터 만들기</block>
-  <block id="0d5f53ba40b365132e5ed55aeb13bafc" category="list-text"><block ref="0d5f53ba40b365132e5ed55aeb13bafc" category="inline-link-rx"></block></block>
   <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXP는 ONTAP용 BlueXP 및 FSx의 성공적인 운영에 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다.</block>
   <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">BlueXP에서 DNS Resolve에 사용됩니다</block>
   <block id="f7690c21dcdeafa719d4764552e4d2d7" category="paragraph">ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다.</block>
@@ -679,7 +667,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
-  <block id="8ea62d632a69911dcf193e9803b1195a" category="section-title">빠른 단계</block>
   <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
   <block id="a9272148ddd8493b835b5b0ed973a495" category="paragraph">사용 <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block>, 몇 단계만으로 ONTAP용 FSx를 시작할 수 있습니다.</block>
   <block id="c8e7a79b3e62d2a377fbadb534f60c42" category="list-text">사용 <block ref="ac523c62451e38c65aafdd45e2bf5230" category="inline-link-macro-rx"></block> (이전의 Cloud Manager) 및 AWS의 Connector를 사용하면 볼륨을 생성 및 관리하고, 데이터를 복제하고, ONTAP용 FSx를 데이터 센스 및 Cloud Sync와 같은 NetApp 클라우드 서비스와 통합할 수 있습니다.</block>
@@ -692,12 +679,22 @@
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
-  <block id="bf3822c58db8aa1fbf20b9653ec5a67e" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> ONTAP 작업 환경을 위한 FSx를 생성합니다</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
-  <block id="70629c795585a51cd2dd42e29eb9110a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 커넥터를 작성합니다</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
-  <block id="5b7f3404157f78a543ff4be64d149a1a" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 볼륨 추가</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
-  <block id="e05adacdd87d8db1102d0a9f547ca18a" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 볼륨을 관리합니다</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
+  <block id="94adfe266f613e087d05c9260eb004a5" category="summary">BlueXP를 사용하면 몇 단계만으로 ONTAP용 FSx를 시작할 수 있습니다.</block>
+  <block id="adb9767d8972d81b2cb7885f361d86a1" category="doc">ONTAP용 Amazon FSx를 빠르게 시작합니다</block>
+  <block id="ff521b94ba57a25e6c791317a4a7c7b8" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> AWS에서 IAM 역할을 설정합니다</block>
+  <block id="a91c2d61396b40e96facf3415a6062b0" category="paragraph">ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다. 이렇게 하려면 반드시 해야 합니다 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>.</block>
+  <block id="f95c74952c0b72133feb54c45db4c89a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> ONTAP 작업 환경을 위한 FSx를 생성합니다</block>
+  <block id="807fcae0a49a388e1e8c238bbd595f66" category="inline-link-macro">ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다</block>
+  <block id="32d5affb3faac4a5daaa14ce4968df36" category="paragraph">반드시 해야 합니다 <block ref="bf0fc94fdc839c457f308b3d8824e401" category="inline-link-macro-rx"></block> 볼륨을 추가하기 전에.</block>
+  <block id="08668d46aa9ce2b52e7c349499a9f0a0" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> AWS용 커넥터 만들기</block>
+  <block id="0e2c71dee315ea3ae0b3e253b0bb13c0" category="paragraph">가 있어야 합니다<block ref="06b487e1dd2b2618860abb4a038fd471" category="inline-link-rx"></block> ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. 커넥터가 필요한 경우 BlueXP에서 아직 활성화되지 않은 경우 메시지를 표시합니다.</block>
+  <block id="b681838283484e0b94906567a577ad47" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 볼륨을 추가하고 마운트합니다</block>
+  <block id="4bd8fd698bf66b76447369f6d59d7e0f" category="inline-link-macro">ONTAP 볼륨용 FSx를 생성하고 마운트합니다</block>
+  <block id="3a994a785ff4b046a381ab2afb6d0e17" category="paragraph">가능합니다 <block ref="c98786904f437c4c5be9aec70a11cbb2" category="inline-link-macro-rx"></block> BlueXP 사용.</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">다음 단계</block>
+  <block id="dae3b13fec3bf110f92a7547c071e053" category="paragraph">이제 BlueXP를 사용하여 볼륨을 관리하고 복제, Cloud Sync 및 데이터 센스와 같은 추가 서비스를 구성할 수 있습니다.</block>
 </blocks>

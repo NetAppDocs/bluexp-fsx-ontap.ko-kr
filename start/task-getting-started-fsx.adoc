@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: start/task-getting-started-fsx.html 
 keywords: amazon fsx for ontap, fsx, netapp, data fabric, hybrid cloud, cloud, public cloud, networking, vpc, quick, getting started, install, installing, deploy, deploying, setup, setting up, launching, requirements, prerequisites, bluexp website, get started, network, vpn, tier, tiering, storage tier, data tier, granting, permissions, policy, iam policy, policies, attach, iam user, access key, secret key, keys, sign up, cloud manager, create 
-summary: 몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시오. 
+summary: BlueXP를 사용하면 몇 단계만으로 ONTAP용 FSx를 시작할 수 있습니다. 
 ---
-= ONTAP용 Amazon FSx를 시작하십시오
+= ONTAP용 Amazon FSx를 빠르게 시작합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,32 +14,23 @@ summary: 몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시�
 
 
 [role="lead"]
-몇 가지 단계를 통해 ONTAP용 Amazon FSx를 시작해 보십시오.
-
-
-
-== 빠른 단계
-
 사용 link:https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP"^], 몇 단계만으로 ONTAP용 FSx를 시작할 수 있습니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] ONTAP 작업 환경을 위한 FSx를 생성합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] AWS에서 IAM 역할을 설정합니다
 [role="quick-margin-para"]
-볼륨을 추가하기 전에 ONTAP 작업 환경을 위한 Amazon FSx를 생성해야 합니다. 이 작업을 수행해야 합니다 link:../requirements/task-setting-up-permissions-fsx.html["BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다"].
+ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다. 이렇게 하려면 반드시 해야 합니다 link:../requirements/task-setting-up-permissions-fsx.html["BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다"].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 커넥터를 작성합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] ONTAP 작업 환경을 위한 FSx를 생성합니다
 [role="quick-margin-para"]
-가 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["AWS용 커넥터"^] ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. 커넥터가 필요한 경우 아직 커넥터가 추가되지 않은 경우 BlueXP에서 확인 메시지를 표시합니다.
+반드시 해야 합니다 link:../use/task-creating-fsx-working-environment.html["ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다"] 볼륨을 추가하기 전에.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] 볼륨 추가
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] AWS용 커넥터 만들기
 [role="quick-margin-para"]
-BlueXP를 사용하여 ONTAP 볼륨용 FSx를 생성할 수 있습니다.
+가 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#how-to-create-a-connector["AWS용 커넥터"^] ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. 커넥터가 필요한 경우 BlueXP에서 아직 활성화되지 않은 경우 메시지를 표시합니다.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 볼륨을 관리합니다
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 볼륨을 추가하고 마운트합니다
 [role="quick-margin-para"]
-BlueXP를 사용하여 볼륨을 관리하고 복제, Cloud Sync 및 데이터 센스와 같은 추가 서비스를 구성합니다.
+가능합니다 link:../use/task-add-fsx-volumes.html["ONTAP 볼륨용 FSx를 생성하고 마운트합니다"] BlueXP 사용.
 
-.관련 링크
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["BlueXP에서 커넥터 만들기"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-launching-aws-mktp.html["AWS Marketplace에서 커넥터 실행"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Linux 호스트에 Connector 소프트웨어 설치"^]
-
+.다음 단계
+이제 BlueXP를 사용하여 볼륨을 관리하고 복제, Cloud Sync 및 데이터 센스와 같은 추가 서비스를 구성할 수 있습니다.
