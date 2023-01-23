@@ -13,7 +13,7 @@ summary: ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.
 :imagesdir: ./media/
 
 
-[role="lead^"]
+[role="lead"]
 ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.
 
 
