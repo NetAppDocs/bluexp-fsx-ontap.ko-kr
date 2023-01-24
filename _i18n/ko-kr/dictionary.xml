@@ -350,7 +350,6 @@
   <block id="d5b1044cbc510048a5dac270bde89ed5" category="inline-link">지원되는 아마존 지역을 봅니다.</block>
   <block id="ee9b3af8630059982f4d1dd2fd3834a3" category="paragraph"><block ref="ee9b3af8630059982f4d1dd2fd3834a3" category="inline-link-rx"></block></block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">도움말 보기</block>
-  <block id="adae5e92a515a3174e9058a6b8179a41" category="paragraph">ONTAP용 Amazon FSx는 AWS 최초의 솔루션입니다. 이 서비스를 사용하는 AWS FSx 파일 시스템, 인프라 또는 AWS 솔루션과 관련된 질문이나 기술 지원 문제가 있는 경우 AWS 콘솔의 Support Center를 사용하여 AWS에 지원 케이스를 접수하십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
   <block id="fdf5c0db5e25841d90a9737c63c9172a" category="inline-link">AWS용 커넥터</block>
   <block id="e7d8c0779e86c7c2edb0791a45906d17" category="doc">ONTAP용 Amazon FSx 문서</block>
   <block id="69f7f21f4fc680b59f6e889bf9547523" category="sidebar">ONTAP용 Amazon FSx 문서</block>
@@ -563,8 +562,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
   <block id="ca9f06fa1a00f01b3d6a92ff7e6556ff" category="summary">NetApp ONTAP용 Amazon FSx는 일관된 하이브리드 클라우드 경험을 제공하는 네이티브 AWS 관리 서비스에 ONTAP의 모든 기능을 제공합니다. 이 문서에서는 NetApp BlueXP를 사용하여 ONTAP용 FSx를 관리하는 방법에 대해 설명합니다.</block>
   <block id="6a7ebeee8a870484e91de7ed605595e5" category="section-title">BlueXP의 추가 기능</block>
-  <block id="c38a4c52c19f29b55ed16af8a145fb57" category="paragraph">BlueXP 또는 BlueXP 마이크로 서비스와 관련된 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
-  <block id="8ae3d71a6e8ab23cdfe061900ab42a08" category="paragraph">내의 BlueXP 또는 마이크로 서비스와 관련된 기술 지원 문제의 경우, BlueXP 계정 수준의 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 지원을 활성화하려면 BlueXP 일련 번호를 등록해야 합니다.</block>
   <block id="d2f0ad44b51fbd3850fad8307ea16aa3" category="inline-link-macro">BlueXP SaaS가 역할을 맡을 수 있도록 IAM 역할을 설정합니다</block>
   <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXP는 ONTAP용 BlueXP 및 FSx의 성공적인 운영에 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다.</block>
   <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">BlueXP에서 DNS Resolve에 사용됩니다</block>
@@ -714,4 +711,15 @@
   <block id="d9299eb7664af835098dc63cf4cfa0a9" category="section-title">활성 커넥터로 자동 용량을 관리합니다</block>
   <block id="24eab999bc6be3c2241c58c7aee7ae10" category="paragraph">AWS의 액티브 커넥터로 자동 용량을 관리할 수 있습니다.</block>
   <block id="938b92d62e3cd9d5d18b4db5abd32cfa" category="list-text">연필 아이콘(<block ref="a3ce23dbf8ced4424507771e4b6881ae" category="inline-image-macro-rx" type="image"></block>)를 클릭하여 * 자동 용량 관리 * 페이지를 엽니다.</block>
+  <block id="c6a640d3ad983820aec62cd7b77b9b54" category="paragraph">ONTAP용 Amazon FSx는 AWS 최초의 솔루션입니다. ONTAP 파일 시스템용 Amazon FSx, 인프라 또는 이 서비스를 사용하는 솔루션과 관련된 질문이나 기술 지원 문제가 있는 경우 AWS 콘솔의 지원 센터를 사용하여 AWS에 지원 케이스를 여십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
+  <block id="f1018077b1703f5d0801e8cd07c23fb9" category="paragraph">BlueXP 또는 BlueXP 마이크로 서비스에 대한 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
+  <block id="41fa05171eb08b9478abe51f41110a5f" category="inline-link-macro">BlueXP 계정을 등록합니다</block>
+  <block id="97bc2947e30223870f8c99f41ffe970b" category="paragraph">내의 BlueXP 또는 마이크로 서비스와 관련된 기술 지원 문제의 경우, BlueXP 계정 수준의 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 이 작업을 수행해야 합니다 <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> 지원을 활성화합니다.</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">클라우드 공급자 솔루션 지원</block>
+  <block id="58cbf70b5dfbc206d1d9c6559ae58d1b" category="paragraph">클라우드 공급자 솔루션에 대한 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
 </blocks>
