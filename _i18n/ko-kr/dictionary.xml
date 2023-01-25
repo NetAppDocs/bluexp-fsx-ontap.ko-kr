@@ -720,6 +720,6 @@
   <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
   <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
-  <block id="22850eb27bb038f94f5523ebf27dc330" category="paragraph">BlueXP 또는 BlueXP 서비스에 대한 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
-  <block id="997b1bcf43010470fb566a2da2b036e0" category="paragraph">BlueXP 또는 BlueXP 서비스와 관련된 기술 지원 문제의 경우, BlueXP 계정 수준의 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 이 작업을 수행해야 합니다 <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> 지원을 활성화합니다.</block>
+  <block id="b284ee716f958658a642a656a79699dc" category="paragraph">BlueXP 또는 BlueXP 스토리지 솔루션 및 서비스에 대한 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
+  <block id="3daaa300f491b3dcb99896f1ebc0a277" category="paragraph">BlueXP 또는 BlueXP 스토리지 솔루션 및 서비스와 관련된 기술 지원 문제의 경우 BlueXP 계정 수준의 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 이 작업을 수행해야 합니다 <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> 지원을 활성화합니다.</block>
 </blocks>
