@@ -21,7 +21,7 @@ indexpage:
     links:
     - title: 작업 환경을 만들거나 검색합니다
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: 작업 환경을 관리합니다
+    - title: 작업 환경 관리
       url: "/use/task-manage-working-environment.html"
     - title: 볼륨을 생성 및 마운트합니다
       url: "/use/task-add-fsx-volumes.html"

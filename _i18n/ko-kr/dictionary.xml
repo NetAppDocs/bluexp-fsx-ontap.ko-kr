@@ -31,34 +31,20 @@
   <block id="0b0c82859f18c5cf1bcb10330fab56bd" category="doc">ONTAP용 Amazon FSx의 볼륨을 생성합니다</block>
   <block id="d950ccfec30779e51b9fd6a8aecbb558" category="paragraph">작업 환경을 설정한 후 ONTAP 볼륨용 FSx를 생성하고 마운트할 수 있습니다.</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">볼륨 생성</block>
-  <block id="36ee27bc3fc7c617977b35534609c979" category="paragraph">필요한 사항:</block>
   <block id="ad7e5366eeeef80a0cca58ed2f228e69" category="inline-link">커넥터를 사용하여 AWS에 연결합니다</block>
   <block id="5465e73e9a93dbf3732ca4677b294afe" category="inline-link-macro">AWS: 자체 관리되는 Microsoft AD를 사용하기 위한 사전 요구 사항</block>
   <block id="9e9d8417e8c186ec6d679c589ea0e388" category="list-text">SMB를 사용하려면 DNS 및 Active Directory를 설정해야 합니다. DNS 및 Active Directory 네트워크 구성에 대한 자세한 내용은 을 참조하십시오 <block ref="d929f7299259db2194621c6c3cd97ea7" category="inline-link-macro-rx"></block>.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="5f1502c18596a814041ff3a5f4953b39" category="list-text">ONTAP 작업 환경을 위한 FSx를 엽니다.</block>
-  <block id="8bb933964e44d095412ffc5c20dc6cd4" category="list-text">커넥터가 활성화되어 있지 않으면 커넥터를 추가하라는 메시지가 표시됩니다.</block>
-  <block id="e5269a85a2cb3cf98fc7a82c3a558211" category="inline-image-macro">ONTAP 커넥터용 FSx 프롬프트 스크린샷</block>
-  <block id="5890e0ca1f9df3cd1ea6270dc6c67d05" category="paragraph"><block ref="5890e0ca1f9df3cd1ea6270dc6c67d05" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="811f08ec14bddf12bb95cd5465790a18" category="list-text">볼륨 * 탭을 클릭합니다</block>
-  <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">볼륨 추가 * 를 클릭합니다.</block>
-  <block id="e76e0d2c6703e75c3666c67d2b185919" category="inline-image-macro">ONTAP용 FSx 볼륨 탭의 스크린샷</block>
-  <block id="638a4176be76c6cf595776403405ef92" category="paragraph"><block ref="638a4176be76c6cf595776403405ef92" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="77c018c319fffd489ece68e7e9f933e3" category="list-text">* 볼륨 세부 정보 및 보호 *:</block>
   <block id="2165a478df3c7cdbb020957742f7a396" category="list-text">새 볼륨의 이름을 입력합니다.</block>
   <block id="8a7a21842c95be5ef7cf8fb45e457fbb" category="list-text">SVM(Storage VM) 필드는 작업 환경의 이름을 기준으로 SVM을 자동으로 채웁니다.</block>
   <block id="09d72555d9ef793670cfd52c3b29a5a9" category="list-text">볼륨 크기를 입력하고 단위(GiB 또는 TiB)를 선택합니다. 볼륨 크기는 사용량에 따라 증가합니다.</block>
   <block id="67cab8c7d29423fd822eaba3b1d1ad3e" category="list-text">스냅샷 정책을 선택합니다. 기본적으로 스냅샷은 매시간(마지막 6개 복사본 유지), 매일(마지막 2개 복사본 유지) 및 매주(마지막 2개 복사본 유지) 생성됩니다.</block>
-  <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">다음 * 을 클릭합니다.</block>
-  <block id="4b1ceb73f69790897d4632ba712c7659" category="inline-image-macro">ONTAP 볼륨 생성을 위한 FSx의 볼륨 세부 정보 및 보호 필드 스크린샷</block>
-  <block id="5d40ada61a97a98ef6bc45b298d20ee3" category="paragraph"><block ref="5d40ada61a97a98ef6bc45b298d20ee3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="547a5c5cf72eabae707b477139de2cdd" category="list-text">NFS의 경우:</block>
   <block id="2f13041935e5c3174ee293d608dc78fb" category="list-text">액세스 제어 정책을 선택합니다.</block>
   <block id="b07a5c1cd32beac9e88c78df72edc8ec" category="list-text">NFS 버전을 선택합니다.</block>
   <block id="fc103acdd0c976c704dfea17981b4304" category="list-text">사용자 지정 내보내기 정책을 선택합니다. 유효한 값 기준에 대한 정보 아이콘을 클릭합니다.</block>
   <block id="f2ee46b3a1c0e7f976a1164a6ca75f9e" category="inline-image-macro">ONTAP 볼륨 생성을 위한 NFS 구성 FSx의 스크린샷</block>
   <block id="7eeb0d62ee9d4c7e8cd6d54885fbb0fe" category="paragraph"><block ref="7eeb0d62ee9d4c7e8cd6d54885fbb0fe" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="83b83892341426df7b542344aa75ca76" category="list-text">CIFS의 경우:</block>
   <block id="2ab8185476c6aa2340579384597cb230" category="list-text">공유 이름을 입력합니다.</block>
   <block id="e5de5245ec2c46e9d548be02749c8dc0" category="list-text">세미콜론으로 구분된 사용자 또는 그룹을 입력합니다.</block>
   <block id="4b84f0c5fc5c7b04da02e0f060ce5ce5" category="list-text">볼륨에 대한 사용 권한 수준을 선택합니다.</block>
@@ -81,76 +67,38 @@
   <block id="314c2b52f53238e133233b60949a6d36" category="cell">SVM(스토리지 가상 머신)용 DNS 도메인 대부분의 경우 도메인은 AD 도메인과 동일합니다.</block>
   <block id="225f0204cd2ca87530c681aeae9b7f3e" category="cell">NTP 서버</block>
   <block id="c806fc6088504aece33ec1078f7edf13" category="list-text">워크그룹 설정을 선택한 경우 CIFS용으로 구성된 워크그룹의 서버 및 워크그룹 이름을 입력합니다.</block>
-  <block id="77329b4991542c66635b8dd3f7a6f518" category="list-text">* 사용 프로필 및 계층화 *:</block>
   <block id="0458d209a53113bf4e745280c9316fc5" category="list-text">기본적으로 * 스토리지 효율성 * 은 사용되지 않습니다. 이 설정을 변경하여 중복제거 및 압축을 활성화할 수 있습니다.</block>
   <block id="ecc7b94568d033b8afa5f95b89b20136" category="list-text">기본적으로 * 계층화 정책 * 은 * 스냅샷 전용 * 으로 설정됩니다. 필요에 따라 다른 계층화 정책을 선택할 수 있습니다.</block>
   <block id="7721c2bc1a46653d2fe31df04b1f1d7b" category="inline-image-macro">ONTAP 볼륨 생성을 위한 FSx의 사용 프로필 및 계층화 구성 스크린샷</block>
   <block id="d92dc17a178426d4916acd66998be69b" category="paragraph"><block ref="d92dc17a178426d4916acd66998be69b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f3a303dc17c6a2c91073ff0eb515587f" category="list-text">* 검토 *: 볼륨 구성을 검토합니다. Previous * (이전 *)를 클릭하여 설정을 변경하거나 * Add * (추가 *)를 클릭하여 볼륨을 만듭니다.</block>
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">새 볼륨이 작업 환경에 추가됩니다.</block>
   <block id="2a4a19d3d732c5f7aa35fa729ac0d8ac" category="section-title">볼륨을 마운트합니다</block>
   <block id="6c970f68c7cf5a446d127ac3ab6d72f7" category="list-text">작업 환경을 엽니다.</block>
   <block id="122aefb3c8684a0e38fb50d87247ad18" category="list-text">ONTAP용 FSx 인스턴스를 생성할 지역 및 VPN 정보</block>
-  <block id="b270ee1d45588367ac774fa0f727fc7b" category="list-text">ONTAP * 용 * 아마존 FSx 를 선택하고 * 다음 * 을 클릭합니다.</block>
   <block id="f8b92939989132d828cfc3eea521a293" category="inline-image-macro">ONTAP용 Amazon FSx의 작업 환경을 추가하는 스크린샷</block>
   <block id="61a727936c57251e32cb54d629e03313" category="paragraph"><block ref="61a727936c57251e32cb54d629e03313" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ecda29eb0e0827e3bc560f177dcde537" category="list-text">계정에 ONTAP용 FSx에 대한 올바른 AWS 권한이 있는 기존 IAM 역할이 있는 경우 드롭다운에서 해당 역할을 선택합니다.</block>
-  <block id="bc7877d082a71bb780b2cfe54a2f56db" category="inline-image-macro">AWS 역할 드롭다운을 보여 주는 스크린샷</block>
-  <block id="88c29361a495a558e8e94ba0f1787827" category="paragraph"><block ref="88c29361a495a558e8e94ba0f1787827" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="49727167f9c15ab5bfa0422395e72a31" category="inline-image-macro">ONTAP용 FSx 권한이 있는 AWS IAM 역할의 ARN을 추가하는 단계의 스크린샷</block>
-  <block id="32e8c427ff9ed76c4f8f6c5425c12c82" category="paragraph"><block ref="32e8c427ff9ed76c4f8f6c5425c12c82" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2d2a9afadbb6d43ee9c21ef6dc9d315f" category="list-text">ONTAP용 FSx 인스턴스에 대한 정보를 제공합니다.</block>
   <block id="620a619e5abf90904f8bd9148673563f" category="list-text">사용할 작업 환경 이름을 입력합니다.</block>
   <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">또는 더하기 기호를 클릭하고 태그 이름과 값을 입력하여 태그를 만들 수도 있습니다.</block>
   <block id="be5962a1bf7a843353b57734848a4297" category="list-text">사용할 ONTAP 클러스터 암호를 입력하고 확인합니다.</block>
-  <block id="5e3355d70ab52073cbbd53548a916969" category="list-text">SVM 사용자에 대해 동일한 암호를 사용하거나 다른 암호를 설정하는 옵션을 선택합니다.</block>
-  <block id="d0b2e405325c02e50ba6ff1e7a0bfdeb" category="inline-image-macro">ONTAP용 FSx에 대한 자격 증명을 추가하는 스크린샷</block>
-  <block id="0c59eb935a218de10968d2478d3839c5" category="paragraph"><block ref="0c59eb935a218de10968d2478d3839c5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="282e8cadc54623677e7bc13447fcac29" category="list-text">지역 및 VPC 정보 제공:</block>
   <block id="d234e32cc579256f2dc2b1c0f46bf8ed" category="inline-link-macro">AWS 보안 그룹</block>
   <block id="c0a56d37b9a744bb980fb63714ff853a" category="inline-link-macro">AWS의 탄력적인 네트워크 인터페이스(ENI)</block>
   <block id="70f807aec183b4123fd9e27691b549ae" category="list-text">기본 보안 그룹을 수락하거나 다른 보안 그룹을 선택합니다. <block ref="35ef09e7b222c17f67a4a66af73d7196" category="inline-link-macro-rx"></block> 인바운드 및 아웃바운드 트래픽을 제어합니다. 이러한 항목은 AWS 관리자가 구성하며 에 연결됩니다 <block ref="122c50f10f9ced3dc765944ec92b3531" category="inline-link-macro-rx"></block>.</block>
   <block id="02b7327efc840726659c50bf482440ba" category="inline-image-macro">ONTAP용 FSx에 대한 영역 및 VPC 추가 스크린샷</block>
   <block id="e856b8b85c22d45ac9df09b76538baf0" category="paragraph"><block ref="e856b8b85c22d45ac9df09b76538baf0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8acea1c4fcca87631ca127e2bc757f13" category="inline-link">AWS Transit Gateway를 참조하십시오</block>
-  <block id="98cd8d548fd2fa5186e8dc1c1123f9f6" category="list-text">CIDR Range_Empty를 그대로 두고 * Next * 를 클릭하여 사용 가능한 범위를 자동으로 설정합니다. 선택적으로 를 사용할 수 있습니다<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 범위를 수동으로 구성합니다.</block>
-  <block id="7cc0a94cd1ccce02b23807753272d589" category="paragraph"><block ref="7cc0a94cd1ccce02b23807753272d589" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="efae399de597884ba9e25be68c488178" category="inline-image-macro">ONTAP용 FSx에 대한 라우트 테이블 선택 스크린샷</block>
-  <block id="9e3037d0c83106b66f9113f03ee4fb10" category="paragraph"><block ref="9e3037d0c83106b66f9113f03ee4fb10" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9993ec838a8efa5cfb29506f884deca" category="inline-link">AWS KMS 설정</block>
-  <block id="ba7f6c9c6d14f28bb8898cb79c05a77b" category="list-text">기본 AWS 마스터 키를 수락하거나 * 키 변경 * 을 클릭하여 다른 AWS CMK(Customer Master Key)를 선택합니다. CMK에 대한 자세한 내용은 을 참조하십시오<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>. 계속하려면 * 다음 * 을 클릭합니다.</block>
-  <block id="5f7b5a6773d6263d66627f6153905a67" category="inline-image-macro">ONTAP용 FSx의 기본 마스터 키를 설정하는 스크린샷</block>
-  <block id="18ee551ad9864bd46a8f5c35b900c641" category="paragraph"><block ref="18ee551ad9864bd46a8f5c35b900c641" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8c4dc6a5ccac057271e4a3a6b3213037" category="list-text">스토리지 구성:</block>
-  <block id="72c6f5d2cfeaf6fab82a1ddb12885786" category="inline-image-macro">잘못된 IOPS 값이 설정된 경우 오류 메시지의 스크린샷</block>
-  <block id="6885d04a0fda617d746b2123b3620e51" category="admonition">최소 요구 사항을 충족하지 않는 IOPS 값을 지정하면 작업 환경을 추가할 때 오류가 발생합니다.<block ref="302f4fa129241cdd96ffd6dc709561e6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8088a4fa7d414a887d0eb3f19623bc06" category="inline-image-macro">ONTAP용 FSx에 대한 저장소 구성 설정 스크린샷</block>
-  <block id="43135e6fbb293afbc21ffcb9200cd5ea" category="list-text">다음 * 을 클릭합니다.<block ref="acedc649b329bc2fa4856a424e9ac8f3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c9a1d71e742483b14e29f7c2e43e1c64" category="list-text">구성을 검토합니다.</block>
   <block id="0308fb9d7cca24bdc3f9928245f79119" category="list-text">탭을 클릭하여 ONTAP 속성, 공급자 속성 및 네트워킹 구성을 검토합니다.</block>
-  <block id="fded4515ce29ea3fdc954faa2784fe7f" category="list-text">설정을 변경하려면 * Previous * (이전 *)를 클릭합니다.</block>
-  <block id="b5bd94a09b2ad1fd2dba6c4a902a9fd3" category="list-text">설정을 적용하고 작업 환경을 만들려면 * 추가 * 를 클릭합니다.</block>
-  <block id="ef80142d18e6c5a6d15e4724ab6810b8" category="inline-image-macro">ONTAP용 FSx 설정을 검토하는 스크린샷</block>
-  <block id="e8b9477d45071756ecb4a2cc5082344a" category="paragraph"><block ref="e8b9477d45071756ecb4a2cc5082344a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="45d8e5da7753a5571797f6a81a9c4e3c" category="inline-image-macro">작업 환경 페이지의 ONTAP용 Amazon FSx 스크린샷</block>
   <block id="26682ff9a292960b61e97b937520b135" category="paragraph"><block ref="26682ff9a292960b61e97b937520b135" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e69624fa729e14e6bbcae0cf7889e100" category="section-title">ONTAP 파일 시스템용 기존 FSx를 검색합니다</block>
-  <block id="6800849898be1086bb69e4658dd59629" category="list-text">ONTAP * 용 * 아마존 FSx 를 선택하고 * 여기를 클릭 * 을 클릭합니다.</block>
-  <block id="e574e1da19f282b48ebb67c362fbc5cc" category="inline-image-macro">ONTAP용 Amazon FSx의 작업 환경을 발견한 스크린샷</block>
-  <block id="72e0dd6fd0d4009c79805d8504e7e490" category="paragraph"><block ref="72e0dd6fd0d4009c79805d8504e7e490" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="92362ba030c73cd6e20f4b4da71b26c3" category="list-text">기존 자격 증명을 선택하거나 새 자격 증명을 생성합니다. 다음 * 을 클릭합니다.</block>
-  <block id="4dc9c1030aab459d22cbeca85a77bd17" category="list-text">추가할 AWS 지역과 작업 환경을 선택합니다.</block>
   <block id="4d40b97424368fd2dcfa3beb51eac192" category="inline-image-macro">AWS 지역 및 작업 환경 선택 스크린샷</block>
   <block id="daf8847714f7e326bcf10553bdbffa28" category="paragraph"><block ref="daf8847714f7e326bcf10553bdbffa28" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">추가 * 를 클릭합니다.</block>
   <block id="b3fee7abcfd59e1f7a4b591d94eea26b" category="section-title">작업 영역에서 ONTAP용 FSx를 제거합니다</block>
   <block id="9ddaae0edb615f2995d27bd6e00976ce" category="list-text">작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 문제를 무시하고 작업 환경 제거를 계속할 수 있습니다.</block>
   <block id="2167c28c0f5b01d9e01bb4084f44d791" category="section-title">ONTAP 작업 환경의 FSx를 삭제합니다</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
-  <block id="b917a1d8451423450873eef39565dca3" category="inline-link-macro">모든 볼륨을 삭제합니다</block>
-  <block id="7b41e03b81e97660913781a8239006df" category="list-text">반드시 해야 합니다 <block ref="54cc4f96ff154d8637a706e7f5511434" category="inline-link-macro-rx"></block> 파일 시스템과 연결되어 있습니다.</block>
-  <block id="88b66180df4e558c94db0e4418e28d50" category="admonition">볼륨을 제거 또는 삭제하려면 AWS의 활성 커넥터가 필요합니다.</block>
-  <block id="ef91377d933625cd5679a41980e84a7d" category="list-text">오류가 발생한 볼륨이 있는 작업 환경은 삭제할 수 없습니다. ONTAP 파일 시스템용 FSx를 삭제하기 전에 AWS 관리 콘솔 또는 CLI를 사용하여 실패한 볼륨을 삭제해야 합니다.</block>
   <block id="264e33787c94efb543f65228a9b52512" category="admonition">이 작업을 수행하면 작업 환경과 관련된 모든 리소스가 삭제됩니다. 이 작업은 실행 취소할 수 없습니다.</block>
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 작업을 무시하고 작업 환경 삭제를 계속할 수 있습니다.</block>
   <block id="7e8d943ffd901385b9eef24cb61b44b9" category="doc">ONTAP용 Amazon FSx의 볼륨을 관리합니다</block>
@@ -398,7 +346,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">자체 지원</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">기술 자료</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
@@ -406,8 +353,6 @@
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">문서화</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
-  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
-  <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="9a11eb5da5d06e3593dc6b41553d97e5" category="sidebar">권한 설정</block>
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="sidebar">보안 그룹 규칙</block>
   <block id="1960d6022dcb5a2b9a687d1f6cbd8931" category="cell">Connector에서 fsxadmin 관리 LIF로 액세스하여 FSx로 API 호출을 전송합니다</block>
@@ -418,27 +363,17 @@
   <block id="f0e3a414b681f7ab90a3f742f40c9365" category="list-text">이제 단일 또는 다중 가용성 영역 HA 배포 모델을 선택할 수 있습니다.</block>
   <block id="324197c492971b6abe6108b6ed0e2722" category="inline-link-macro">ONTAP 작업 환경을 위한 FSx를 생성합니다</block>
   <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">Cloud Manager에서 AWS GovCloud 계정 인증이 지원됩니다.</block>
-  <block id="f84135b2c550b8d738093a4346ac024d" category="list-text">단일 가용성 영역 * 또는 * 다중 가용성 영역 * HA 배포 모델을 선택합니다.</block>
-  <block id="2be7f08200a1fe8660c0e3b215446b33" category="inline-image-macro">단일 또는 다중 가용성 영역 배포 모델의 선택 라디오 단추 스크린샷</block>
-  <block id="501a818c591eeaa056b0d623f83dba40" category="paragraph"><block ref="501a818c591eeaa056b0d623f83dba40" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="604034876d198af3f8d6cece2f09d984" category="list-text">지역 및 VPC를 선택합니다.</block>
-  <block id="d7387928ac1cfa971f35a613cd81907c" category="paragraph">여러 가용성 영역의 경우 각 노드가 전용 가용성 영역에 있도록 두 개 이상의 가용성 영역에서 서브넷을 선택합니다.</block>
   <block id="a7cf2ac8ff4dd10d1e304f0abd7fe0bd" category="list-text">AWS GovCloud(US) 계정을 사용하는 경우, * AWS GovCloud(US) 계정을 사용하고 있는지 확인하십시오 *.</block>
   <block id="045e30d9d567e729274d9202eee4ff62" category="inline-image-macro">GovCloud(US) 계정 확인란 스크린샷</block>
   <block id="c03a6ecd27b7a5ea40ee52d99c7a247a" category="paragraph"><block ref="c03a6ecd27b7a5ea40ee52d99c7a247a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9891de406800116bd9cb8226be9beb9" category="list-text">AWS GovCloud를 사용하여 인증하면 SaaS 플랫폼이 비활성화됩니다. 이는 계정에 대한 영구적인 변경이며 실행 취소할 수 없습니다.</block>
   <block id="319c3fdfa37c6b0ae4e91a351706489b" category="list-text">AWS GovCloud(미국): 033442085313</block>
   <block id="56741382a48f0ad5efb57a6532876317" category="doc">ONTAP 작업 환경을 위한 Amazon FSx를 생성하거나 검색합니다</block>
-  <block id="a856a2e7ff7a861c3124938689a66a62" category="paragraph">AWS 관리 콘솔을 사용하여 ONTAP용 FSx 파일 시스템을 생성했거나 이전에 제거한 작업 환경을 복구하려는 경우** My Opportunities** 또는 Manually를 사용하여 검색할 수 있습니다.</block>
-  <block id="1b52b643a7dc88400af8fd712fed3d12" category="section-title">My Opportunities를 사용하여 탐색</block>
   <block id="e9ba45e021b291739ba996c9cde18a78" category="list-text">ONTAP 파일 시스템에 대해 검색된 FSx의 수가 표시됩니다. 검색 * 을 클릭합니다.</block>
   <block id="7208d8184b0d0e6e3c7bcf475c8f9bd2" category="inline-image-macro">ONTAP용 FSx의 내 기회 페이지 스크린샷</block>
   <block id="9e4da126e3095f89c00bb676d98195d8" category="paragraph"><block ref="9e4da126e3095f89c00bb676d98195d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b4a4c841d4545b117e4104be254a0e8" category="list-text">하나 이상의 파일 시스템을 선택하고 * Discover * 를 클릭하여 Canvas에 추가합니다.</block>
   <block id="0187b41b8a735f30cc0556afd7387b9d" category="list-text">이름이 지정되지 않은 클러스터를 선택하면 클러스터의 이름을 입력하라는 메시지가 표시됩니다.</block>
-  <block id="1d064916590560310250a3e94aec4539" category="section-title">수동으로 검색</block>
-  <block id="c0beac119c78b8228ca36d4b93ef1bc7" category="list-text">* 프로토콜 *: NFS, CIFS 또는 iSCSI 볼륨 프로토콜을 선택합니다.</block>
-  <block id="7a641f2010297c1d06c28aad18308a5b" category="list-text">iSCSI의 경우: 기존 이니시에이터 그룹을 사용하거나 새 이니시에이터 그룹을 생성하여 LUN을 연결할 수 있습니다. 기존 이니시에이터 그룹을 매핑하려면 운영 체제와 하나 이상의 이니시에이터 그룹을 선택합니다.</block>
   <block id="7d7217d548e427bd0d76f5081e4b4cb5" category="paragraph">새 이니시에이터 그룹을 생성하려면 다음을 수행합니다.</block>
   <block id="6ae6d068572461cadd78494cd3954770" category="list-text">** 새로 만들기** 를 선택합니다.</block>
   <block id="6439f651e3ce60a787666dc41a8ca17f" category="list-text">운영 체제를 선택합니다.</block>
@@ -460,7 +395,6 @@
   <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다</block>
   <block id="4654b99a0535f374a8ff766873df50a6" category="sidebar">작업 환경을 만들거나 검색합니다</block>
   <block id="6faf2fd9ba5b0e89a953f43cd89d6c46" category="sidebar">작업 환경 관리</block>
-  <block id="3109e49414b9edf951cefa41b4e6edeb" category="sidebar">작업 환경을 관리합니다</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">스토리지 용량 및 IOPS를 변경합니다</block>
   <block id="f5d07457c4656e60fff8f3663f422965" category="list-text">개요 * 탭에서 * 기능 * 을 선택합니다.</block>
@@ -483,7 +417,6 @@
   <block id="4fe33f0977f17b0718840c634bb48345" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 작업 영역에서 제거 * 를 선택합니다.</block>
   <block id="3767b7b1dbf8b0f59d82eb46c294df83" category="list-text">페이지 오른쪽 상단에서 작업 메뉴를 선택하고 * 삭제 * 를 선택합니다.</block>
   <block id="e19eec57ec1908f25e4a753fbf9d1bf5" category="list-text">작업 환경의 이름을 입력하고 * 삭제 * 를 선택합니다.</block>
-  <block id="d33ef5be6071ae5e3d7d930d8977e41a" category="list-text">처리량, 용량 및 단위를 선택합니다. 언제든지 처리량 및 스토리지 용량 값을 변경할 수 있습니다.</block>
   <block id="ec4fc4cb1b37373b785aaee6062cfec7" category="section-title">볼륨 세부 정보를 봅니다</block>
   <block id="217a2eee444fb09dda70bb076071f17e" category="paragraph">볼륨을 생성한 후 구성 세부 정보를 볼 수 있습니다.</block>
   <block id="45dddf924938e17bccdd6a467352bfa0" category="admonition">볼륨 이름 위로 마우스를 가져가면 볼륨 유형이 표시됩니다.</block>
@@ -498,15 +431,11 @@
   <block id="f879ed761f1ca2475598c0bea304d10d" category="list-text">볼륨 탭을 열고 * 볼륨 관리 * 를 선택하여 * 고급 작업 * 메뉴를 엽니다.</block>
   <block id="dedc9eb7ac0cb065a0b90f9f63104b01" category="list-text">계층화 정책 변경 * 을 선택합니다.</block>
   <block id="f596a753aac59df7e240140c2eb96e99" category="list-text">볼륨 삭제 * 를 선택합니다.</block>
-  <block id="87ab0ddecc6298e066c5bf52a6e57341" category="list-text">볼륨 * 탭과 * 볼륨 관리 * 를 선택하여 * 볼륨 조치 * 메뉴를 엽니다.</block>
   <block id="1cffe537ba60b23c60608f4b7ec02e43" category="inline-image-macro">볼륨 작업 메뉴를 여는 방법에 대한 스크린샷</block>
-  <block id="b43e642ae439f1f795292eb5df5f84d3" category="paragraph"><block ref="b43e642ae439f1f795292eb5df5f84d3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="78c27b88e2a8142906bb69594e5b22a6" category="list-text">Mount command * 를 선택하고 지침에 따라 볼륨을 마운트합니다.</block>
   <block id="35f5a704747f7e6644a0bbedc33a0c2e" category="paragraph">이제 볼륨이 호스트에 마운트되었습니다.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
   <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
-  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 전문가와 함께 티켓을 엽니다.</block>
   <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support 사이트 계정 *: 지원 케이스를 여는 사람과 관련된 해당 NSS 계정을 선택합니다. 이 담당자는 아래에 제공된 추가 이메일 외에 NetApp에 연락할 수 있는 기본 담당자가 됩니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
@@ -624,19 +553,10 @@
   <block id="7a1088b800573a1bba3b00786182133b" category="paragraph">BlueXP에서 ONTAP 작업 환경을 위한 FSx를 생성하기 전에 다음이 필요합니다.</block>
   <block id="74e0ba9ea27cef4d0c11560e135b281e" category="inline-link-macro">BlueXP에 AWS 자격 증명 추가</block>
   <block id="02e21891e6a4d87f518207b9609ebed1" category="list-text">ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 BlueXP에 제공하는 IAM 역할의 ARN입니다. 을 참조하십시오 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="6b13ffee707f25ae8bcd9dc0e4d7b4d6" category="list-text">BlueXP에서 새 작업 환경을 추가하고 * Amazon Web Services * 위치를 선택한 후 * 다음 * 을 클릭합니다.</block>
-  <block id="07c0b2e93427e88c842be765301e4e63" category="list-text">BlueXP에서 ONTAP용 FSx를 인증합니다.</block>
-  <block id="b7a36240333d2de8502faca756504977" category="list-text">계정에 IAM 역할이 없는 경우 * 자격 증명 페이지 * 를 클릭하고 마법사의 단계에 따라 ONTAP 자격 증명을 위한 FSx를 사용하여 AWS IAM 역할에 대한 ARN을 추가합니다. 을 참조하십시오 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="274f0b3b024e5cbf45b403266b2d8e00" category="list-text">부동 IP 주소에 대한 라우트가 포함된 라우팅 테이블을 선택합니다. VPC(주 경로 테이블)에 있는 서브넷에 대해 하나의 라우팅 테이블만 있는 경우 BlueXP는 해당 라우팅 테이블에 부동 IP 주소를 자동으로 추가합니다. 계속하려면 * 다음 * 을 클릭합니다.</block>
   <block id="c43f98768b6bade26ae94ab84f81134f" category="list-text">선택적으로 IOPS 값을 지정할 수 있습니다. IOPS 값을 지정하지 않으면 BlueXP는 입력된 총 용량의 3GiB당 IOPS를 기준으로 기본값을 설정합니다. 예를 들어, 총 용량에 대해 2000GiB를 입력하고 IOPS 값이 없으면 유효 IOPS 값은 6000으로 설정됩니다. IOPS 값은 언제든지 변경할 수 있습니다.</block>
-  <block id="69a6a9ad9378e16228ecd670e9d167c8" category="paragraph">BlueXP는 Canvas 페이지에 ONTAP용 FSx 구성을 표시합니다.</block>
-  <block id="9e35167248d4118a73a969017acba1d8" category="paragraph">이제 BlueXP를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.</block>
   <block id="decbe5e805a0a9516184b64d9bad01c3" category="paragraph">이전에 BlueXP에 AWS 자격 증명을 제공한 경우 * My Opportunities * 는 자동으로 ONTAP 파일 시스템용 FSx를 검색하여 BlueXP를 사용하여 추가 및 관리할 것을 제안할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.</block>
   <block id="b74bb93cbb66b60fd6c91eba3c535cb2" category="list-text">BlueXP에서 * 내 기회 * 탭을 클릭합니다.</block>
   <block id="547dba06b4fcfe3fa41996e831e9fb1c" category="list-text">BlueXP에서 ONTAP 파일 시스템용 FSx를 관리하는 데 필요한 자격 증명이 없는 클러스터를 선택하면 필요한 권한이 있는 자격 증명을 선택하라는 메시지가 표시됩니다.</block>
-  <block id="494021d1d3a9a769ede7819e9cf10cf6" category="paragraph">AWS 관리 콘솔을 사용하여 추가한 ONTAP 파일 시스템용 FSx 또는 BlueXP에서 이전에 제거한 FSx를 수동으로 검색할 수 있습니다.</block>
-  <block id="c13815d75af2d8f4f6b97743a5731dae" category="list-text">BlueXP에서 * 작업 환경 추가 * 를 클릭하고 * Amazon Web Services * 를 선택합니다.</block>
-  <block id="02ebf3de367dc7096d28e785a65d8c78" category="paragraph">BlueXP는 검색된 ONTAP 파일 시스템용 FSx를 표시합니다.</block>
   <block id="4e853a8ef076b82d13f35807a2dfe93b" category="summary">볼륨, 클론, 스냅샷을 관리하고 BlueXP를 사용하여 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
   <block id="669f767086bf3b89606658facb29605a" category="paragraph">볼륨, 클론, 스냅샷을 보고 관리할 수 있으며 BlueXP를 사용하여 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다.</block>
   <block id="060dde3ca9c7d4e73cf9b65b84114028" category="paragraph">BlueXP를 사용하여 스토리지 환경 간에 데이터를 복제할 수 있습니다. ONTAP 복제에 대해 FSx를 구성하려면 를 참조하십시오<block ref="063d7001b249d0164d3c6e7cd82a78db" category="inline-link-rx"></block>.</block>
@@ -701,8 +621,6 @@
   <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">자동 용량 관리는 기본적으로 해제되어 있습니다. AWS에서 액티브 커넥터를 사용하거나 사용하지 않고 자동 용량을 관리할 수 있습니다.</block>
   <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">활성 커넥터 없이 자동 용량을 관리합니다</block>
   <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">AWS의 액티브 커넥터 없이 자동 용량을 관리할 수 있습니다.</block>
-  <block id="0550d13a80e42471343b954ee5c015ec" category="inline-image-macro">점 3개 메뉴 아이콘의 이미지</block>
-  <block id="aaf6fdbd2f99b44b18a3501978c7e4b5" category="list-text">메뉴 아이콘(<block ref="166f5e453125f8a771e7eb7abd5877c7" category="inline-image-macro-rx" type="image"></block>)를 선택하고 * 자동 용량 관리 * 를 선택합니다.</block>
   <block id="eae78abc1ac9b9443e78946ea0ac6f62" category="inline-image-macro">자동 용량 관리 메뉴 스크린샷</block>
   <block id="8568f4aa8725b5fac6d8be22b191626f" category="paragraph"><block ref="8568f4aa8725b5fac6d8be22b191626f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7c48e42b8eb4f773ff1ba4e512f8d941" category="list-text">자동 용량 관리 * 페이지에서 다음을 수행합니다.</block>
@@ -722,4 +640,64 @@
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">BlueXP 또는 BlueXP 스토리지 솔루션 및 서비스에 대한 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
   <block id="3daaa300f491b3dcb99896f1ebc0a277" category="paragraph">BlueXP 또는 BlueXP 스토리지 솔루션 및 서비스와 관련된 기술 지원 문제의 경우 BlueXP 계정 수준의 일련 번호를 사용하여 NetApp 지원 티켓을 열 수 있습니다. 이 작업을 수행해야 합니다 <block ref="1da17bacda87cc6ccc7a9f1f44b5e325" category="inline-link-macro-rx"></block> 지원을 활성화합니다.</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">BlueXP에 통합한 다음 클라우드 제공업체 솔루션에 대한 기술 지원은 해당 제품에 대한 BlueXP 설명서의 "도움말 얻기"를 참조하십시오.</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="paragraph-title">필요한 것</block>
+  <block id="aaf2f9eb33227134e101525e33ad19c2" category="list-text">BlueXP에서 새 작업 환경을 추가하고 * Amazon Web Services * 를 선택한 다음 * Add new * for Amazon FSx for ONTAP 를 클릭합니다.</block>
+  <block id="bc1fbeca04a0bc47b1dd85e467f87ffc" category="list-text">ONTAP 인증 * 용 * FSx</block>
+  <block id="2bc897b30b2df26c531635a145af68ae" category="list-text">사용자 계정에 IAM 역할이 없는 경우 * 자격 증명 * 을 클릭하고 마법사의 단계에 따라 ONTAP 자격 증명을 위한 FSx와 함께 AWS IAM 역할에 대한 ARN을 추가합니다. 을 참조하십시오 <block ref="1bf7f389ad2ba65976eab24c818e174c" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="acffd96d264a8bd18e75d6d6ce0aac12" category="list-text">* 세부 정보 및 자격 증명 *</block>
+  <block id="b3decd3dc6245a45a816d81cc94eb4be" category="list-text">필요한 경우 SVM 사용자에 대해 동일한 암호를 사용하고 다른 암호를 설정하는 옵션을 선택 취소합니다.</block>
+  <block id="f0b48aa240ffb99007210ba5d55e0fd3" category="list-text">* 지역 및 VPC *</block>
+  <block id="15ef2ed90c27f9867f7383d8f200ba6b" category="list-text">단일 가용성 영역 * 또는 * 다중 가용성 영역 * HA 배포 모델을 선택합니다. 여러 가용성 영역의 경우 각 노드가 전용 가용성 영역에 있도록 두 개 이상의 가용성 영역에서 서브넷을 선택합니다.</block>
+  <block id="3f589588a5e2b50cf827ef7f979de432" category="list-text">* 부동 IP * (다중 가용성 영역만 해당)</block>
+  <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">사용 가능한 범위를 자동으로 설정하려면 _CIDR 범위_를 비워 두십시오. 선택적으로 를 사용할 수 있습니다<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 범위를 수동으로 구성합니다.</block>
+  <block id="b04e1903e3de2fffa52c1c517b8fed45" category="list-text">* 경로 테이블 * (여러 가용성 영역만 해당)</block>
+  <block id="f884e9a3951c5c6df696ce1faeecf517" category="paragraph">부동 IP 주소에 대한 라우트가 포함된 라우팅 테이블을 선택합니다. VPC(주 경로 테이블)에 있는 서브넷에 대해 하나의 라우팅 테이블만 있는 경우 BlueXP는 해당 라우팅 테이블에 부동 IP 주소를 자동으로 추가합니다.</block>
+  <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">* 데이터 암호화 *</block>
+  <block id="9ecf502b4c55c670661584e0a2866004" category="paragraph">기본 AWS 마스터 키를 수락하거나 * 키 변경 * 을 클릭하여 다른 AWS CMK(Customer Master Key)를 선택합니다. CMK에 대한 자세한 내용은 을 참조하십시오<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>.</block>
+  <block id="a1ab9258bbeb31ecc1e35b1adc9465dc" category="list-text">* 스토리지 구성 *</block>
+  <block id="e38fe475552b433630789034542b28de" category="list-text">처리량, 용량 및 단위를 선택합니다. 처리량, 스토리지 용량, IOPS는 언제든지 변경할 수 있습니다.</block>
+  <block id="704b454e0a67ad9d30229aad055c4456" category="paragraph"><block ref="704b454e0a67ad9d30229aad055c4456" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="966c244dc2aee9efc1c62796b0ab5cc8" category="admonition">최소 요구 사항을 충족하지 않는 IOPS 값을 지정하면 작업 환경을 추가할 때 오류가 발생합니다.</block>
+  <block id="12799e1af0745585e0f5800e7ab5ac0d" category="list-text">* 검토 *</block>
+  <block id="a434ec7166240525e1136a9caf043a5e" category="list-text">설정을 변경하려면 * Previous * (이전 *)를 클릭하고 설정을 적용하고 작업 환경을 만들려면 * Add * (추가 *)를 클릭합니다.</block>
+  <block id="1f56efe328efe9c20f590e659125509a" category="paragraph">BlueXP는 Canvas에 ONTAP용 FSx 구성을 표시합니다. 이제 BlueXP를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
+  <block id="3c98e2bfe156ca99fa37e38b1eb68d0d" category="inline-link-macro">새로운 작업 환경 구축</block>
+  <block id="e3ed7d241946f79ddb205b1bcc1095b7" category="paragraph">에서 ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <block ref="7605911292967addd7ea4683855fa385" category="inline-link-macro-rx"></block> 또는 * My Opportunities * 페이지 사용. 이 작업에서는 * My Opportunities * 를 사용한 검색에 대해 설명합니다</block>
+  <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">BlueXP는 검색된 ONTAP 파일 시스템용 FSx를 Canvas에 표시합니다. 이제 BlueXP를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.</block>
+  <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">Canvas에서 ONTAP용 FSx 작업 환경을 선택합니다.</block>
+  <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">세 개의 점으로 구성된 아이콘</block>
+  <block id="c0f7f08571189db02e2d550c230d6abf" category="list-text">Details* 패널에서 세 개의 점 아이콘(<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>)를 눌러 옵션 메뉴를 엽니다. 자동 용량 관리 * 를 클릭합니다.</block>
+  <block id="0cf6b9b81deec54f9429260623e85e8b" category="paragraph">작업 환경을 삭제하기 전에 다음을 수행해야 합니다.</block>
+  <block id="23419c7b0a3275446ffc7e82955443ad" category="list-text">이 작업 환경에서 모든 복제 관계를 분리합니다.</block>
+  <block id="1cf37f8bb2a45b0eb43d008c81e06383" category="inline-link-macro">모든 볼륨을 삭제합니다</block>
+  <block id="6d4ce18513137c910112525e9f50214e" category="list-text"><block ref="a924ac5b9b50eb423be94dfd57ea531f" category="inline-link-macro-rx"></block> 파일 시스템과 연결되어 있습니다. 볼륨을 제거 또는 삭제하려면 AWS의 활성 커넥터가 필요합니다.</block>
+  <block id="46ca10c4f1fa35ffe73fb3970a6f5e46" category="admonition">장애가 발생한 볼륨은 AWS 관리 콘솔 또는 CLI를 사용하여 삭제해야 합니다.</block>
+  <block id="fd4322d61d27e0bae17659af1929fafa" category="paragraph">작업 환경을 열고 * Volumes * 탭을 선택하거나 Canvas에서 작업 환경 * Details * 패널을 사용하여 볼륨을 추가할 수 있습니다. 이 작업에서는 * Details * 패널을 사용하여 볼륨을 추가하는 방법에 대해 설명합니다.</block>
+  <block id="393e4f2cf3f681c80417a200fd375c32" category="list-text">Canvas에서 ONTAP용 FSx 작업 환경을 선택합니다. 커넥터가 활성화되어 있지 않으면 커넥터를 추가하라는 메시지가 표시됩니다.</block>
+  <block id="ada6c4a93e7b96d58f35712af7225f16" category="list-text">Details* 패널에서 세 개의 점(<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>)를 눌러 옵션 메뉴를 엽니다. 볼륨 추가 * 를 클릭합니다.</block>
+  <block id="cb29a37b5b733fa09b9f5235c1a2f7e1" category="inline-image-macro">세부 정보 패널의 볼륨 추가 옵션 스크린샷</block>
+  <block id="08d8ba93d0c829ce154f2f67f8a7a548" category="paragraph"><block ref="08d8ba93d0c829ce154f2f67f8a7a548" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="76e8c4dc9b4691280948a11959dd6d53" category="list-text">* 볼륨 세부 정보 및 보호 *</block>
+  <block id="0e71045ffb2c142e38f192348939d657" category="list-text">* 볼륨 프로토콜 *:</block>
+  <block id="763a3be303d8f075b28b4fb47257840f" category="list-text">NFS, CIFS 또는 iSCSI 볼륨 프로토콜을 선택합니다.</block>
+  <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="open-title">NFS 를 참조하십시오</block>
+  <block id="c6546b53840ec8245dd4d4d70fcdbc26" category="open-title">CIFS를 선택합니다</block>
+  <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="open-title">iSCSI</block>
+  <block id="fcfb20c7ce7597f54040eb6305c3786d" category="paragraph">기존 이니시에이터 그룹을 사용하거나 새 이니시에이터 그룹을 생성하여 LUN을 연결할 수 있습니다. 기존 이니시에이터 그룹을 매핑하려면 운영 체제와 하나 이상의 이니시에이터 그룹을 선택합니다.</block>
+  <block id="271ff3c405f1d0bf77f44dca1ae889d7" category="list-text">* 사용 프로필 및 계층화 *</block>
+  <block id="2f9631107b29a4c26b665771a82d9f56" category="list-text">* 검토 *: 볼륨 구성을 검토합니다. 설정을 변경하려면 * Previous * (이전 *)를 클릭하고 볼륨을 만들려면 * Add * (추가 *)를 클릭합니다.</block>
+  <block id="6df90ef93bacadad99949e91d9939685" category="paragraph">작업 환경을 열고 * Volumes * 탭을 선택하거나 Canvas에서 작업 환경 * Details * 패널을 사용하여 볼륨을 마운트할 수 있습니다. 이 작업에서는 * Details * 패널을 사용하여 볼륨을 추가하는 방법에 대해 설명합니다.</block>
+  <block id="429ff694ee7c975d6a18e64d444cfe54" category="list-text">Details* 패널에서 세 개의 점 아이콘(<block ref="4d658ec40ed039406a8a891871de0f3d" category="inline-image-macro-rx" type="image"></block>)를 눌러 옵션 메뉴를 엽니다. 볼륨 보기 * 를 클릭합니다.</block>
+  <block id="6810d2b262e251b8e971d641214ac623" category="paragraph"><block ref="6810d2b262e251b8e971d641214ac623" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f823db4e216ccdaa9739419e7047d6cd" category="list-text">볼륨 관리 * 를 사용하여 * 볼륨 조치 * 메뉴를 엽니다. Mount command * 를 클릭하고 지침에 따라 볼륨을 마운트합니다.</block>
+  <block id="3adf166446cff07c619f4ced2b63a230" category="inline-image-macro">mount volume 명령의 스크린샷입니다.</block>
+  <block id="dd4a0887863004c5f1787efbc9f44761" category="paragraph"><block ref="dd4a0887863004c5f1787efbc9f44761" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023년 3월 5일</block>
+  <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">자체 지원 옵션을 사용합니다</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp Support로 케이스 생성</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 담당자와 티켓을 엽니다.</block>
+  <block id="cde704f6035294578016569ea9508122" category="sidebar">작업 환경 관리</block>
 </blocks>

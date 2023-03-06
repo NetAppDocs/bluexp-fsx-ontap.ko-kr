@@ -18,6 +18,12 @@ ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2023년 3월 5일
+
+사용자 인터페이스가 개선되었으며 스크린샷이 설명서에 업데이트되었습니다.
+
+
+
 == 2023년 1월 1일
 
 이제 를 사용하도록 선택할 수 있습니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["자동 용량 관리"^] 을 클릭하여 필요에 따라 증분 스토리지를 추가합니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10% 단위로 스토리지 용량을 최대 80%까지 자동으로 늘립니다.
