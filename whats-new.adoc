@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, cloud manager' 
-summary: ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오. 
+summary: NetApp ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오. 
 ---
-= ONTAP용 Amazon FSx의 새로운 기능
+= NetApp ONTAP용 Amazon FSx의 새로운 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.
 
 
 [role="lead"]
-ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.
+NetApp ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.
 
 
 
@@ -111,18 +111,18 @@ ONTAP용 FSx용 iSCSI 볼륨은 Cloud Manager API를 사용하여 생성하고 �
 
 
 
-=== ONTAP용 Amazon FSx 지원
+=== NetApp ONTAP용 Amazon FSx 지원
 
-* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["ONTAP용 Amazon FSx"^] 는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 실행하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["NetApp ONTAP용 Amazon FSx"^] 는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 실행하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.
 +
-link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["ONTAP용 Amazon FSx에 대해 자세히 알아보십시오"^].
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/concept-fsx-aws.html["NetApp ONTAP용 Amazon FSx에 대해 알아보십시오"^].
 
 * Cloud Manager에서 ONTAP 작업 환경에 대한 FSx를 구성할 수 있습니다.
 +
-link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html["ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다"^].
+link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html["NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다"^].
 
 * AWS 및 Cloud Manager의 커넥터를 사용하여 볼륨을 생성 및 관리하고, 데이터를 복제하고, ONTAP용 FSx를 데이터 센스 및 Cloud Sync와 같은 NetApp 클라우드 서비스와 통합할 수 있습니다.
 +
-link:https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-fsx.html["ONTAP용 Amazon FSx에 대한 클라우드 데이터 센스를 시작해 보십시오"^].
+link:https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-fsx.html["NetApp ONTAP용 Amazon FSx에 대한 클라우드 데이터 센스를 시작하십시오"^].
 
 

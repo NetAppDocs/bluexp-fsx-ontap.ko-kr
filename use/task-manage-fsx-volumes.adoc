@@ -4,7 +4,7 @@ permalink: use/task-manage-fsx-volumes.html
 keywords: fsx for ontap, fsx, aws, delete volumes, delete nfs volumes, delete cifs volumes, tiering policy, mount path, get mount path, mount volume, delete volumes, snapshots, edit volume, clone volume, clone 
 summary: 볼륨, 클론, 스냅샷을 관리하고 BlueXP를 사용하여 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다. 
 ---
-= ONTAP용 Amazon FSx의 볼륨을 관리합니다
+= NetApp ONTAP용 Amazon FSx의 볼륨을 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

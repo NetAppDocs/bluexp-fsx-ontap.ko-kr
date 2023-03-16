@@ -7,7 +7,7 @@ indexpage:
     links:
     - title: 릴리스 정보
       url: "/whats-new.html"
-    - title: ONTAP용 Amazon FSx에 대해 자세히 알아보십시오
+    - title: NetApp ONTAP용 Amazon FSx에 대해 알아보십시오
       url: "/start/concept-fsx-aws.html"
     - title: 빠른 시작
       url: "/start/task-getting-started-fsx.html"
@@ -17,7 +17,7 @@ indexpage:
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: 보안 그룹 규칙
       url: "/requirements/reference-security-groups-fsx.html"
-  - title: ONTAP에 Amazon FSx를 사용합니다
+  - title: NetApp ONTAP용 Amazon FSx를 사용합니다
     links:
     - title: 작업 환경을 만들거나 검색합니다
       url: "/use/task-creating-fsx-working-environment.html"

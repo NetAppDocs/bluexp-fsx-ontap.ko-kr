@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: requirements/task-setting-up-permissions-fsx.html 
 keywords: fsx for ontap, iam, user role, permissions, aws govcloud, govcloud, credentials 
-summary: ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 ONTAP용 FSx 권한이 있는 IAM 사용자 역할에 대한 AWS 액세스 키 및 암호 키가 있어야 합니다. 
+summary: NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 ONTAP용 FSx 권한이 있는 IAM 사용자 역할에 대한 AWS 액세스 키 및 암호 키가 있어야 합니다. 
 ---
 = ONTAP용 FSx에 대한 권한을 설정합니다
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려�
 
 
 [role="lead"]
-ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다.
+NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다.
 
 
 

@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Amazon FSx for ONTAP
+  name: Amazon FSx for NetApp ONTAP
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,7 +11,7 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: ONTAP용 Amazon FSx 문서
+  - title: NetApp ONTAP용 Amazon FSx 문서
     url: "/index.html"
   - title: 릴리스 정보
     url: "/whats-new.html"
@@ -27,7 +27,7 @@ sidebar:
       url: "/requirements/task-setting-up-permissions-fsx.html"
     - title: ONTAP용 FSx에 대한 보안 그룹 규칙입니다
       url: "/requirements/reference-security-groups-fsx.html"
-  - title: ONTAP에 Amazon FSx를 사용합니다
+  - title: NetApp ONTAP용 Amazon FSx를 사용합니다
     entries:
     - title: 작업 환경을 만들거나 검색합니다
       url: "/use/task-creating-fsx-working-environment.html"
