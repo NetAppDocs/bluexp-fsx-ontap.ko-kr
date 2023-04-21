@@ -609,7 +609,6 @@
   <block id="b04e1903e3de2fffa52c1c517b8fed45" category="list-text">* 경로 테이블 * (여러 가용성 영역만 해당)</block>
   <block id="f884e9a3951c5c6df696ce1faeecf517" category="paragraph">부동 IP 주소에 대한 라우트가 포함된 라우팅 테이블을 선택합니다. VPC(주 경로 테이블)에 있는 서브넷에 대해 하나의 라우팅 테이블만 있는 경우 BlueXP는 해당 라우팅 테이블에 부동 IP 주소를 자동으로 추가합니다.</block>
   <block id="a150e060bd138eb9dd07f260966de37f" category="list-text">* 데이터 암호화 *</block>
-  <block id="9ecf502b4c55c670661584e0a2866004" category="paragraph">기본 AWS 마스터 키를 수락하거나 * 키 변경 * 을 클릭하여 다른 AWS CMK(Customer Master Key)를 선택합니다. CMK에 대한 자세한 내용은 을 참조하십시오<block ref="e519e39311516455306db28fa7daaed2" category="inline-link-rx"></block>.</block>
   <block id="a1ab9258bbeb31ecc1e35b1adc9465dc" category="list-text">* 스토리지 구성 *</block>
   <block id="e38fe475552b433630789034542b28de" category="list-text">처리량, 용량 및 단위를 선택합니다. 처리량, 스토리지 용량, IOPS는 언제든지 변경할 수 있습니다.</block>
   <block id="704b454e0a67ad9d30229aad055c4456" category="paragraph"><block ref="704b454e0a67ad9d30229aad055c4456" category="inline-image-macro-rx" type="image"></block></block>
@@ -618,8 +617,6 @@
   <block id="a434ec7166240525e1136a9caf043a5e" category="list-text">설정을 변경하려면 * Previous * (이전 *)를 클릭하고 설정을 적용하고 작업 환경을 만들려면 * Add * (추가 *)를 클릭합니다.</block>
   <block id="1f56efe328efe9c20f590e659125509a" category="paragraph">BlueXP는 Canvas에 ONTAP용 FSx 구성을 표시합니다. 이제 BlueXP를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
-  <block id="3c98e2bfe156ca99fa37e38b1eb68d0d" category="inline-link-macro">새로운 작업 환경 구축</block>
-  <block id="e3ed7d241946f79ddb205b1bcc1095b7" category="paragraph">에서 ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <block ref="7605911292967addd7ea4683855fa385" category="inline-link-macro-rx"></block> 또는 * My Opportunities * 페이지 사용. 이 작업에서는 * My Opportunities * 를 사용한 검색에 대해 설명합니다</block>
   <block id="190d60175b0eacbdfa304b7842dfdbeb" category="paragraph">BlueXP는 검색된 ONTAP 파일 시스템용 FSx를 Canvas에 표시합니다. 이제 BlueXP를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.</block>
   <block id="7ed3f8d43ed4db5c9e5058ffd0629f8e" category="list-text">Canvas에서 ONTAP용 FSx 작업 환경을 선택합니다.</block>
   <block id="ecfec57afc8858c85d63541a36a09dab" category="inline-image-macro">세 개의 점으로 구성된 아이콘</block>
@@ -743,4 +740,6 @@
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="857256e1923ea05bf18e14bc2411a2f6" category="list-text">캔버스에서 작업 환경을 선택하고 * 작업 환경 입력 * 을 선택합니다.</block>
   <block id="015abe149b937f218b783e72c81c3e66" category="admonition">다른 모든 옵션은 커넥터가 필요하며 비활성화됩니다.</block>
+  <block id="5f7a63a809602fb324d9cb35527588c3" category="paragraph">기본 AWS 마스터 키를 수락하거나 * 키 변경 * 을 클릭하여 다른 AWS CMK(Customer Master Key)를 선택합니다. CMK에 대한 자세한 내용은 을 참조하십시오 <block ref="1dc4ebcb4490720ee959d2e943d1421f" category="inline-link-macro-rx"></block>.</block>
+  <block id="a5444638448a3ec03827da5d57eb445b" category="paragraph">ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> 또는 * My Opportunities * 페이지를 사용합니다. 이 작업에서는 * My Opportunities * 를 사용한 검색에 대해 설명합니다</block>
 </blocks>
