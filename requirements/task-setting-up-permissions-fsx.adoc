@@ -33,8 +33,14 @@ BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
 *** AWS GovCloud(미국): 033442085313
 
 
-** 다음 권한이 포함된 정책을 만듭니다.
+** 필요에 따라 다음과 같은 필수 최소 권한 및 선택적 권한이 포함된 정책을 만듭니다.
 +
+[role="tabbed-block"]
+====
+.필수 권한
+--
+BlueXP에서 NetApp ONTAP 파일 시스템용 FSx를 생성하려면 다음 최소 권한이 필요합니다.
+
 [source, json]
 ----
 {
@@ -50,19 +56,43 @@ BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
                 "iam:CreateServiceLinkedRole",
                 "kms:Describe*",
                 "kms:List*",
-                "kms:CreateGrant",
-                "cloudwatch:GetMetricData",
-                "cloudwatch:GetMetricStatistics"
+                "kms:CreateGrant"
             ],
             "Resource": "*"
         }
     ]
 }
 ----
-+
+--
+.자동 용량
+--
+를 사용하려면 다음과 같은 추가 권한이 필요합니다 link:../use/task-manage-fsx-working-environment.html["자동 용량 관리"].
 
-NOTE: `"cloudwatch:GetMetricData"` 및 `"cloudwatch:GetMetricStatistics"` 를 활성화해야 합니다 link:../use/task-manage-working-environment.html["자동 용량 관리"].
+[source, json]
+----
+"cloudwatch:GetMetricData",
+"cloudwatch:GetMetricStatistics"
+----
+--
+.보안 그룹
+--
+BlueXP에서 를 사용하려면 다음과 같은 추가 권한이 필요합니다 link:../use/task-creating-fsx-working-environment.html["보안 그룹을 생성합니다"].
 
+[source, json]
+----
+"ec2:AuthorizeSecurityGroupEgress",
+"ec2:AuthorizeSecurityGroupIngress",
+"ec2:RevokeSecurityGroupEgress",
+"ec2:RevokeSecurityGroupIngress",
+"ec2:CreateSecurityGroup",
+"ec2:DeleteSecurityGroup"
+"cloudformation:CreateStack",
+"cloudformation:ValidateTemplate",
+"cloudformation:DescribeStacks",
+"cloudformation:DescribeStackEvents"
+----
+--
+====
 
 
 . 다음 단계에서 BlueXP에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.

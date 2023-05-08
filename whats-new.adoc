@@ -18,6 +18,14 @@ NetApp ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2023년 5월 7일
+
+* 작업 환경을 만들 때 이제 BlueXP를 사용할 수 있습니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["보안 그룹을 생성합니다"^] 그러면 선택한 VPC 내의 트래픽만 허용됩니다. 이 기능입니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["추가 권한이 필요합니다"^].
+* 선택적으로 을(를) 사용할 수 있습니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["추가"^] 및 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["수정"^] 태그를 사용하여 볼륨을 분류합니다.
+
+
+
+
 == 2023년 4월 2일
 
 IOPS 제한이 증가하여 수동 또는 자동 프로비저닝을 최대 160,000개까지 지원할 수 있습니다.
