@@ -14,7 +14,7 @@ summary: BlueXP를 사용하면 몇 단계만으로 ONTAP용 FSx를 시작할 �
 
 
 [role="lead"]
-사용 link:https://docs.netapp.com/us-en/cloud-manager-family/["BlueXP"^], 몇 단계만으로 ONTAP용 FSx를 시작할 수 있습니다.
+사용 link:https://docs.netapp.com/us-en/bluexp-family/["BlueXP"^], 몇 단계만으로 ONTAP용 FSx를 시작할 수 있습니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] AWS에서 IAM 역할을 설정합니다
 [role="quick-margin-para"]
@@ -26,7 +26,7 @@ NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["세 가지"] AWS용 커넥터 만들기
 [role="quick-margin-para"]
-가 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#how-to-create-a-connector["AWS용 커넥터"^] ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. 커넥터가 필요한 경우 BlueXP에서 아직 활성화되지 않은 경우 메시지를 표시합니다.
+가 있어야 합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["AWS용 커넥터"^] ONTAP 작업 환경을 위한 FSx를 열려면 볼륨을 생성하거나 다른 작업을 수행합니다. 커넥터가 필요한 경우 BlueXP에서 아직 활성화되지 않은 경우 메시지를 표시합니다.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["네"] 볼륨을 추가하고 마운트합니다
 [role="quick-margin-para"]

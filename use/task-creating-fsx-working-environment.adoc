@@ -61,7 +61,7 @@ NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-ru
 
 . * 부동 IP * (다중 가용성 영역만 해당)
 +
-사용 가능한 범위를 자동으로 설정하려면 _CIDR 범위_를 비워 두십시오. 선택적으로 를 사용할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS Transit Gateway를 참조하십시오"^] 범위를 수동으로 구성합니다.
+사용 가능한 범위를 자동으로 설정하려면 _CIDR 범위_를 비워 두십시오. 선택적으로 를 사용할 수 있습니다 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-transit-gateway.html["AWS Transit Gateway를 참조하십시오"^] 범위를 수동으로 구성합니다.
 
 . * 경로 테이블 * (여러 가용성 영역만 해당)
 +
@@ -69,7 +69,7 @@ NOTE: link:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-ru
 
 . * 데이터 암호화 *
 +
-기본 AWS 마스터 키를 수락하거나 * 키 변경 * 을 클릭하여 다른 AWS CMK(Customer Master Key)를 선택합니다. CMK에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-setting-up-kms.html["AWS KMS 설정"^].
+기본 AWS 마스터 키를 수락하거나 * 키 변경 * 을 클릭하여 다른 AWS CMK(Customer Master Key)를 선택합니다. CMK에 대한 자세한 내용은 을 참조하십시오 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-setting-up-kms.html["AWS KMS 설정"^].
 
 . * 스토리지 구성 *
 +

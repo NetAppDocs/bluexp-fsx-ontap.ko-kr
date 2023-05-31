@@ -142,6 +142,6 @@ image:screenshot-govcloud-checkbox.png["GovCloud(US) 계정 확인란 스크린�
 
 == 관련 링크
 
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-accounts-aws.html["AWS 자격 증명 및 권한"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html["BlueXP에 대한 AWS 자격 증명 관리"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-accounts-aws.html["AWS 자격 증명 및 권한"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html["BlueXP에 대한 AWS 자격 증명 관리"^]
 
