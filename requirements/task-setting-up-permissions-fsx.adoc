@@ -66,7 +66,7 @@ BlueXP에서 NetApp ONTAP 파일 시스템용 FSx를 생성하려면 다음 최�
 --
 .자동 용량
 --
-를 사용하려면 다음과 같은 추가 권한이 필요합니다 link:../use/task-manage-fsx-working-environment.html["자동 용량 관리"].
+를 사용하려면 다음과 같은 추가 권한이 필요합니다 link:../use/task-manage-working-environment.html["자동 용량 관리"].
 
 [source, json]
 ----

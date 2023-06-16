@@ -659,7 +659,6 @@
   <block id="5ad10cfb674234136c181d096cb59522" category="open-title">필수 권한</block>
   <block id="7b36ef7355ac702b97a1f4f36816d08c" category="paragraph">BlueXP에서 NetApp ONTAP 파일 시스템용 FSx를 생성하려면 다음 최소 권한이 필요합니다.</block>
   <block id="79d6201c496cf246a16e25b2e725897a" category="open-title">자동 용량</block>
-  <block id="762e3bf022059ba9b9cc06c0d2c9b00d" category="paragraph">를 사용하려면 다음과 같은 추가 권한이 필요합니다 <block ref="4d6056f5ae867fac15604e7d63efb082" category="inline-link-macro-rx"></block>.</block>
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">보안 그룹</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">보안 그룹을 생성합니다</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">BlueXP에서 를 사용하려면 다음과 같은 추가 권한이 필요합니다 <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>.</block>
@@ -763,4 +762,5 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드하는 중입니다</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">를 사용하려면 다음과 같은 추가 권한이 필요합니다 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>.</block>
 </blocks>
