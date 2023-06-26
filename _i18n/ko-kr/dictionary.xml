@@ -85,8 +85,6 @@
   <block id="759e9950bbe6d95f5d993751a21090d8" category="list-text">작업 환경을 엽니다. AWS에 커넥터가 없는 경우 프롬프트 화면이 표시됩니다. 이 작업을 무시하고 작업 환경 삭제를 계속할 수 있습니다.</block>
   <block id="b29f6e00261f220f9ca9601a3dbc09df" category="section-title">볼륨을 편집합니다</block>
   <block id="b609b522164fd601ccb14538b7074e4e" category="paragraph">볼륨을 생성한 후에는 언제든지 수정할 수 있습니다.</block>
-  <block id="4ba141f8bd3c71509d32aaf3d8ae34d6" category="list-text">NFS의 경우 크기와 태그를 수정할 수 있습니다.</block>
-  <block id="ad348a3307068da0d1c8c03655a0d11e" category="list-text">CIFS의 경우 필요에 따라 공유 이름, 사용자, 권한 및 스냅샷 정책을 수정할 수 있습니다.</block>
   <block id="fee2a02b904d6d1f207e959dbd807a75" category="section-title">클론 볼륨</block>
   <block id="6b94d8d9a10c7d18376b9f389dba9855" category="paragraph">볼륨을 생성한 후 새 스냅샷으로부터 새 읽기-쓰기 볼륨을 생성할 수 있습니다.</block>
   <block id="5e5db467595563d87880b20fec615319" category="list-text">복제된 볼륨의 이름을 입력합니다.</block>
@@ -763,4 +761,5 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">를 사용하려면 다음과 같은 추가 권한이 필요합니다 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>.</block>
+  <block id="1a152437275e48cffd13b98c296a5e3f" category="admonition">BlueXP에서 생성한 볼륨 태그는 AWS와 동기화될 때까지 편집할 수 없습니다. 최대 1시간이 소요될 수 있습니다. 볼륨 태그 관리 * 옵션이 회색으로 표시되면 AWS가 볼륨 태그를 아직 동기화하지 않은 것입니다.</block>
 </blocks>
