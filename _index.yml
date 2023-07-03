@@ -21,12 +21,10 @@ indexpage:
     links:
     - title: 작업 환경을 만들거나 검색합니다
       url: "/use/task-creating-fsx-working-environment.html"
-    - title: 작업 환경 관리
-      url: "/use/task-manage-working-environment.html"
-    - title: 볼륨을 생성 및 마운트합니다
+    - title: 볼륨을 생성하고 마운트합니다
       url: "/use/task-add-fsx-volumes.html"
-    - title: 볼륨 및 데이터 서비스 관리
-      url: "/use/task-manage-fsx-volumes.html"
+    - title: 스토리지 VM 추가 및 관리
+      url: "/use/task-add-fsx-svm.html"
     - title: NVMe 및 iSCSI 호스트 구성
       url: https://docs.netapp.com/us-en/ontap-sanhost/
   - title: 지식 및 지원

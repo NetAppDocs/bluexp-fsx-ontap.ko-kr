@@ -22,13 +22,13 @@ summary: 작업 환경을 설정한 후 NetApp ONTAP 볼륨, 클론 및 스냅�
 
 BlueXP의 ONTAP 작업 환경에서 FSx에서 NFS, CIFS 및 iSCSI 볼륨을 생성하고 관리할 수 있습니다. ONTAP CLI를 사용하여 생성된 볼륨은 ONTAP 작업 환경의 FSx에도 표시됩니다.
 
-.시작하기 전에
-새 볼륨을 생성하기 전에 활성 볼륨이 필요합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["커넥터를 사용하여 AWS에 연결합니다"^].
-
-SMB를 사용하려면 DNS 및 Active Directory를 설정해야 합니다. DNS 및 Active Directory 네트워크 구성에 대한 자세한 내용은 을 참조하십시오 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS: 자체 관리되는 Microsoft AD를 사용하기 위한 사전 요구 사항"^].
-
 .이 작업에 대해
 작업 환경을 열고 * Volumes * 탭을 선택하거나 Canvas에서 작업 환경 * Details * 패널을 사용하여 볼륨을 추가할 수 있습니다. 이 작업에서는 * Details * 패널을 사용하여 볼륨을 추가하는 방법에 대해 설명합니다.
+
+.시작하기 전에
+* 활성 상태가 필요합니다 https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["커넥터를 사용하여 AWS에 연결합니다"^].
+* SMB를 사용하려면 DNS 및 Active Directory를 설정해야 합니다. DNS 및 Active Directory 네트워크 구성에 대한 자세한 내용은 을 참조하십시오 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/self-manage-prereqs.html["AWS: 자체 관리되는 Microsoft AD를 사용하기 위한 사전 요구 사항"^].
+
 
 .단계
 . Canvas에서 ONTAP용 FSx 작업 환경을 선택합니다. 커넥터가 활성화되어 있지 않으면 커넥터를 추가하라는 메시지가 표시됩니다.

@@ -18,15 +18,15 @@ sidebar:
     url: "/whats-new.html"
   - title: 시작하십시오
     entries:
-    - title: ONTAP용 FSx에 대해 자세히 알아보십시오
+    - title: NetApp ONTAP용 Amazon FSx에 대해 알아보십시오
       url: "/start/concept-fsx-aws.html"
     - title: 빠른 시작
       url: "/start/task-getting-started-fsx.html"
   - title: 요구 사항
     entries:
-    - title: ONTAP용 FSx에 대한 권한을 설정합니다
+    - title: 권한 설정
       url: "/requirements/task-setting-up-permissions-fsx.html"
-    - title: ONTAP용 FSx에 대한 보안 그룹 규칙입니다
+    - title: 보안 그룹 규칙
       url: "/requirements/reference-security-groups-fsx.html"
   - title: NetApp ONTAP용 Amazon FSx를 사용합니다
     entries:
@@ -34,10 +34,12 @@ sidebar:
       url: "/use/task-creating-fsx-working-environment.html"
     - title: 작업 환경 관리
       url: "/use/task-manage-working-environment.html"
-    - title: 볼륨을 생성 및 마운트합니다
+    - title: 볼륨을 생성하고 마운트합니다
       url: "/use/task-add-fsx-volumes.html"
-    - title: 볼륨 및 데이터 서비스 관리
+    - title: 볼륨 관리
       url: "/use/task-manage-fsx-volumes.html"
+    - title: 스토리지 VM 추가 및 관리
+      url: "/use/task-add-fsx-svm.html"
   - title: 지식 및 지원
     entries:
     - title: 지원을 위해 등록하십시오

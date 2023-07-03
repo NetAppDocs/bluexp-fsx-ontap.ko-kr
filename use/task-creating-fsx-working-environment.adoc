@@ -112,16 +112,16 @@ image:screenshot_add_fsx_cloud.png["작업 환경 페이지의 NetApp ONTAP용 A
 
 == ONTAP 파일 시스템용 기존 FSx를 검색합니다
 
-이전에 BlueXP에 AWS 자격 증명을 제공한 경우 * My Opportunities * 는 자동으로 ONTAP 파일 시스템용 FSx를 검색하여 BlueXP를 사용하여 추가 및 관리할 것을 제안할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.
+이전에 BlueXP에 AWS 자격 증명을 제공한 경우 * My Estate * 는 자동으로 ONTAP 파일 시스템용 FSx를 검색하고 제안하여 BlueXP를 사용하여 추가 및 관리할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.
 
 .이 작업에 대해
-ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <<NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다>> 또는 * My Opportunities * 페이지를 사용합니다. 이 작업에서는 * My Opportunities * 를 사용한 검색에 대해 설명합니다
+ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <<NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다>> 또는 * 내 부동산 * 페이지를 사용합니다. 이 작업에서는 * 내 부동산 * 을 사용한 검색에 대해 설명합니다
 
 .단계
-. BlueXP에서 * 내 기회 * 탭을 클릭합니다.
+. BlueXP에서 * 내 부동산 * 탭을 클릭합니다.
 . ONTAP 파일 시스템에 대해 검색된 FSx의 수가 표시됩니다. 검색 * 을 클릭합니다.
 +
-image:screenshot-opportunities.png["ONTAP용 FSx의 내 기회 페이지 스크린샷"]
+image:screenshot-opportunities.png["ONTAP용 FSx의 내 부동산 페이지 스크린샷"]
 
 . 하나 이상의 파일 시스템을 선택하고 * Discover * 를 클릭하여 Canvas에 추가합니다.
 
