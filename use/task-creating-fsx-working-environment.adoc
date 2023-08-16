@@ -4,7 +4,7 @@ permalink: use/task-creating-fsx-working-environment.html
 keywords: Amazon FSx for NetApp ONTAP, fsx, volumes, create working environment, delete working environment, access key, secret key, region, working environment, availability zones, discover, storage capacity, iops, throughput, security group, security 
 summary: BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검색하여 볼륨 및 추가 데이터 서비스를 추가 및 관리할 수 있습니다. 
 ---
-= NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성하거나 검색합니다
+= FSx for ONTAP 작업 환경을 만들거나 검색합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,7 +18,7 @@ BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 생성하거나 검�
 
 
 
-== NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다
+== ONTAP 작업 환경을 위한 FSx를 생성합니다
 
 첫 번째 단계는 ONTAP 작업 환경에 대한 FSx를 생성하는 것입니다. AWS 관리 콘솔에서 ONTAP용 FSx 파일 시스템을 이미 생성한 경우 를 사용할 수 있습니다 link:task-creating-fsx-working-environment.html#discover-an-existing-fsx-for-ontap-file-system["BlueXP를 사용하여 검색합니다"].
 
@@ -32,7 +32,7 @@ BlueXP에서 ONTAP 작업 환경을 위한 FSx를 생성하기 전에 다음이 
 .단계
 . BlueXP에서 새 작업 환경을 추가하고 * Amazon Web Services * 를 선택한 후 * Add new * for Amazon FSx for NetApp ONTAP 를 클릭합니다.
 +
-image:screenshot_add_fsx_working_env.png["NetApp ONTAP용 Amazon FSx의 작업 환경을 추가하는 스크린샷"]
+image:screenshot_add_fsx_working_env.png["FSx for ONTAP의 작업 환경을 추가하는 스크린샷"]
 
 . ONTAP 인증 * 용 * FSx
 +
@@ -44,7 +44,7 @@ image:screenshot_add_fsx_working_env.png["NetApp ONTAP용 Amazon FSx의 작업 �
 +
 .. 사용할 작업 환경 이름을 입력합니다.
 .. 또는 더하기 기호를 클릭하고 태그 이름과 값을 입력하여 태그를 만들 수도 있습니다.
-.. NetApp ONTAP용 Amazon FSx의 시작 시간을 지정하여 30분 주간 유지 보수를 수행할 수도 있습니다. 이는 유지 관리가 중요한 업무 활동과 일치하지 않도록 하기 위해 사용할 수 있습니다. 선호 사항 없음 * 을 선택하면 임의 시작 시간이 할당됩니다. 언제든지 변경할 수 있습니다.
+.. 선택적으로 FSx for ONTAP이 주간 유지 관리를 30분 수행하기 위한 시작 시간을 지정할 수 있습니다. 이는 유지 관리가 중요한 업무 활동과 일치하지 않도록 하기 위해 사용할 수 있습니다. 선호 사항 없음 * 을 선택하면 임의 시작 시간이 할당됩니다. 언제든지 변경할 수 있습니다.
 .. 사용할 ONTAP 클러스터 암호를 입력하고 확인합니다.
 .. 필요한 경우 SVM 사용자에 대해 동일한 암호를 사용하고 다른 암호를 설정하는 옵션을 선택 취소합니다.
 
@@ -106,7 +106,7 @@ NOTE: 최소 요구 사항을 충족하지 않는 IOPS 값을 지정하면 작�
 .결과
 BlueXP는 Canvas에 ONTAP용 FSx 구성을 표시합니다. 이제 BlueXP를 사용하여 ONTAP 작업 환경의 FSx에 볼륨을 추가할 수 있습니다.
 
-image:screenshot_add_fsx_cloud.png["작업 환경 페이지의 NetApp ONTAP용 Amazon FSx 스크린샷"]
+image:screenshot_add_fsx_cloud.png["작업 환경 페이지의 FSx for ONTAP 스크린샷"]
 
 
 
@@ -115,7 +115,7 @@ image:screenshot_add_fsx_cloud.png["작업 환경 페이지의 NetApp ONTAP용 A
 이전에 BlueXP에 AWS 자격 증명을 제공한 경우 * My Estate * 는 자동으로 ONTAP 파일 시스템용 FSx를 검색하고 제안하여 BlueXP를 사용하여 추가 및 관리할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.
 
 .이 작업에 대해
-ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <<NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다>> 또는 * 내 부동산 * 페이지를 사용합니다. 이 작업에서는 * 내 부동산 * 을 사용한 검색에 대해 설명합니다
+ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <<ONTAP 작업 환경을 위한 FSx를 생성합니다>> 또는 * 내 부동산 * 페이지를 사용합니다. 이 작업에서는 * 내 부동산 * 을 사용한 검색에 대해 설명합니다
 
 .단계
 . BlueXP에서 * 내 부동산 * 탭을 클릭합니다.

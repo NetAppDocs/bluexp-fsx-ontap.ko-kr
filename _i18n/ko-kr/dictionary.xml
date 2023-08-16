@@ -275,15 +275,11 @@
   <block id="5e1a521c9d06fa71faeacb00ad3819f7" category="paragraph">ONTAP용 FSx에서 중재자를 위해 또는 노드 간에 특정 포트를 열 필요가 없습니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
@@ -431,7 +427,6 @@
   <block id="0f845867deaf035383ffc217279b9c7f" category="paragraph">BlueXP의 ONTAP 작업 환경에서 FSx에서 NFS, CIFS 및 iSCSI 볼륨을 생성하고 관리할 수 있습니다. ONTAP CLI를 사용하여 생성된 볼륨은 ONTAP 작업 환경의 FSx에도 표시됩니다.</block>
   <block id="6f28647aed612b810bbd7e815e8adbef" category="inline-link">BlueXP 자동화 문서</block>
   <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">볼륨을 호스트에 마운트할 수 있도록 BlueXP 내에서 마운트 지침에 액세스합니다.</block>
-  <block id="78b85142b4840670f82bc1e876164d5a" category="paragraph">ONTAP 계정 또는 볼륨에 대한 FSx를 삭제하지 않고 BlueXP에서 ONTAP용 FSx를 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 BlueXP에 다시 추가할 수 있습니다.</block>
   <block id="2bded8459b9098e5f464123fa54a7a84" category="inline-image-macro">BlueXP 인터페이스에서 ONTAP용 FSx 제거 옵션 스크린샷</block>
   <block id="00e44395dfa88719cfdde0d3aafb0b4c" category="paragraph"><block ref="00e44395dfa88719cfdde0d3aafb0b4c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="39c686ea51a2e3f3412988ea98942824" category="list-text">BlueXP에서 ONTAP용 FSx를 제거하려면 * 제거 * 를 선택합니다.</block>
@@ -569,33 +564,19 @@
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이러한 계정의 토큰은 90일 후에 만료됩니다. 이를 알리는 알림이 게시됩니다.</block>
   <block id="c2ca61cdaafcad548af5836df039fcb3" category="doc">NetApp ONTAP용 Amazon FSx를 빠르게 시작합니다</block>
-  <block id="f0f0fb7949dd435ae874e688628798e3" category="paragraph">NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다. 이렇게 하려면 반드시 해야 합니다 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>.</block>
-  <block id="1e4c41065cb8ed5fef0f76c88d730e82" category="inline-link-macro">NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다</block>
-  <block id="de1a8bce79b111c4a31f583f6f99440b" category="paragraph">반드시 해야 합니다 <block ref="78fc1a74fb647fe04344d6ad4f960b63" category="inline-link-macro-rx"></block> 볼륨을 추가하기 전에.</block>
   <block id="5bf4f331231141b7f8c69e636d5e0a8f" category="summary">NetApp ONTAP용 Amazon FSx는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 시작하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 현재 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.</block>
   <block id="9b52174f321d3579b4ad28ec9c136481" category="doc">NetApp ONTAP용 Amazon FSx에 대해 알아보십시오</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">NetApp ONTAP용 Amazon FSx</block>
   <block id="ee0913f891047fad10e625ab9754d92d" category="paragraph"><block ref="9b424e413e3d5660d5b403cf87df1eb5" category="inline-link-macro-rx"></block> 는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 실행하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.</block>
   <block id="2bff20ceadc07975cc0f23c153d723ed" category="inline-link">NetApp ONTAP용 Amazon FSx 시작 가이드</block>
   <block id="49915b1358359823753e8ba4996c407b" category="paragraph">ONTAP용 FSx 계정은 BlueXP가 아니라 AWS에서 관리합니다. 을 참조하십시오<block ref="ee24fb9807f103fa32bcf47e5e3a3e4a" category="inline-link-rx"></block>.</block>
-  <block id="a486acbe18a1aaf3fd85ffc4ae288e5d" category="paragraph">NetApp ONTAP용 Amazon FSx는 AWS 퍼스트 파티 솔루션입니다. Amazon FSx for NetApp ONTAP 파일 시스템, 인프라 또는 이 서비스를 사용하는 솔루션과 관련된 질문 또는 기술 지원 문제가 있는 경우 AWS 콘솔의 지원 센터를 사용하여 AWS에 지원 케이스를 여십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
-  <block id="0163316edbded6bc47113c053e5809a9" category="summary">NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 ONTAP용 FSx 권한이 있는 IAM 사용자 역할에 대한 AWS 액세스 키 및 암호 키가 있어야 합니다.</block>
-  <block id="bbf8e43ca2601cf0e2a123ec0be12b40" category="paragraph">NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성 또는 관리하려면 BlueXP에 ONTAP 작업 환경을 위한 FSx를 생성하는 데 필요한 권한을 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다.</block>
   <block id="af78a60c1f50cf81e4812897a751efa4" category="summary">NetApp ONTAP용 Amazon FSx의 새로운 기능에 대해 알아보십시오.</block>
   <block id="1bab530ca9dd117d24aa1c1510692003" category="doc">NetApp ONTAP용 Amazon FSx의 새로운 기능</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">NetApp ONTAP용 Amazon FSx 지원</block>
   <block id="154f5271f725905c77563d2d1d8b3a0a" category="inline-link-macro">NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성합니다</block>
   <block id="c8b596b90101edd9745fcaebc95d3b53" category="inline-link-macro">NetApp ONTAP용 Amazon FSx에 대한 클라우드 데이터 센스를 시작하십시오</block>
-  <block id="ff8f76810bdaf3c806b24b4f8d990230" category="doc">NetApp ONTAP 작업 환경을 위한 Amazon FSx를 생성하거나 검색합니다</block>
   <block id="8d75ffd71230b9a1b93e34cb2e11aa86" category="list-text">BlueXP에서 새 작업 환경을 추가하고 * Amazon Web Services * 를 선택한 후 * Add new * for Amazon FSx for NetApp ONTAP 를 클릭합니다.</block>
-  <block id="0c701eedf5e7b93c745db83a71466be1" category="inline-image-macro">NetApp ONTAP용 Amazon FSx의 작업 환경을 추가하는 스크린샷</block>
-  <block id="3acf3b463159ec4afc895362a68c7ee1" category="paragraph"><block ref="3acf3b463159ec4afc895362a68c7ee1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6b08174ed3c706cc286cc9f41f482a92" category="inline-image-macro">작업 환경 페이지의 NetApp ONTAP용 Amazon FSx 스크린샷</block>
-  <block id="9e7c4f3f6c0cffd7e172ba0e7b1cfdba" category="paragraph"><block ref="9e7c4f3f6c0cffd7e172ba0e7b1cfdba" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="67621e5c95adeb158c257c0f8a4d3e15" category="doc">NetApp ONTAP 작업 환경을 위한 Amazon FSx를 관리합니다</block>
-  <block id="389c215e9937ebcb0227cb03e0e431cb" category="doc">NetApp ONTAP용 Amazon FSx의 볼륨을 관리합니다</block>
   <block id="cfd890139f741ff2037fc08e3b2d014d" category="summary">작업 환경을 설정한 후 NetApp ONTAP 볼륨, 클론 및 스냅샷에 대한 Amazon FSx를 생성 및 관리하고, 계층화 정책을 변경하고, ONTAP용 FSx를 제거 또는 삭제할 수 있습니다.</block>
-  <block id="39eff6a0e62a9e3eafb92d6d0dc18004" category="doc">NetApp ONTAP용 Amazon FSx의 볼륨을 생성합니다</block>
   <block id="7aa1575aeeddba65d55707b41584cd4a" category="sidebar">NetApp ONTAP용 Amazon FSx를 사용합니다</block>
   <block id="c82c15e6d66564201da1f424b2fb9bf4" category="sidebar">NetApp ONTAP용 Amazon FSx 문서</block>
   <block id="a3ef479db7087d8c91c8e7225a427426" category="list-text">Automatic * IOPS를 선택하면 운영 스토리지 용량(GiB)당 최대 160,000의 프로비저닝된 SSD IOPS 3개의 비율이 유지됩니다. 160,000보다 큰 IOPS 값은 수동으로 프로비저닝할 수 없습니다.</block>
@@ -614,7 +595,6 @@
   <block id="4cc849f381058f76f6b72a1c4279393d" category="cell">BlueXP 분류</block>
   <block id="a7f8c8869966601b4670aae0a070ba31" category="cell">Cloud Volumes ONTAP에 대한 BlueXP 분류</block>
   <block id="d151342d67a639e871ca8c57524ca7f8" category="section-title">볼륨 태그 관리</block>
-  <block id="1edd4a3142e92621938f60a5002ee3b3" category="paragraph">볼륨 태그를 추가, 수정 또는 삭제할 수 있습니다. BlueXP에 추가된 태그는 AWS 콘솔에 반영됩니다. 태그를 AWS 콘솔과 동기화하는 데 최대 1시간이 걸릴 수 있습니다.</block>
   <block id="4c01e02944d90f20b1f75ee4b1e9c16c" category="list-text">볼륨 태그 관리 * 를 선택합니다.</block>
   <block id="030c2a7dd0a2a850c39eb85018a90937" category="list-text">변경 사항을 적용하려면 * 저장 * 을 선택합니다.</block>
   <block id="4cf58ab90a8b9b744f512ffebcdbebb3" category="list-text">* 볼륨 세부 정보, 보호 및 태그 *</block>
@@ -635,7 +615,6 @@
   <block id="9175bb34d0aede26315b313b9432bcbb" category="open-title">보안 그룹</block>
   <block id="42c16fd45375c160089e29d754f16e36" category="inline-link-macro">보안 그룹을 생성합니다</block>
   <block id="78004ed8e8658d85d8a3d99a1a533922" category="paragraph">BlueXP에서 를 사용하려면 다음과 같은 추가 권한이 필요합니다 <block ref="37425afe2ceb1de25205a180b5a14074" category="inline-link-macro-rx"></block>.</block>
-  <block id="25ee158968a50cfd221a03cd5c35714d" category="list-text">NetApp ONTAP용 Amazon FSx는 BlueXP in_standard_or_restricted_mode에서 지원됩니다.</block>
   <block id="3cb5845101cca1d3632756ad505df41c" category="list-text">표준 모드는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공합니다.</block>
   <block id="8515864aee35dd4c309a887dc85ffb7f" category="list-text">제한된 모드는 연결 제한이 있는 조직에서 사용할 수 있습니다.</block>
   <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">BlueXP 배포 모드</block>
@@ -686,7 +665,6 @@
   <block id="176d707d91233fad58f8673c1716a4f8" category="list-text">* 볼륨 프로토콜 *:</block>
   <block id="21f43446afbc4a1acbf88a421b7a09dc" category="list-text">최적화(FlexGroup)를 선택한 경우 볼륨 데이터를 분산할 구성요소의 수를 지정해야 합니다. 데이터 배포를 위해 같은 수의 구성 요소라도 사용하는 것이 좋습니다.</block>
   <block id="d99cba7d7f71be21b06a8ed7b3cead82" category="list-text">또는 더하기 기호를 클릭하고 태그 이름과 값을 입력하여 태그를 만들 수도 있습니다.</block>
-  <block id="c89439eb771335b64cacafd62be867f6" category="list-text">NetApp ONTAP용 Amazon FSx의 시작 시간을 지정하여 30분 주간 유지 보수를 수행할 수도 있습니다. 이는 유지 관리가 중요한 업무 활동과 일치하지 않도록 하기 위해 사용할 수 있습니다. 선호 사항 없음 * 을 선택하면 임의 시작 시간이 할당됩니다. 언제든지 변경할 수 있습니다.</block>
   <block id="5b1a0e567c07875980cb98cbf8a0fc60" category="paragraph">사용 가능한 범위를 자동으로 설정하려면 _CIDR 범위_를 비워 두십시오. 선택적으로 를 사용할 수 있습니다<block ref="ca64804883d6ae6ee4c5f1f5610fe766" category="inline-link-rx"></block> 범위를 수동으로 구성합니다.</block>
   <block id="deafe98ece55cac6734aa3e0c94f89a1" category="list-title">다음 범위의 IPS는 지원되지 않습니다.</block>
   <block id="41744fea4be9d62829f8c470c2392ab1" category="list-text">0.0.0.0/8</block>
@@ -729,17 +707,13 @@
   <block id="69ca45f3f7552de8b10ae32cba3897d2" category="paragraph">를 사용하려면 다음과 같은 추가 권한이 필요합니다 <block ref="1cea652ab03a953c6704c3bb96fcb9b7" category="inline-link-macro-rx"></block>.</block>
   <block id="1a152437275e48cffd13b98c296a5e3f" category="admonition">BlueXP에서 생성한 볼륨 태그는 AWS와 동기화될 때까지 편집할 수 없습니다. 최대 1시간이 소요될 수 있습니다. 볼륨 태그 관리 * 옵션이 회색으로 표시되면 AWS가 볼륨 태그를 아직 동기화하지 않은 것입니다.</block>
   <block id="982342913ed4c65e25bbc0d7a29cc903" category="paragraph">이전에 BlueXP에 AWS 자격 증명을 제공한 경우 * My Estate * 는 자동으로 ONTAP 파일 시스템용 FSx를 검색하고 제안하여 BlueXP를 사용하여 추가 및 관리할 수 있습니다. 사용 가능한 데이터 서비스를 검토할 수도 있습니다.</block>
-  <block id="bbc904daea44543b400fcb32aad70c89" category="paragraph">ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <block ref="7d3d3d003158d818e356e6a619082003" category="inline-xref-macro-rx"></block> 또는 * 내 부동산 * 페이지를 사용합니다. 이 작업에서는 * 내 부동산 * 을 사용한 검색에 대해 설명합니다</block>
   <block id="c44ce3fd744555a7c9e3cb0429cb71e1" category="list-text">BlueXP에서 * 내 부동산 * 탭을 클릭합니다.</block>
   <block id="75b0fcc2885b1eaac454cf9392c47fae" category="inline-image-macro">ONTAP용 FSx의 내 부동산 페이지 스크린샷</block>
   <block id="442b9b00a851e385483f988d6deb5a9b" category="paragraph"><block ref="442b9b00a851e385483f988d6deb5a9b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="178f7d653798a30b03a224bd262b2193" category="list-text">활성 상태가 필요합니다<block ref="7c63a28be6cb831de5033d7fc716e2b5" category="inline-link-rx"></block>.</block>
   <block id="9297684f36da0f0f1bee258dc9e26606" category="summary">작업 환경을 생성한 후에는 관리되는 Amazon FSx for NetApp ONTAP 클러스터에서 스토리지 가상 머신(VM)을 추가, 확인 및 관리할 수 있습니다.</block>
-  <block id="09fd7d4c10e67376a6e8ddb20af8bec1" category="doc">NetApp ONTAP용 Amazon FSx에 대한 스토리지 VM을 추가하고 관리합니다</block>
-  <block id="97db92f07b671990ad480605be666c0b" category="paragraph">작업 환경을 생성한 후 NetApp ONTAP 클러스터용 관리되는 Amazon FSx에서 VM(스토리지 가상 시스템)을 추가, 확인 및 관리할 수 있습니다.</block>
   <block id="4343b2bdc884cb638429641e12c0514c" category="section-title">스토리지 VM을 추가합니다</block>
   <block id="451e576c5eeebc2e49f82cf9cb99cc95" category="inline-link-macro">AWS: ONTAP 스토리지 가상 머신의 FSx 관리</block>
-  <block id="ef5264f83fd1399bf2039379d925c326" category="paragraph">BlueXP를 사용하면 저장소 VM을 ONTAP용 Amazon FSx 파일 시스템에 허용되는 최대 개수까지 추가할 수 있습니다. 을 참조하십시오 <block ref="542be7ed4bf1e8cdfb99773f949b9be5" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="c58f39af7af885b3de4e1c55331f663f" category="paragraph">작업 환경을 열고 * 스토리지 VM * 탭을 선택하거나 작업 환경 * 개요 * 패널에서 스토리지 VM을 추가할 수 있습니다. 이 작업에서는 * 스토리지 VM * 패널을 사용하여 스토리지 VM을 추가하는 방법에 대해 설명합니다.</block>
   <block id="93f5e6c9fa12acc64acdb6b378a09bdd" category="inline-link-macro">BlueXP에서 스토리지 VM 관리</block>
   <block id="161af8b5034edcc63941678877ecc17b" category="list-text">하나 이상의 스토리지 VM을 생성합니다. 을 참조하십시오 <block ref="61e460b38f962b5f0888ccf756a23b8f" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
@@ -752,7 +726,6 @@
   <block id="018dde2c5d72e2150624f098fc0cc1a6" category="list-text">필요한 경우 스토리지 VM 관리 암호를 지정합니다.</block>
   <block id="9543403a9b9b42e9d5d0bfc9f21c11ea" category="list-text">선택적으로, 더하기 기호를 클릭하고 태그 이름과 값을 입력하여 SVM을 분류할 최대 50개의 태그를 생성합니다.</block>
   <block id="7a769e7e42a18ebf369a288f74ee719a" category="list-text">스토리지 VM을 추가하려면 ** 추가**를 선택합니다.</block>
-  <block id="59ea7c00742a0b7e298503e1f32e0728" category="paragraph">새 스토리지 VM이 작업 환경 및 NetApp ONTAP용 Amazon FSx 파일 시스템에 추가됩니다.</block>
   <block id="44b681a7cf925625164e7c4c46844561" category="section-title">스토리지 VM을 관리합니다</block>
   <block id="03440d1141f070ed41a52d3ff99eb20c" category="paragraph">스토리지 VM 세부 정보를 보거나, 태그를 관리하거나, SMB/CIFS 연결을 설정하거나, 스토리지 SVM을 삭제할 수 있습니다.</block>
   <block id="017d4418a9c48f4f00ec01c0bfa6dfe2" category="list-text">스토리지 VM * 패널을 선택합니다.</block>
@@ -761,14 +734,12 @@
   <block id="85f46b970d5cbec706143f8c887a539c" category="paragraph"><block ref="85f46b970d5cbec706143f8c887a539c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="95ed4b80139db8b5b5b8076e8fdaf8ec" category="list-text">스토리지 VM 설정을 보거나 관리하려면 메뉴 옵션을 선택합니다.</block>
   <block id="64e34a8b4dd985ab1c20dc09d4e0e8a3" category="list-text">** SVM 세부 정보 보기**: 루트 볼륨, 보안 스타일, 허용되는 프로토콜, Active Directory 도메인 및 태그를 비롯한 세부 정보를 검토할 수 있습니다.</block>
-  <block id="94fbec0c035b64d9cc88594687e76f69" category="list-text">** SVM 태그 관리**: 스토리지 VM 태그를 추가, 편집 또는 제거할 수 있습니다. 변경한 내용은 AWS 콘솔과 동기화됩니다.</block>
   <block id="2ee8cc8dbc2e1be735d4ae835a6ab479" category="list-text">** SMB/CIFS 설정**: 이 작업 환경에 대한 첫 번째 CIFS 접속인 경우 _Active Directory_또는 _Workgroup_setup을 사용하여 CIFS 연결을 구성하라는 메시지가 표시됩니다.</block>
   <block id="0b614a99d1477b4fce8c90ecbfc24bb0" category="example-title">Active Directory 구성</block>
   <block id="20486a7eae9ebb16137abc464481958e" category="list-text">** SVM 삭제**: 스토리지 VM을 삭제할 수 있습니다. 삭제하려면 스토리지 VM 이름을 확인해야 합니다.</block>
   <block id="5cb8a753feb750c955f13c217735d677" category="admonition">스토리지 VM을 삭제하기 전에 스토리지 VM의 모든 볼륨을 삭제해야 합니다.</block>
   <block id="8e9385ac5e4c99f8e0628779659448ca" category="summary">BlueXP를 사용하면 ONTAP 작업 환경을 위한 FSx를 관리할 수 있습니다. 자동 용량 관리, 처리량 및 스토리지 용량 및 IOPS 변경, 작업 환경 제거 또는 삭제, 백업 및 복구, 복사 및 동기화, 분류, 복제, 볼륨 캐싱 등의 데이터 서비스를 관리할 수 있습니다.</block>
   <block id="516c626a337f0fa0093cc3145386640f" category="section-title">데이터 서비스 관리</block>
-  <block id="d51e6c9bd2e7b6163e5a1aef40ed76e3" category="paragraph">NetApp ONTAP 작업 환경을 위한 Amazon FSx에서 추가 데이터 서비스를 관리할 수 있습니다.</block>
   <block id="135193a42a4bc9020d4010ff52aafa41" category="inline-image-macro">작업 환경의 데이터 서비스 탭 스크린샷</block>
   <block id="275efdc26577366e7591e34db9833a6c" category="paragraph"><block ref="275efdc26577366e7591e34db9833a6c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1feb4fc1fb8c9928667496a5edda35aa" category="paragraph">데이터 서비스 구성에 대한 자세한 내용은 다음을 참조하십시오.</block>
@@ -811,4 +782,39 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">를 선택하여 테이블에 표시되는 열을 변경합니다 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">를 선택하여 기존 케이스를 관리합니다 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 케이스 종료 *: 케이스를 종료하는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 선택합니다.</block>
+  <block id="549c17058e7e399946611857e4d1cd06" category="summary">FSx for ONTAP 작업 환경을 생성하거나 관리하려면 FSx for ONTAP 작업 환경을 생성하는 데 필요한 권한을 BlueXP에 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다.</block>
+  <block id="80efd97954bcbad45074bb22cc10bd6e" category="paragraph"><block ref="9b424e413e3d5660d5b403cf87df1eb5" category="inline-link-macro-rx"></block> 는 고객이 NetApp ONTAP 스토리지 운영 체제에 기반한 파일 시스템을 시작하고 실행할 수 있도록 지원하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.</block>
+  <block id="8fb3606bbc139f4c9d385e215c6873cc" category="list-text">FSx for ONTAP은 _standard_or_restricted_mode에서 BlueXP를 사용할 때 지원됩니다.</block>
+  <block id="da444b283df699667b2316206972bdfe" category="paragraph">NetApp ONTAP용 Amazon FSx는 AWS 퍼스트 파티 솔루션입니다. 이 서비스를 사용하는 FSx for ONTAP 파일 시스템, 인프라 또는 솔루션과 관련하여 궁금한 사항이나 기술 지원 문제가 있는 경우 AWS 관리 콘솔의 지원 센터를 사용하여 AWS에 지원 케이스를 여십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
+  <block id="e0f2b6f03eabbd227046f4d443dcd925" category="paragraph">FSx for ONTAP 작업 환경을 생성하거나 관리하려면 FSx for ONTAP 작업 환경을 생성하는 데 필요한 권한을 BlueXP에 제공하는 IAM 역할의 ARN을 제공하여 AWS 자격 증명을 BlueXP에 추가해야 합니다. 이렇게 하려면 반드시 해야 합니다 <block ref="29f60f4dfe0d122f0f86f855f5d0bde2" category="inline-link-macro-rx"></block>.</block>
+  <block id="1c1873538051c26dd34a439f088be4d8" category="inline-link-macro">FSx for ONTAP 작업 환경을 생성합니다</block>
+  <block id="1ae47ba76410bacf8863717709cf0cac" category="paragraph">반드시 해야 합니다 <block ref="00a1d4731f29def2a8cdef004d5106ee" category="inline-link-macro-rx"></block> 볼륨을 추가하기 전에.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="5962c9612a00eabc6dc76d161354798e" category="doc">FSx for ONTAP 작업 환경을 관리합니다</block>
+  <block id="cab0c670d91d5034f6a24e4c46a71426" category="paragraph">계정 또는 볼륨을 삭제하지 않고도 BlueXP에서 FSx for ONTAP을 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 BlueXP에 다시 추가할 수 있습니다.</block>
+  <block id="d4f817cbe1a0a938e0bb33bc45edf920" category="paragraph">FSx for ONTAP 작업 환경에서 추가 데이터 서비스를 관리할 수 있습니다.</block>
+  <block id="52634ffbb1b3f2242477128412921d76" category="doc">FSx for ONTAP 작업 환경을 만들거나 검색합니다</block>
+  <block id="585db67a5739d9a0375eb0eb64dcff39" category="inline-image-macro">FSx for ONTAP의 작업 환경을 추가하는 스크린샷</block>
+  <block id="620bef4849428336b85e7713f336c27b" category="paragraph"><block ref="620bef4849428336b85e7713f336c27b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c8d8f2af7a81b8eec786cc29d3629378" category="list-text">선택적으로 FSx for ONTAP이 주간 유지 관리를 30분 수행하기 위한 시작 시간을 지정할 수 있습니다. 이는 유지 관리가 중요한 업무 활동과 일치하지 않도록 하기 위해 사용할 수 있습니다. 선호 사항 없음 * 을 선택하면 임의 시작 시간이 할당됩니다. 언제든지 변경할 수 있습니다.</block>
+  <block id="e8a65a6e18181830b2120e5483813a7c" category="inline-image-macro">작업 환경 페이지의 FSx for ONTAP 스크린샷</block>
+  <block id="0a36ca26ad15ff942eab97eaaf29fdaa" category="paragraph"><block ref="0a36ca26ad15ff942eab97eaaf29fdaa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a101671b1e11a40a333be0d171c5e79d" category="paragraph">ONTAP 파일 시스템용 FSx를 검색할 수 있습니다 <block ref="404d10cea82157b7a7699acad79a879b" category="inline-xref-macro-rx"></block> 또는 * 내 부동산 * 페이지를 사용합니다. 이 작업에서는 * 내 부동산 * 을 사용한 검색에 대해 설명합니다</block>
+  <block id="074dd9ea2b32a1402ae8d5d6c422a750" category="doc">FSx for ONTAP용 스토리지 VM 추가 및 관리</block>
+  <block id="f737e193a3b1cb982ce90463cbc2b7ce" category="paragraph">작업 환경을 생성한 후 관리형 FSx for ONTAP 클러스터에 _SVM_- 이라고도 하는 스토리지 가상 머신(VM)을 추가, 보기 및 관리할 수 있습니다.</block>
+  <block id="91f56feb178d52d9279c9af93f27df30" category="paragraph">BlueXP를 사용하면 허용되는 최대 한도까지 스토리지 VM을 FSx for ONTAP 파일 시스템에 추가할 수 있습니다. 을 참조하십시오 <block ref="542be7ed4bf1e8cdfb99773f949b9be5" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="c084220326abd184a9d2e78a0f7f567d" category="paragraph">새 스토리지 VM이 작업 환경 및 FSx for ONTAP 파일 시스템에 추가됩니다.</block>
+  <block id="7ba0bf32cd187085eba4e94fe5384679" category="list-text">** SVM 태그 관리**: 스토리지 VM 태그를 추가, 편집 또는 제거할 수 있습니다. 변경한 내용은 AWS Management Console과 동기화됩니다.</block>
+  <block id="ca8a017c08ace53c390c91889b840466" category="doc">FSx for ONTAP의 볼륨을 관리합니다</block>
+  <block id="662cca17164a8107f426b270508c3f0c" category="paragraph">볼륨 태그를 추가, 수정 또는 삭제할 수 있습니다. BlueXP에서 추가된 태그는 AWS 관리 콘솔에 반영됩니다. AWS Management Console과 태그를 동기화하는 데 최대 1시간이 걸릴 수 있습니다.</block>
+  <block id="8f74db37aa07f36891b775ec6c7707fe" category="doc">FSx for ONTAP용 볼륨을 생성합니다</block>
+  <block id="5ba1bab3c6e50e01478602a06c56144d" category="paragraph">FSx for ONTAP의 새로운 기능에 대해 알아보십시오.</block>
+  <block id="5bcc669ee11e0eb7bdcbbbb0e0d60d52" category="sidebar">FSx for ONTAP 사용</block>
 </blocks>

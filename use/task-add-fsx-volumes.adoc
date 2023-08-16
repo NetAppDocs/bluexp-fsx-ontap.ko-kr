@@ -4,7 +4,7 @@ permalink: use/task-add-fsx-volumes.html
 keywords: fsx for ontap, fsx, aws, create volumes, create nfs volumes, delete nfs volumes, cifs volumes, iscsi, mount volume, delete working environment 
 summary: 작업 환경을 설정한 후 NetApp ONTAP 볼륨, 클론 및 스냅샷에 대한 Amazon FSx를 생성 및 관리하고, 계층화 정책을 변경하고, ONTAP용 FSx를 제거 또는 삭제할 수 있습니다. 
 ---
-= NetApp ONTAP용 Amazon FSx의 볼륨을 생성합니다
+= FSx for ONTAP용 볼륨을 생성합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -4,7 +4,7 @@ permalink: use/task-add-fsx-svm.html
 keywords: fsx for ontap, fsx, aws, storage vm, storage virtual machine, svm, add svm, virtual machine, delete svm, tags, smb, cifs, delete 
 summary: '작업 환경을 생성한 후에는 관리되는 Amazon FSx for NetApp ONTAP 클러스터에서 스토리지 가상 머신(VM)을 추가, 확인 및 관리할 수 있습니다.' 
 ---
-= NetApp ONTAP용 Amazon FSx에 대한 스토리지 VM을 추가하고 관리합니다
+= FSx for ONTAP용 스토리지 VM 추가 및 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: '작업 환경을 생성한 후에는 관리되는 Amazon FSx for NetAp
 
 
 [role="lead"]
-작업 환경을 생성한 후 NetApp ONTAP 클러스터용 관리되는 Amazon FSx에서 VM(스토리지 가상 시스템)을 추가, 확인 및 관리할 수 있습니다.
+작업 환경을 생성한 후 관리형 FSx for ONTAP 클러스터에 _SVM_- 이라고도 하는 스토리지 가상 머신(VM)을 추가, 보기 및 관리할 수 있습니다.
 
 
 
 == 스토리지 VM을 추가합니다
 
-BlueXP를 사용하면 저장소 VM을 ONTAP용 Amazon FSx 파일 시스템에 허용되는 최대 개수까지 추가할 수 있습니다. 을 참조하십시오 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-svms.html["AWS: ONTAP 스토리지 가상 머신의 FSx 관리"^] 를 참조하십시오.
+BlueXP를 사용하면 허용되는 최대 한도까지 스토리지 VM을 FSx for ONTAP 파일 시스템에 추가할 수 있습니다. 을 참조하십시오 link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/managing-svms.html["AWS: ONTAP 스토리지 가상 머신의 FSx 관리"^] 를 참조하십시오.
 
 .이 작업에 대해
 작업 환경을 열고 * 스토리지 VM * 탭을 선택하거나 작업 환경 * 개요 * 패널에서 스토리지 VM을 추가할 수 있습니다. 이 작업에서는 * 스토리지 VM * 패널을 사용하여 스토리지 VM을 추가하는 방법에 대해 설명합니다.
@@ -48,7 +48,7 @@ image:svm-add.png["스토리지 VM 패널의 스크린샷."]
 
 
 .결과
-새 스토리지 VM이 작업 환경 및 NetApp ONTAP용 Amazon FSx 파일 시스템에 추가됩니다.
+새 스토리지 VM이 작업 환경 및 FSx for ONTAP 파일 시스템에 추가됩니다.
 
 
 
@@ -69,7 +69,7 @@ image:svm-manage.png["스토리지 VM 관리 패널의 스토리지 VM 옵션 �
 . 스토리지 VM 설정을 보거나 관리하려면 메뉴 옵션을 선택합니다.
 +
 ** ** SVM 세부 정보 보기**: 루트 볼륨, 보안 스타일, 허용되는 프로토콜, Active Directory 도메인 및 태그를 비롯한 세부 정보를 검토할 수 있습니다.
-** ** SVM 태그 관리**: 스토리지 VM 태그를 추가, 편집 또는 제거할 수 있습니다. 변경한 내용은 AWS 콘솔과 동기화됩니다.
+** ** SVM 태그 관리**: 스토리지 VM 태그를 추가, 편집 또는 제거할 수 있습니다. 변경한 내용은 AWS Management Console과 동기화됩니다.
 ** ** SMB/CIFS 설정**: 이 작업 환경에 대한 첫 번째 CIFS 접속인 경우 _Active Directory_또는 _Workgroup_setup을 사용하여 CIFS 연결을 구성하라는 메시지가 표시됩니다.
 +
 *** 워크그룹 설정을 선택한 경우 CIFS용으로 구성된 워크그룹의 서버 및 워크그룹 이름을 입력합니다.

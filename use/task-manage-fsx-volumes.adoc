@@ -4,7 +4,7 @@ permalink: use/task-manage-fsx-volumes.html
 keywords: fsx for ontap, fsx, aws, delete volumes, delete nfs volumes, delete cifs volumes, tiering policy, mount path, get mount path, mount volume, delete volumes, snapshots, edit volume, clone volume, clone 
 summary: 볼륨, 클론, 스냅샷을 관리하고 BlueXP를 사용하여 ONTAP용 FSx의 계층화 정책을 변경할 수 있습니다. 
 ---
-= NetApp ONTAP용 Amazon FSx의 볼륨을 관리합니다
+= FSx for ONTAP의 볼륨을 관리합니다
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -62,7 +62,7 @@ NOTE: 볼륨 이름 위로 마우스를 가져가면 볼륨 유형이 표시됩�
 
 == 볼륨 태그 관리
 
-볼륨 태그를 추가, 수정 또는 삭제할 수 있습니다. BlueXP에 추가된 태그는 AWS 콘솔에 반영됩니다. 태그를 AWS 콘솔과 동기화하는 데 최대 1시간이 걸릴 수 있습니다.
+볼륨 태그를 추가, 수정 또는 삭제할 수 있습니다. BlueXP에서 추가된 태그는 AWS 관리 콘솔에 반영됩니다. AWS Management Console과 태그를 동기화하는 데 최대 1시간이 걸릴 수 있습니다.
 
 
 NOTE: BlueXP에서 생성한 볼륨 태그는 AWS와 동기화될 때까지 편집할 수 없습니다. 최대 1시간이 소요될 수 있습니다. 볼륨 태그 관리 * 옵션이 회색으로 표시되면 AWS가 볼륨 태그를 아직 동기화하지 않은 것입니다.

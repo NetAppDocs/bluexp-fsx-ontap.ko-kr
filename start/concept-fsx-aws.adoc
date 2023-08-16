@@ -14,7 +14,7 @@ summary: NetApp ONTAP용 Amazon FSx는 고객이 NetApp의 ONTAP 스토리지 �
 
 
 [role="lead"]
-link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["NetApp ONTAP용 Amazon FSx"^] 는 고객이 NetApp의 ONTAP 스토리지 운영 체제가 제공하는 파일 시스템을 실행하고 실행할 수 있도록 하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.
+link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["NetApp ONTAP용 Amazon FSx"^] 는 고객이 NetApp ONTAP 스토리지 운영 체제에 기반한 파일 시스템을 시작하고 실행할 수 있도록 지원하는 완전 관리형 서비스입니다. ONTAP용 FSX는 NetApp 고객이 사내에서 사용하는 것과 동일한 기능, 성능 및 관리 기능을 기본 AWS 서비스의 단순성, 민첩성, 보안 및 확장성으로 제공합니다.
 
 
 
@@ -31,7 +31,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["N
 
 == BlueXP의 추가 기능
 
-* NetApp ONTAP용 Amazon FSx는 BlueXP in_standard_or_restricted_mode에서 지원됩니다.
+* FSx for ONTAP은 _standard_or_restricted_mode에서 BlueXP를 사용할 때 지원됩니다.
 +
 ** 표준 모드는 BlueXP SaaS 계층을 활용하여 모든 기능을 제공합니다.
 ** 제한된 모드는 연결 제한이 있는 조직에서 사용할 수 있습니다.
@@ -63,7 +63,7 @@ https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services
 
 == 도움말 보기
 
-NetApp ONTAP용 Amazon FSx는 AWS 퍼스트 파티 솔루션입니다. Amazon FSx for NetApp ONTAP 파일 시스템, 인프라 또는 이 서비스를 사용하는 솔루션과 관련된 질문 또는 기술 지원 문제가 있는 경우 AWS 콘솔의 지원 센터를 사용하여 AWS에 지원 케이스를 여십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.
+NetApp ONTAP용 Amazon FSx는 AWS 퍼스트 파티 솔루션입니다. 이 서비스를 사용하는 FSx for ONTAP 파일 시스템, 인프라 또는 솔루션과 관련하여 궁금한 사항이나 기술 지원 문제가 있는 경우 AWS 관리 콘솔의 지원 센터를 사용하여 AWS에 지원 케이스를 여십시오. “FSx for ONTAP” 서비스와 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.
 
 BlueXP 또는 BlueXP 스토리지 솔루션 및 서비스에 대한 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.
 
