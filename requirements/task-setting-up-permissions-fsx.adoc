@@ -24,16 +24,22 @@ BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.
 
 .단계
 . 대상 계정에서 IAM 콘솔로 이동합니다.
-. 액세스 관리에서 * 역할 > 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.
+. AWS 계정에 BlueXP 액세스 권한 부여 액세스 관리에서 * 역할 > 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.
 +
 ** 신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.
-** 다른 AWS 계정 * 을 선택하고 BlueXP의 ID를 입력합니다.
+** 다른 AWS 계정 * 을 선택하고 BlueXP * 계정 ID * 를 입력합니다.
 +
 *** BlueXP SaaS: 952013314444
 *** AWS GovCloud(미국): 033442085313
++
+
+NOTE: 보안을 강화하기 위해 을(를) 지정하는 것이 좋습니다 link:https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html["_외부 ID _"^]. AWS 계정에 액세스하려면 BlueXP가 ARN(Amazon 리소스 이름) 역할과 사용자가 지정한 외부 ID를 제공해야 합니다. 그러면 가 방지됩니다 link:https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html["혼란스러운 차관 문제"^].
 
 
-** 필요에 따라 다음과 같은 필수 최소 권한 및 선택적 권한이 포함된 정책을 만듭니다.
+
+
+
+. 필요에 따라 다음과 같은 필수 최소 권한 및 선택적 권한이 포함된 정책을 만듭니다.
 +
 [role="tabbed-block"]
 ====
@@ -93,9 +99,7 @@ BlueXP에서 를 사용하려면 다음과 같은 추가 권한이 필요합니�
 ----
 --
 ====
-
-
-. 다음 단계에서 BlueXP에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.
+. 다음 단계에서 BlueXP에 붙여 넣을 수 있도록 IAM 역할의 ARN 역할을 복사합니다.
 
 
 .결과
@@ -108,7 +112,7 @@ BlueXP에서 를 사용하려면 다음과 같은 추가 권한이 필요합니�
 필요한 권한을 IAM 역할에 제공한 후 ARN 역할을 BlueXP에 추가합니다.
 
 .시작하기 전에
-방금 IAM 역할을 생성한 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.
+IAM 역할을 방금 생성한 경우 새 자격 증명을 사용할 수 있도록 몇 분 동안 기다립니다.
 
 .단계
 . BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.
@@ -118,7 +122,7 @@ image:screenshot_settings_icon.gif["BlueXP 콘솔의 오른쪽 위에 설정 아
 . 자격 증명 추가 * 를 클릭하고 마법사의 단계를 따릅니다.
 +
 .. * 자격 증명 위치 *: * Amazon Web Services > BlueXP * 를 선택합니다.
-.. * 자격 증명 정의 *: IAM 역할의 ARN(Amazon Resource Name)을 제공합니다.
+.. * 자격 증명 정의 *: 자격 증명 이름 * 과 역할 ARN * 및 * 외부 ID * (지정된 경우)를 제공합니다 <<IAM 역할을 설정합니다>>.
 +
 [NOTE]
 ====

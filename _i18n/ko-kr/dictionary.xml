@@ -231,12 +231,10 @@
   <block id="8fad3d94a3385eeb6406613f49896cdd" category="doc">ONTAP용 FSx에 대한 권한을 설정합니다</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="section-title">IAM 역할을 설정합니다</block>
   <block id="44030f19e52b4a03b050525f287bbc15" category="list-text">대상 계정에서 IAM 콘솔로 이동합니다.</block>
-  <block id="7f4640b00b5df83a54d4aaaa51f7d6ab" category="list-text">액세스 관리에서 * 역할 &gt; 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.</block>
   <block id="e506de832b98c2693eb3f400ef0722c0" category="list-text">신뢰할 수 있는 엔터티 유형 * 에서 * AWS 계정 * 을 선택합니다.</block>
   <block id="d47c23803528fa45fad33a3f83dfcf54" category="paragraph">이제 IAM 역할에 필요한 권한이 있습니다.</block>
   <block id="36bc52aaebad43ec3e49ed9a0efacd43" category="section-title">자격 증명을 추가합니다</block>
   <block id="11832df968cbb4cdb8e45984c11a77d0" category="list-text">자격 증명 추가 * 를 클릭하고 마법사의 단계를 따릅니다.</block>
-  <block id="8cf335d7d3b1dd5cdac30699d20489c0" category="list-text">* 자격 증명 정의 *: IAM 역할의 ARN(Amazon Resource Name)을 제공합니다.</block>
   <block id="cc993521b8909c4085841bf25067d9c0" category="list-text">* 검토 *: 새 자격 증명에 대한 세부 정보를 확인하고 * 추가 * 를 클릭합니다.</block>
   <block id="c0abab76d53e87b10c7a7de184fc0f53" category="paragraph">이제 ONTAP 작업 환경에 대한 FSx를 생성할 때 자격 증명을 사용할 수 있습니다.</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">관련 링크</block>
@@ -399,11 +397,8 @@
   <block id="9936779ebe4e0ac089fa89c319d5473b" category="summary">BlueXP는 ONTAP용 BlueXP 및 FSx의 성공적인 운영에 필요한 인바운드 및 아웃바운드 규칙을 포함하는 AWS 보안 그룹을 생성합니다. 테스트 목적으로 또는 자체 포트를 사용해야 하는 경우 포트를 참조할 수 있습니다.</block>
   <block id="ecd87ae03b07f0712964d94eb75683a5" category="cell">BlueXP에서 DNS Resolve에 사용됩니다</block>
   <block id="1db8d07619da1f12a7b920676f6769ae" category="paragraph">BlueXP가 역할을 맡을 수 있도록 IAM 역할을 설정합니다.</block>
-  <block id="c29858d9450fbef0a082acaa54d1bc6d" category="list-text">다른 AWS 계정 * 을 선택하고 BlueXP의 ID를 입력합니다.</block>
   <block id="edcfddcfff54621c47b01eddd968a5b0" category="list-text">BlueXP SaaS: 952013314444</block>
-  <block id="fa9df323148192800073dd2a78c81f73" category="list-text">다음 단계에서 BlueXP에 붙여넣을 수 있도록 IAM 역할의 역할 ARN을 복사합니다.</block>
   <block id="d5dc64744da4d60a47aa835877d08194" category="paragraph">필요한 권한을 IAM 역할에 제공한 후 ARN 역할을 BlueXP에 추가합니다.</block>
-  <block id="6d9d6baff2479ce7a87bf705f93f1641" category="paragraph">방금 IAM 역할을 생성한 경우 사용할 수 있을 때까지 몇 분 정도 걸릴 수 있습니다. BlueXP에 자격 증명을 추가하기 전에 몇 분 정도 기다립니다.</block>
   <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.</block>
   <block id="be9d7b7687f0c55f7e65f14cd2b0f530" category="inline-image-macro">BlueXP 콘솔의 오른쪽 위에 설정 아이콘이 표시된 스크린샷.</block>
   <block id="cb9e3791dcb67c8a699c104be6a1c49c" category="paragraph"><block ref="cb9e3791dcb67c8a699c104be6a1c49c" category="inline-image-macro-rx" type="image"></block></block>
@@ -819,4 +814,12 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="8e2d9036bdca41a47ed6a62d5c651b17" category="list-text">AWS 계정에 BlueXP 액세스 권한 부여 액세스 관리에서 * 역할 &gt; 역할 만들기 * 를 클릭하고 단계를 따라 역할을 만듭니다.</block>
+  <block id="100857c2eecdae8b99b613fc837c4b77" category="list-text">다른 AWS 계정 * 을 선택하고 BlueXP * 계정 ID * 를 입력합니다.</block>
+  <block id="7705419552b80484a159f2d27d7cf57b" category="inline-link-macro">_외부 ID _</block>
+  <block id="2ecdc21261ba583d893ec3e735f02292" category="inline-link-macro">혼란스러운 차관 문제</block>
+  <block id="a382deac7db7b733bc63619e401d8f45" category="admonition">보안을 강화하기 위해 을(를) 지정하는 것이 좋습니다 <block ref="96b272eff9669a5b2b13cba8c25b9973" category="inline-link-macro-rx"></block>. AWS 계정에 액세스하려면 BlueXP가 ARN(Amazon 리소스 이름) 역할과 사용자가 지정한 외부 ID를 제공해야 합니다. 그러면 가 방지됩니다 <block ref="2847290d28a09952a637392df577ce64" category="inline-link-macro-rx"></block>.</block>
+  <block id="5490038d2be728c6d3679ab6915e87e3" category="list-text">다음 단계에서 BlueXP에 붙여 넣을 수 있도록 IAM 역할의 ARN 역할을 복사합니다.</block>
+  <block id="1a913f679da8e614b14423480f9ce6be" category="paragraph">IAM 역할을 방금 생성한 경우 새 자격 증명을 사용할 수 있도록 몇 분 동안 기다립니다.</block>
+  <block id="a2841ca82f44794bf8912d92f8eaf4d6" category="list-text">* 자격 증명 정의 *: 자격 증명 이름 * 과 역할 ARN * 및 * 외부 ID * (지정된 경우)를 제공합니다 <block ref="a1061025d6c6e25a2b8607068ce69197" category="inline-xref-macro-rx"></block>.</block>
 </blocks>
