@@ -241,7 +241,6 @@
   <block id="97911b3c54a4e826b34c1f79026316c5" category="inline-link">AWS 자격 증명 및 권한</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
   <block id="5e63cf07e8c4e2bc02fec4b907bfcc00" category="list-text">스토리지 디바이스, 소프트웨어 또는 백업을 구성하거나 관리할 필요가 없습니다.</block>
-  <block id="620d7e4da65c27b65a66bca15517b802" category="list-text">CIFS, NFSv3, NFSv4.x 및 SMB v2.0-v3.1.1 프로토콜 지원</block>
   <block id="f6ad83cb7f527e383e392f709849a098" category="list-text">자주 액세스하지 않는(IA) 스토리지 계층을 사용하여 저렴한 비용으로 사실상 제한 없는 데이터 스토리지 용량을 확보할 수 있습니다.</block>
   <block id="3c36508c8697f7ec7a94803545518d69" category="list-text">Oracle RAC를 포함하여 지연 시간에 민감한 애플리케이션에서 실행되도록 인증받았습니다.</block>
   <block id="6c2a9ed4ea140413912e894a10672e01" category="list-text">번들 및 용량제 가격 선택 가능</block>
@@ -822,4 +821,5 @@
   <block id="5490038d2be728c6d3679ab6915e87e3" category="list-text">다음 단계에서 BlueXP에 붙여 넣을 수 있도록 IAM 역할의 ARN 역할을 복사합니다.</block>
   <block id="1a913f679da8e614b14423480f9ce6be" category="paragraph">IAM 역할을 방금 생성한 경우 새 자격 증명을 사용할 수 있도록 몇 분 동안 기다립니다.</block>
   <block id="a2841ca82f44794bf8912d92f8eaf4d6" category="list-text">* 자격 증명 정의 *: 자격 증명 이름 * 과 역할 ARN * 및 * 외부 ID * (지정된 경우)를 제공합니다 <block ref="a1061025d6c6e25a2b8607068ce69197" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1d2976e5126e0cf8526afeab66bc8fa3" category="list-text">CIFS, iSCSI, NFSv3, NFSv4.x 및 SMB v2.0-v3.1.1 프로토콜 지원</block>
 </blocks>

@@ -21,7 +21,7 @@ link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["N
 == 피처
 
 * 스토리지 디바이스, 소프트웨어 또는 백업을 구성하거나 관리할 필요가 없습니다.
-* CIFS, NFSv3, NFSv4.x 및 SMB v2.0-v3.1.1 프로토콜 지원
+* CIFS, iSCSI, NFSv3, NFSv4.x 및 SMB v2.0-v3.1.1 프로토콜 지원
 * 자주 액세스하지 않는(IA) 스토리지 계층을 사용하여 저렴한 비용으로 사실상 제한 없는 데이터 스토리지 용량을 확보할 수 있습니다.
 * Oracle RAC를 포함하여 지연 시간에 민감한 애플리케이션에서 실행되도록 인증받았습니다.
 * 번들 및 용량제 가격 선택 가능
