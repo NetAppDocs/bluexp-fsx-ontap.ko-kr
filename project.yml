@@ -48,7 +48,3 @@ sidebar:
       url: "/support/task-get-help.html"
   - title: 법적 고지
     url: "/legal-notices.html"
-product-family:
-  name: BlueXP
-  repo: bluexp-family
-  sidebar_label: 모든 BlueXP 설명서
