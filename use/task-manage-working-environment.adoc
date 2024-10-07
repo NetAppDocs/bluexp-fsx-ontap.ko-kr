@@ -114,7 +114,7 @@ image:screenshot-configure-iops.png["스토리지 용량 및 IOPS 값을 변경�
 
 
 
-== 작업 영역에서 ONTAP용 FSx를 제거합니다
+== 프로젝트 또는 작업 공간에서 FSx for ONTAP을 제거합니다
 
 계정 또는 볼륨을 삭제하지 않고도 BlueXP에서 FSx for ONTAP을 제거할 수 있습니다. ONTAP 작업 환경용 FSx를 언제든지 BlueXP에 다시 추가할 수 있습니다.
 
