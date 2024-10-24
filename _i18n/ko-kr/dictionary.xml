@@ -459,7 +459,6 @@
   <block id="9123b1a896e43bd47ae8708d015514ba" category="section-title">자동 용량 관리</block>
   <block id="1c05e31e27d15b210cdcb01d01331c36" category="paragraph">필요에 따라 자동 용량 관리를 통해 증분 스토리지를 추가할 수 있습니다. 자동 용량 관리는 정기적으로 클러스터를 폴링하여 수요를 평가하고 클러스터 최대 용량의 10%~80% 단위로 스토리지 용량을 자동으로 늘립니다.</block>
   <block id="0b77a63f8ac25e1cd8509e906523f459" category="inline-link-macro">작업 환경을 만듭니다</block>
-  <block id="0185df25abbf3744285dd03ec2704b86" category="admonition">작업 환경을 생성할 때 IOPS 값을 수동으로 지정하지 않은 경우 BlueXP는 새 총 용량의 GiB당 IOPS를 3 IOPS로 늘립니다. IOPS 값을 지정한 경우 BlueXP는 IOPS를 조정하지 않습니다. IOPS 구성에 대한 자세한 내용은 을 참조하십시오 <block ref="54a688b79e41730a76924297f5ac42a6" category="inline-link-macro-rx"></block>.</block>
   <block id="baf936091e5717d22f9c2b2ccee10188" category="paragraph">자동 용량 관리는 기본적으로 해제되어 있습니다. AWS에서 액티브 커넥터를 사용하거나 사용하지 않고 자동 용량을 관리할 수 있습니다.</block>
   <block id="2ccb2d581067f0eac436a078317d136d" category="section-title">활성 커넥터 없이 자동 용량을 관리합니다</block>
   <block id="13c4ac4dcec1decf7e36eed04316808f" category="paragraph">AWS의 액티브 커넥터 없이 자동 용량을 관리할 수 있습니다.</block>
@@ -820,4 +819,5 @@
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
   <block id="43bfe52d70c7aa3f5d364396cd6ec3fd" category="section-title">프로젝트 또는 작업 공간에서 FSx for ONTAP을 제거합니다</block>
+  <block id="6c6cfde7c92a73ae5e1266396d6657d9" category="admonition">작업 환경을 생성할 때 IOPS 값을 수동으로 지정하지 않은 경우 BlueXP는 새 총 용량의 GiB당 IOPS를 3 IOPS로 늘립니다. IOPS 값을 지정한 경우 BlueXP는 IOPS를 조정하지 않습니다. IOPS 구성에 대한 자세한 내용은 을 <block ref="a0c1e5541590cfd29c35eef67f286e58" category="inline-link-macro-rx"></block>참조하십시오.</block>
 </blocks>
