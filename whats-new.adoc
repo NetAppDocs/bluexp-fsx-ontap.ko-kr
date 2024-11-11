@@ -18,6 +18,18 @@ FSx for ONTAP의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2024년 11월 11일
+
+
+
+=== FSx for ONTAP은 BlueXP  워크로드 팩토리의 스토리지와 통합됩니다
+
+볼륨 추가, 파일 시스템 용량 확장 및 스토리지 VM 관리와 같은 FSx for ONTAP 파일 시스템 관리 작업이 이제 NetApp 및 Amazon FSx for NetApp ONTAP에서 제공하는 새로운 서비스인 BlueXP  워크로드 팩토리에서 관리됩니다. 이전과 마찬가지로 기존 자격 증명과 사용 권한을 사용할 수 있습니다. 차이점은 이제 BlueXP  워크로드 팩토리로부터 더 많은 작업을 수행하여 파일 시스템을 관리할 수 있다는 점입니다. BlueXP  캔버스에서 FSx for ONTAP 작업 환경을 열면 BlueXP  워크로드 팩토리로 바로 이동합니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["BlueXP  워크로드 팩토리의 FSx for ONTAP 기능에 대해 알아보십시오"^]
+
+
+
 == 2023년 7월 30일
 
 
@@ -43,6 +55,22 @@ FSx for ONTAP의 새로운 기능에 대해 알아보십시오.
 === ** My Opportunities** 탭이 지금 ** My Rest** 입니다
 
 ** 내 기회** 탭은 지금 ** 내 부동산** 입니다. 새 이름이 반영되도록 문서가 업데이트됩니다.
+
+
+
+== 2023년 6월 4일
+
+
+
+=== 유지 보수 기간 시작 시간입니다
+
+시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]주 30분 유지 보수 기간의 시작 시간을 지정하여 유지 보수가 중요한 업무 활동과 충돌하지 않도록 할 수 있습니다.
+
+
+
+=== FlexGroups를 사용하여 볼륨 데이터를 배포합니다
+
+시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["볼륨을 생성하는 중입니다"]FlexGroup을 생성하여 데이터를 볼륨 간에 분산함으로써 데이터 최적화를 활성화할 수 있습니다.
 
 
 
