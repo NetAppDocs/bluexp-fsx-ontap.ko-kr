@@ -52,7 +52,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 스토리지 VM을 추가합니다
 
-이제 가능합니다 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["스토리지 VM을 추가합니다"] BlueXP를 사용하는 NetApp ONTAP 파일 시스템용 Amazon FSx로
+이제 BlueXP 를 사용하여 Amazon FSx for NetApp ONTAP 파일 시스템에 스토리지 VM을 추가할 수 있습니다.
 
 
 
@@ -68,13 +68,13 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 유지 보수 기간 시작 시간입니다
 
-시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]주 30분 유지 보수 기간의 시작 시간을 지정하여 유지 보수가 중요한 업무 활동과 충돌하지 않도록 할 수 있습니다.
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]유지 관리가 중요한 업무 활동과 충돌하지 않도록 주별 30분 유지 관리 기간의 시작 시간을 지정할 수 있습니다.
 
 
 
 === FlexGroups를 사용하여 볼륨 데이터를 배포합니다
 
-시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["볼륨을 생성하는 중입니다"]FlexGroup을 생성하여 데이터를 볼륨 간에 분산함으로써 데이터 최적화를 활성화할 수 있습니다.
+볼륨을 생성할 때 FlexGroup을 생성하여 볼륨 간에 데이터를 분산함으로써 데이터를 최적화할 수 있습니다.
 
 
 
@@ -84,13 +84,13 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 유지 보수 기간 시작 시간입니다
 
-시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]주 30분 유지 보수 기간의 시작 시간을 지정하여 유지 보수가 중요한 업무 활동과 충돌하지 않도록 할 수 있습니다.
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["작업 환경 만들기"]유지 관리가 중요한 업무 활동과 충돌하지 않도록 주별 30분 유지 관리 기간의 시작 시간을 지정할 수 있습니다.
 
 
 
 === FlexGroups를 사용하여 볼륨 데이터를 배포합니다
 
-시기 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["볼륨을 생성하는 중입니다"]FlexGroup을 생성하여 데이터를 볼륨 간에 분산함으로써 데이터 최적화를 활성화할 수 있습니다.
+볼륨을 생성할 때 FlexGroup을 생성하여 볼륨 간에 데이터를 분산함으로써 데이터를 최적화할 수 있습니다.
 
 
 
@@ -106,7 +106,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/s
 
 === 태그를 추가하거나 수정합니다
 
-선택적으로  및 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["수정"] 태그를 지정하여 볼륨을 분류할 수 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["추가"]있습니다.
+선택적으로 태그를 추가하고 수정하여 볼륨을 분류할 수 있습니다.
 
 
 
@@ -170,13 +170,13 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-workin
 
 === 데이터 복제 및 동기화
 
-이제 FSx for ONTAP를 소스로 사용하여 온프레미스 및 기타 FSx for ONTAP 시스템에서 사용할 수 있습니다link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#replicate-and-sync-data["데이터 복제 및 동기화"].
+이제 FSx for ONTAP를 소스로 사용하여 온프레미스 및 다른 FSx for ONTAP 시스템에 데이터를 복제하고 동기화할 수 있습니다.
 
 
 
 === iSCSI 볼륨을 생성합니다
 
-이제 할 수 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cloud Manager를 사용하여 ONTAP용 FSx에서 iSCSI 볼륨을 생성합니다"]있습니다.
+이제 Cloud Manager를 사용하여 FSx for ONTAP에서 iSCSI 볼륨을 생성할 수 있습니다.
 
 
 
@@ -224,7 +224,7 @@ ONTAP용 FSx용 iSCSI 볼륨은 Cloud Manager API를 사용하여 생성하고 �
 
 === 볼륨을 생성할 때 볼륨 단위를 선택합니다
 
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["볼륨을 생성할 때 볼륨 단위(GiB 또는 TiB)를 선택합니다"]FSx for ONTAP에서 가능합니다.
+FSx for ONTAP에서 볼륨을 생성할 때 볼륨 단위(GiB 또는 TiB)를 선택할 수 있습니다.
 
 
 
@@ -234,13 +234,13 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.htm
 
 === Cloud Manager를 사용하여 CIFS 볼륨을 생성합니다
 
-이제 가능합니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#creating-volumes["Cloud Manager를 사용하여 ONTAP용 FSx에서 CIFS 볼륨을 생성합니다"].
+이제 Cloud Manager를 사용하여 FSx for ONTAP에서 CIFS 볼륨을 생성할 수 있습니다.
 
 
 
 === Cloud Manager를 사용하여 볼륨을 편집합니다
 
-이제 가능합니다 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#editing-volumes["Cloud Manager를 사용하여 ONTAP 볼륨의 FSx를 편집합니다"].
+이제 Cloud Manager를 사용하여 FSx for ONTAP 볼륨을 편집할 수 있습니다.
 
 
 
