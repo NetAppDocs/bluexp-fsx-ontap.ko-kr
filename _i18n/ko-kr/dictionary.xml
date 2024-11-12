@@ -348,7 +348,6 @@
   <block id="e0b4e8575b26211ee68cab758d1b0cac" category="paragraph">자격 증명 및 권한은 BlueXP  워크로드 팩토리를 통해 관리됩니다. BlueXP  워크로드 팩토리는 사용자가 Amazon FSx for NetApp ONTAP 파일 시스템을 사용하여 워크로드를 최적화할 수 있도록 설계된 라이프사이클 관리 플랫폼입니다. BlueXP 은 BlueXP  워크로드 팩토리와 동일한 AWS 자격 증명 및 권한을 사용합니다.</block>
   <block id="2ffc5ab59f8fac9a9a3376e281855295" category="paragraph">워크로드 팩토리 인터페이스는 BlueXP  사용자에게 스토리지, VMware, 데이터베이스 및 GenAI와 같은 워크로드 기능을 활성화하고 워크로드에 대한 권한을 선택하는 옵션을 제공합니다. _스토리지_는 워크로드 팩토리의 스토리지 관리 기능이며 FSx for ONTAP 파일 시스템을 생성하고 관리하기 위해 자격 증명을 활성화하고 추가해야 하는 유일한 기능입니다.</block>
   <block id="4dacf6e0adb6ed0f64acd514a486bf8a" category="inline-link-macro">작동 모드에 대해 자세히 알아보십시오</block>
-  <block id="8ac3c34b26a8ad6f8186c49f54f40eaf" category="paragraph">BlueXP  워크로드 공장 스토리지에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 경우 운영하려는 권한 레벨 또는 _ 운영 모드 _ 을(를) 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _ read_or_automate_permissions가 필요합니다. BlueXP  FSx for ONTAP는 _READ_MODE 또는 _AUTOMATE_MODE를 선택하지 않는 한 _BASIC_MODE에서 작동합니다. <block ref="c4601583893f884c96ed3090be0e6e80" category="inline-link-macro-rx"></block>..</block>
   <block id="3d8d24e33543a3c398a30850c79b37d8" category="paragraph">신규 및 기존 AWS 자격 증명은 BlueXP  설정 &gt; * 자격 증명 * 페이지에서 확인할 수 있습니다.</block>
   <block id="df21e6f22445f7e313093546a4762e64" category="paragraph">다음 두 가지 방법을 사용하여 자격 증명을 추가할 수 있습니다.</block>
   <block id="a8d22daacb593b2058549a21847e76f3" category="list-text">* 수동으로 *: AWS 계정에서 IAM 정책 및 IAM 역할을 생성하고 워크로드 공장에서 자격 증명을 추가합니다.</block>
@@ -421,39 +420,28 @@
   <block id="7407a944f7ba648de83a8109aee6d270" category="summary">Amazon FSx for NetApp ONTAP은 고객이 NetApp의 ONTAP 스토리지 운영 체제에 기반한 파일 시스템을 시작하고 실행할 수 있도록 지원하는 완전 관리형 서비스입니다.</block>
   <block id="748db65cf4725be2bd3a1588440913cd" category="section-title">BlueXP 에서 FSx for ONTAP 사용</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  워크로드 공장</block>
-  <block id="1442063ab43a42a128dde83e435a2f6d" category="paragraph">BlueXP  Canvas에서 FSx for ONTAP 작업 환경을 생성 및 검색하고, System Manager 및 기타 BlueXP  서비스를 사용하고, 자격 증명을 볼 수 있습니다. FSx for ONTAP 파일 시스템을 사용하는 자격 증명과 워크로드를 관리하려면 를 사용합니다.<block ref="809afc2f4cb79e608d46f9e3b3ede420" category="inline-link-rx"></block></block>
-  <block id="4e7416eb82a2e30218ab1c99273593ee" category="inline-link-macro">BlueXP 에서 FSx for ONTAP를 사용하는 방법에 대해 자세히 알아보십시오</block>
-  <block id="973b0ef3d620a958146d42029fbba63d" category="paragraph"><block ref="b27f119c0608bd87391dbe77bfc6d870" category="inline-link-macro-rx"></block>..</block>
-  <block id="15e6df97d428ddc84a8106eefd03191e" category="list-text">FSx for ONTAP은 BlueXP  SaaS 계층을 활용하여 전체 기능을 제공하는 in_standard_mode에서 BlueXP 을 사용할 때 지원됩니다.</block>
-  <block id="1f591ada027cd358af1a8dabc6fa8457" category="section-title">커넥터와 링크는 모든 FSx for ONTAP 기능을 잠금 해제합니다</block>
   <block id="fa564e78bdca67738e4bb0ed90a354d5" category="paragraph">커넥터와 링크를 통해 BlueXP 와 Amazon FSx for NetApp ONTAP 작업 환경 간의 연결 및 신뢰 관계를 구축할 수 있습니다. BlueXP  Connector는 클라우드 또는 온프레미스 네트워크에서 실행되는 NetApp 소프트웨어이며 AWS Lambda를 사용하여 NetApp 코드를 실행합니다. BlueXP 에서 시작하거나 FSx for ONTAP 작업 환경을 생성하기 위한 커넥터 또는 링크가 필요하지 않지만, FSx for ONTAP 기능을 최대한 활용하려면 커넥터 또는 링크를 사용해야 합니다.</block>
   <block id="9b814365a691fc676cf3a5574ded54ef" category="paragraph">커넥터 및 링크 및 사용 시기에 대해 자세히 알아보십시오.</block>
   <block id="649d75c6283da2a4b802839db32a41af" category="inline-link">커넥터에 대해 자세히 알아보십시오</block>
   <block id="ff1ab22026d632586425b679cb5f7ff1" category="list-text"><block ref="dfe0add539943e53dd2a136d10c9015c" category="inline-link-rx"></block>..</block>
   <block id="6015cd2e9e5bc5b037ad456163cc26cb" category="inline-link">링크에 대해 자세히 알아보세요</block>
   <block id="58bc5bc51e764e92b9b768fcc5d8ae0c" category="list-text"><block ref="cea96a6659ee3b63722518018a5e6659" category="inline-link-rx"></block>..</block>
-  <block id="040539721ee712cdb5b6a4e1be2583d0" category="paragraph">NetApp ONTAP용 Amazon FSx는 AWS 퍼스트 파티 솔루션입니다. FSx for ONTAP 작업 환경, 인프라 또는 이 서비스를 사용하는 솔루션과 관련하여 궁금한 사항이나 기술 지원 문제가 있는 경우 AWS 관리 콘솔의 지원 센터를 사용하여 AWS에 지원 케이스를 여십시오. "FSx for ONTAP" 서비스 및 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
   <block id="38e2d42dcf4b784aff50b561adf13042" category="summary">자격 증명을 추가하고 커넥터 또는 링크를 생성하고 파일 시스템을 생성하거나 검색하여 BlueXP 에서 Amazon FSx for NetApp ONTAP를 시작할 수 있습니다.</block>
   <block id="f9448640bc8e190207efd1db5c109cbc" category="paragraph">자격 증명을 추가하고 커넥터 또는 링크를 생성하고 FSx for ONTAP 파일 시스템을 생성하거나 검색하여 BlueXP 에서 Amazon FSx for NetApp ONTAP를 시작할 수 있습니다.</block>
   <block id="c947186ad38a1acff7e8d20be0248c51" category="inline-link-macro">자격 증명 및 사용 권한을 추가합니다</block>
   <block id="867ca12036002c9fdf7da7b1fe3485ca" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="0280736b18477edd6313066237675a4e" category="inline-link-macro-rx"></block></block>
   <block id="1163d914fc07d294d21b206f711f0f5c" category="paragraph">BlueXP 에서 FSx for ONTAP 파일 시스템을 생성하고 관리하는 데 필요한 권한을 제공하려면 AWS 자격 증명을 추가해야 합니다. 사용 권한 자동화 및 권한 읽기 중에서 선택할 수 있습니다.</block>
-  <block id="4d803378c47b49b85bec0d2c6673dd59" category="paragraph-title"><block ref="4b6bbaeae9b6799ee02ea5158d279251" category="inline-image-macro-rx" type="image"></block> 커넥터 또는 링크를 만듭니다</block>
-  <block id="cb672b364b83d661939e69954ea51520" category="paragraph">FSx for ONTAP 파일 시스템 관리를 위해 BlueXP  커넥터 또는 BlueXP  워크로드 공장 링크가 필요합니다.</block>
-  <block id="139b65c0f5a2c5923fd4ac3f3076884d" category="paragraph">A_Connector_는 VPC에 구축하여 FSx for ONTAP 파일 시스템을 관리하는 가상 머신입니다. A_link_application_은 AWS Lambda를 활용하여 FSx for ONTAP 파일 시스템에 대한 신뢰 관계와 연결을 생성합니다.</block>
   <block id="74d2f2a8ee613c321072e364f7ed33b2" category="inline-link">AWS에서 커넥터를 생성하는 방법에 대해 알아보십시오</block>
   <block id="016f0cc4b9d1f1cf5dbe0851b121b350" category="list-text"><block ref="016f0cc4b9d1f1cf5dbe0851b121b350" category="inline-link-rx"></block></block>
   <block id="b926732963e0a721fc9fc28ea36c9483" category="inline-link">온-프레미스로 커넥터를 만드는 방법에 대해 알아봅니다</block>
   <block id="ace4ad83034f6e2478fdd24d9c154d39" category="list-text"><block ref="ace4ad83034f6e2478fdd24d9c154d39" category="inline-link-rx"></block></block>
   <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link">링크를 만드는 방법에 대해 알아봅니다</block>
   <block id="35d312ad6c576252ccfa87842dc6e767" category="list-text"><block ref="35d312ad6c576252ccfa87842dc6e767" category="inline-link-rx"></block></block>
-  <block id="9024d70f5c0f3ddffbb9ed71f25969d1" category="paragraph-title"><block ref="4f954e3aac01b1dc982b61d245b37a02" category="inline-image-macro-rx" type="image"></block> <block ref="401532355c6c08ea243135435dce843b" category="inline-link-macro-rx"></block></block>
   <block id="b2a85c53ddb7bee961b7a27a16d75cbe" category="paragraph">BlueXP 에서 직접 FSx for ONTAP 파일 시스템을 생성하거나 AWS 환경에서 이미 생성한 파일 시스템을 검색합니다.</block>
   <block id="e36cc635d251cd5b0a182729d1625bd1" category="paragraph">첫 번째 단계는 FSx for ONTAP 작업 환경 또는 파일 시스템을 생성하는 것입니다. AWS 관리 콘솔에서 FSx for ONTAP 파일 시스템을 이미 생성한 경우 <block ref="f0e62c6abb102491f5e44c803b014bee" category="inline-link-macro-rx"></block>가능합니다.</block>
   <block id="1633ddc656802ead23bcb179d8c7fcad" category="paragraph">스토리지 VM은 파일 시스템을 생성할 때 생성됩니다.</block>
   <block id="d0e7f7527c3a0ceae557c9f12bb1d5e7" category="paragraph">FSx for ONTAP 파일 시스템을 생성하기 전에 다음이 필요합니다.</block>
   <block id="bf2ef084e923ce6ebc4b57db27892de8" category="inline-link-macro">AWS 계정에 사용 권한을 부여하는 방법에 대해 알아봅니다</block>
-  <block id="55ebfcf1e5b88b9c99a5ee4ee0bb9cd3" category="list-text">Workload Factory에 FSx for ONTAP 파일 시스템을 생성하는 데 필요한 권한을 부여하는 IAM 역할의 ARN <block ref="c674ec525346aa467f22330499ae60f6" category="inline-link-macro-rx"></block>..</block>
   <block id="aba4a700f63e9801b4211989fc2b559f" category="list-text">ONTAP용 FSx 인스턴스를 생성할 지역 및 VPC 정보</block>
   <block id="2fdd0cbe402a8ae2149e0cdf4e1d9b9c" category="section-title">FSx for ONTAP 파일 시스템을 생성합니다</block>
   <block id="c7f1094806f4a7907a28dc01a1473f90" category="inline-link-macro">자동화를 위해 Codebox를 사용하는 방법을 알아보십시오</block>
@@ -537,7 +525,6 @@
   <block id="f463d3e9a8e7f33d29b10b45e1c1b792" category="inline-link">BlueXP  워크로드 팩토리를 사용하여 파일 시스템을 관리하는 방법에 대해 알아보십시오</block>
   <block id="3da6761ab924c0b71bfdd78b6137c4d1" category="paragraph"><block ref="3da6761ab924c0b71bfdd78b6137c4d1" category="inline-link-rx"></block></block>
   <block id="9a7d7fe4ea2506122f2a5355c685706e" category="section-title">ONTAP System Manager를 사용하여 파일 시스템을 관리합니다</block>
-  <block id="2b1aa05589ed9cdb128a75d86ce3e560" category="paragraph">ONTAP System Manager에 익숙한 경우 ONTAP System Manager 인터페이스를 사용하여 BlueXP 에서 직접 FSx for ONTAP 파일 시스템을 관리할 수 있습니다.</block>
   <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">시스템 관리자 옵션을 보여 주는 작업 환경을 선택한 후 BlueXP  Canvas의 오른쪽 패널 스크린샷</block>
   <block id="3dba4e614d87a8373424f60ec23a5f81" category="paragraph"><block ref="3dba4e614d87a8373424f60ec23a5f81" category="inline-image-macro-rx" type="image"></block></block>
   <block id="537b06a9fc5f2181195e399203ea4df5" category="section-title">파일 시스템에서 BlueXP  데이터 서비스를 사용하십시오</block>
@@ -564,4 +551,30 @@
   <block id="02a2d5dac7e811fa480b87a01b7c8754" category="paragraph"><block ref="02a2d5dac7e811fa480b87a01b7c8754" category="inline-link-rx"></block></block>
   <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024년 11월 11일</block>
   <block id="cf9ae4b94802ab988b8884ed9bf12509" category="sidebar">BlueXP 를 사용하여 Amazon FSx for NetApp ONTAP 관리</block>
+  <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">ONTAP 시스템 관리자를 사용하여 FSx for ONTAP 파일 시스템을 관리할 수 있는 _advanced view_option을 찾고 있다면 작업 환경을 선택한 후 BlueXP  캔버스에서 해당 옵션을 찾을 수 있습니다.</block>
+  <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1de58d4f64d081fb97f1d591f6b96a7c" category="paragraph">BlueXP  워크로드 공장 스토리지에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 경우 운영하려는 권한 레벨 또는 _ 운영 모드 _ 을(를) 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _ read_or_automate_permissions가 필요합니다. BlueXP  FSx for ONTAP는 _READ_MODE 또는 _AUTOMATE_MODE를 선택하지 않는 한 _BASIC_MODE에서 작동합니다. <block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>..</block>
+  <block id="d8030aec0b616170c1d448f645629048" category="paragraph">BlueXP  캔버스에서 FSx for ONTAP 작업 환경을 만들고 검색하고 System Manager 및 기타 BlueXP  서비스를 사용할 수 있습니다. Amazon FSx for NetApp ONTAP에서 실행되는 ONTAP 작업 환경과 워크로드를 관리하려면 를 사용합니다.<block ref="809afc2f4cb79e608d46f9e3b3ede420" category="inline-link-rx"></block></block>
+  <block id="080bf239eab90228128570c1dcff727d" category="inline-link-macro">BlueXP 에서 FSx for ONTAP 작업 환경을 생성하고 이 환경을 파악하는 방법에 대해 알아보십시오</block>
+  <block id="cb955ea4bb940d72f2e54584baf5cad0" category="paragraph"><block ref="245fb4ba49d4510f0ab7c36a85ac006b" category="inline-link-macro-rx"></block>..</block>
+  <block id="497ebbc25c8f867ad9d53f7b6c16b326" category="list-text">FSx for ONTAP은 BlueXP  SaaS 계층을 활용하여 전체 기능을 제공하는 in_standard_mode에서 BlueXP 을 사용할 때 지원됩니다. _Restricted_mode 및 _private_mode는 지원되지 않습니다.</block>
+  <block id="4a4f82407af5107bc1a19e3f298040a0" category="section-title">커넥터와 링크는 모든 FSx for ONTAP 기능의 잠금을 해제합니다</block>
+  <block id="79ba9ae91870b4f56a5ad623d9d6cc16" category="paragraph">다음 기능을 사용하려면 커넥터 또는 링크가 필요합니다.</block>
+  <block id="ab887a13e0e43ab14f26aa4139d3931e" category="list-text">FSx for ONTAP 파일 시스템에 설치된 ONTAP 버전을 표시합니다</block>
+  <block id="6a0bbe6ca6ca13a9f69ba22ff72d4db9" category="list-text">시스템에서 iSCSI 볼륨을 관리합니다</block>
+  <block id="f713a1eba4a310a7dee6e6148031ac90" category="list-text">볼륨에 대한 자동 확장 기능을 설정 및 해제합니다</block>
+  <block id="b688472ba5c5b20a13e35de55bbd243e" category="list-text">스냅샷 정책을 생성하고 관리합니다</block>
+  <block id="607207d543b313ae2d9720c777e7a286" category="list-text">파일 시스템 간 복제 관계 구성 및 볼륨 복제</block>
+  <block id="f39a1ae39e9d73b3a9aa6c431f9fb9d4" category="list-text">백업 관계를 구성하고 볼륨 데이터를 클라우드 스토리지에 백업합니다</block>
+  <block id="f15997f78fd09915dc098e9c00579d74" category="list-text">파일 시스템 내의 볼륨 클론 생성</block>
+  <block id="12f68de27d579f57f0f70762ccd96328" category="list-text">ONTAP에서 직접 추가 메트릭 표시(기본 메트릭은 Amazon CloudWatch에서 수집)</block>
+  <block id="310e8bd2aa0fbf766664a8fadbb86083" category="list-text">NFS 엑스포트 정책 관리</block>
+  <block id="d6d578d7902b08905b3aaecc2b6d1d8a" category="paragraph">NetApp ONTAP용 Amazon FSx는 AWS 퍼스트 파티 솔루션입니다. 이 서비스를 사용하는 FSx for ONTAP 파일 시스템, 인프라 또는 솔루션과 관련하여 궁금한 사항이나 기술 지원 문제가 있는 경우 AWS 관리 콘솔의 지원 센터를 사용하여 AWS에 지원 케이스를 여십시오. "FSx for ONTAP" 서비스 및 적절한 범주를 선택합니다. AWS 지원 케이스를 생성하는 데 필요한 나머지 정보를 제공합니다.</block>
+  <block id="f4e893e1ef301532d19ee55595aae17a" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 선택 사항: 커넥터 또는 링크를 만듭니다</block>
+  <block id="41d5093bb5f29af62a706f04427d8907" category="paragraph">BlueXP 에서 일부 관리 작업을 수행하려면 BlueXP  커넥터 또는 BlueXP  워크로드 팩토리 링크가 필요합니다. A_Connector_는 VPC에 구축하여 FSx for ONTAP 파일 시스템을 관리하는 가상 머신입니다. A_link_application_은 AWS Lambda를 활용하여 FSx for ONTAP 파일 시스템에 대한 신뢰 관계와 연결을 생성합니다.</block>
+  <block id="7b4b5f49e92ebcde2ae17d1a9788ef69" category="inline-link-macro">FSx for ONTAP 관리에 커넥터 또는 링크가 필요한 시기를 알아봅니다</block>
+  <block id="dfc2ddbb1af198e530e42bbfa71313a2" category="list-text"><block ref="dfc2ddbb1af198e530e42bbfa71313a2" category="inline-link-macro-rx"></block></block>
+  <block id="6cabc65b89f99f38b4824d1241bd15a3" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> <block ref="401532355c6c08ea243135435dce843b" category="inline-link-macro-rx"></block></block>
+  <block id="4364b9162c48ee2ca000144e249c6a3e" category="list-text">Workload Factory에 FSx for ONTAP 파일 시스템을 생성하는 데 필요한 권한을 부여하는 IAM 역할의 ARN <block ref="f28bfe0f9eab78a4f7a8c2891d2dbc22" category="inline-link-macro-rx"></block>..</block>
+  <block id="b8a87fcf328823bb52cca677b8438c33" category="paragraph">ONTAP System Manager 인터페이스를 사용하여 BlueXP 에서 직접 FSx for ONTAP 파일 시스템을 관리할 수 있습니다. System Manager를 사용하려면 커넥터가 필요합니다.</block>
 </blocks>

@@ -30,7 +30,7 @@ BlueXP 에서 FSx for ONTAP 작업 환경을 생성하고 관리하려면 AWS �
 
 == 이 작업에 대해
 
-BlueXP  워크로드 공장 스토리지에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 경우 운영하려는 권한 레벨 또는 _ 운영 모드 _ 을(를) 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _ read_or_automate_permissions가 필요합니다. BlueXP  FSx for ONTAP는 _READ_MODE 또는 _AUTOMATE_MODE를 선택하지 않는 한 _BASIC_MODE에서 작동합니다. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html.html["작동 모드에 대해 자세히 알아보십시오"]..
+BlueXP  워크로드 공장 스토리지에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 경우 운영하려는 권한 레벨 또는 _ 운영 모드 _ 을(를) 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _ read_or_automate_permissions가 필요합니다. BlueXP  FSx for ONTAP는 _READ_MODE 또는 _AUTOMATE_MODE를 선택하지 않는 한 _BASIC_MODE에서 작동합니다. link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["작동 모드에 대해 자세히 알아보십시오"]..
 
 신규 및 기존 AWS 자격 증명은 BlueXP  설정 > * 자격 증명 * 페이지에서 확인할 수 있습니다.
 
