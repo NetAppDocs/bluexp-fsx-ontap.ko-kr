@@ -575,7 +575,8 @@
   <block id="7a38975bfee632036d1205b2951258b2" category="open-title">읽기 권한</block>
   <block id="79eecef4aff74983cfd4aed5da7f2f30" category="open-title">사용 권한을 자동화합니다</block>
   <block id="be0bf2e3af6b03378bb493466f3c335f" category="section-title">Amazon CloudFormation을 사용하여 파일 시스템을 관리합니다</block>
-  <block id="c2f7d57c8ea888af74a7d46699221837" category="paragraph">Amazon CloudFormation을 사용하여 FSx for ONTAP 파일 시스템 리소스(볼륨, CIFS 공유, 엑스포트 정책 등)를 프로비저닝하고 관리할 수 있습니다.</block>
-  <block id="2c263d7a0f58593b73a60f40d9f5805e" category="paragraph"><block ref="2c263d7a0f58593b73a60f40d9f5805e" category="inline-link-macro-rx"></block></block>
   <block id="13ac5039f81a1aa4ae7419bf17b5b6a0" category="section-title">2025년 1월 6일</block>
+  <block id="e211b2db96a2f5b2b2868517a76988c8" category="paragraph">Amazon CloudFormation을 사용하여 FSx for ONTAP 파일 시스템 리소스(볼륨, CIFS 공유, 엑스포트 정책 등)를 프로비저닝하고 관리할 수 있습니다.</block>
+  <block id="12980bf72a2406244df6aef483456919" category="inline-link-macro">NetApp CloudFormation FSx for ONTAP 공급자 GitHub 리포지토리</block>
+  <block id="b3a3ca9e921248f6932d9ed563709366" category="paragraph"><block ref="b3a3ca9e921248f6932d9ed563709366" category="inline-link-macro-rx"></block></block>
 </blocks>

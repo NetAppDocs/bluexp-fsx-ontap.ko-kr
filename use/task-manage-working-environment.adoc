@@ -38,7 +38,7 @@ image:screenshot-system-manager.png["시스템 관리자 옵션을 보여 주는
 
 Amazon CloudFormation을 사용하여 FSx for ONTAP 파일 시스템 리소스(볼륨, CIFS 공유, 엑스포트 정책 등)를 프로비저닝하고 관리할 수 있습니다.
 
-link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider[""]
+link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider["NetApp CloudFormation FSx for ONTAP 공급자 GitHub 리포지토리"^]
 
 
 
