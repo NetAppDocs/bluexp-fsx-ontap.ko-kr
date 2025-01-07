@@ -34,6 +34,14 @@ image:screenshot-system-manager.png["시스템 관리자 옵션을 보여 주는
 
 
 
+== Amazon CloudFormation을 사용하여 파일 시스템을 관리합니다
+
+Amazon CloudFormation을 사용하여 FSx for ONTAP 파일 시스템 리소스(볼륨, CIFS 공유, 엑스포트 정책 등)를 프로비저닝하고 관리할 수 있습니다.
+
+link:https://github.com/NetApp/NetApp-CloudFormation-FSx-ONTAP-provider[""]
+
+
+
 == 파일 시스템에서 BlueXP  데이터 서비스를 사용하십시오
 
 FSx for ONTAP 파일 시스템과 BlueXP  데이터 서비스를 활용하여 데이터를 백업 및 복구하고, 데이터를 전송 및 동기화하고, 데이터를 스캔 및 분류하고, 데이터를 복제하고, 액세스 속도를 높이거나 트래픽을 오프로드합니다.
