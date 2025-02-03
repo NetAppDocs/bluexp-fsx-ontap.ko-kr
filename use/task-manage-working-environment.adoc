@@ -54,7 +54,7 @@ image:screenshot-data-services.png["시스템 관리자 옵션을 보여 주는 
 
 BlueXP  백업 및 복구 서비스는 NetApp ONTAP 데이터, 데이터베이스 및 가상 시스템에 사내 및 클라우드 모두에서 효율적이고 안전하며 비용 효율적인 데이터 보호를 제공합니다.
 
-https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP  백업 및 복구를 시작하십시오"^]
+link:https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP  백업 및 복구를 시작하십시오"^]
 
 
 
@@ -62,7 +62,7 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP  백업
 
 BlueXP 복사 및 동기화는 온프레미스 및 클라우드 오브젝트 저장소 간에 NAS 데이터를 전송하기 위한 클라우드 복제 및 동기화 서비스입니다.
 
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["BlueXP  복사 및 동기화를 시작합니다"^]
+link:https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["BlueXP  복사 및 동기화를 시작합니다"^]
 
 
 
@@ -70,7 +70,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-quick-start.html["BlueXP  �
 
 BlueXP 분류를 통해 조직의 하이브리드 멀티 클라우드 전반에서 데이터를 스캔하고 분류할 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP  분류를 시작하십시오"^]
+link:https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP  분류를 시작하십시오"^]
 
 
 
@@ -78,7 +78,7 @@ https://docs.netapp.com/us-en/bluexp-classification/index.html["BlueXP  분류�
 
 BlueXP  복제를 사용하면 ONTAP 스토리지 시스템 간에 데이터를 복제하여 클라우드 또는 클라우드 간에 백업 및 재해 복구를 지원할 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXP  복제를 시작합니다"^]
+link:https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["BlueXP  복제를 시작합니다"^]
 
 
 
@@ -86,4 +86,4 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Blu
 
 BlueXP  볼륨 캐싱은 원격 위치에 쓰기 가능한 영구 볼륨을 제공합니다. BlueXP 볼륨 캐싱을 사용하여 데이터 액세스 속도를 높이거나 자주 액세스하는 볼륨에서 트래픽을 오프로드할 수 있습니다.
 
-https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["BlueXP  볼륨 캐싱을 시작합니다"^]
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["BlueXP  볼륨 캐싱을 시작합니다"^]

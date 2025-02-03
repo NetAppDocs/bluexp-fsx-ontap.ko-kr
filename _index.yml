@@ -30,7 +30,7 @@ indexpage:
     links:
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Cloud Central 블로그
-      url: https://cloud.netapp.com/blog
-    - title: 클라우드 웨비나
-      url: https://cloud.netapp.com/events
+    - title: BlueXP 블로그
+      url: https://bluexp.netapp.com/blog
+    - title: BlueXP 웨비나
+      url: https://bluexp.netapp.com/events
