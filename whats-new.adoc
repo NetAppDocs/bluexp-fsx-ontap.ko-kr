@@ -18,6 +18,46 @@ FSx for ONTAP의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2025년 5월 4일
+
+
+
+=== Tracker 응답 지원
+
+이제 추적기는 작업과 관련된 REST API 출력을 볼 수 있도록 API 응답을 제공합니다.
+
+
+
+=== AWS Secrets Manager에 대한 링크 인증 지원
+
+이제 AWS Secrets Manager의 비밀을 사용하여 링크를 인증할 수 있으므로 BlueXP  워크로드에 저장된 자격 증명을 사용할 필요가 없습니다.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다"]
+
+
+
+=== FSx for ONTAP 파일 시스템에 대한 모범 사례 구현
+
+BlueXP  워크로드는 파일 시스템 구성의 체계적으로 상태를 검토할 수 있는 대시보드를 제공합니다. 이 분석을 활용하여 FSx for ONTAP 파일 시스템에 대한 모범 사례를 구현할 수 있습니다. 파일 시스템 구성 분석에는 SSD 용량 임계값, 예약된 로컬 스냅샷, 예약된 FSx for ONTAP 백업, 데이터 계층화, 원격 데이터 복제 구성이 포함됩니다.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["파일 시스템 구성을 위한 잘 설계된 분석에 대해 알아보십시오"]
+* link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_well-architected/improve-configurations.html["파일 시스템에 대한 모범 사례 구현"]
+
+
+
+
+=== 파일 시스템 문제에 대한 체계적인 알림
+
+이제 BlueXP  콘솔에서 잘 설계된 문제가 있는 FSx for ONTAP 파일 시스템의 경우 파일 시스템에서 해결해야 할 문제가 언제 발생하는지를 나타내는 알림이 Canvas에 표시됩니다.
+
+
+
+=== 사용 권한 용어가 업데이트되었습니다
+
+워크로드 팩토리 사용자 인터페이스 및 설명서에서는 이제 "읽기 전용"을 사용하여 읽기 권한을 참조하고 "읽기-쓰기"를 사용하여 사용 권한을 자동화합니다.
+
+
+
 == 2025년 3월 30일
 
 

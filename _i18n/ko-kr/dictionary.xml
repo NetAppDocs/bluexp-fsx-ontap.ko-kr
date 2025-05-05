@@ -348,7 +348,6 @@
   <block id="eb73cd2a4bbc3dbb4bbab5f5a9b6fb8d" category="list-text">Create policies * 섹션에서 자격 증명에 포함할 각 워크로드 기능을 활성화합니다. 스토리지 * 를 활성화하여 파일 시스템을 생성하고 관리합니다.</block>
   <block id="3b9b789374908017040d97f81eb4008d" category="paragraph">나중에 기능을 추가할 수 있으므로 현재 배포 및 관리하려는 워크로드를 선택하기만 하면 됩니다.</block>
   <block id="a488a73463d70a082950f1cd09a4be8c" category="inline-link-macro">운영 모드라고도 하는 사용 권한에 대해 알아봅니다</block>
-  <block id="99d132e42e3df08ae21e3481006ebc5a" category="list-text">사용 권한 수준(자동화 또는 읽기)을 선택할 수 있는 워크로드 기능의 경우 이러한 자격 증명으로 사용할 수 있는 사용 권한 유형을 선택합니다. <block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>..</block>
   <block id="6d45b51df5e4b4d742aed3a012be7ece" category="list-text">코드박스 창에서 첫 번째 IAM 정책에 대한 권한을 복사합니다.</block>
   <block id="d9951e6a22fb7f7d403d017e5b8ef9c6" category="list-text">다른 브라우저 창을 열고 AWS 관리 콘솔에서 AWS 계정에 로그인합니다.</block>
   <block id="0545945650ae73f856cfac5d203df5f5" category="list-text">IAM 서비스를 열고 * Policies * &gt; * Create Policy * 를 선택합니다.</block>
@@ -405,7 +404,6 @@
   <block id="f9448640bc8e190207efd1db5c109cbc" category="paragraph">자격 증명을 추가하고 커넥터 또는 링크를 생성하고 FSx for ONTAP 파일 시스템을 생성하거나 검색하여 BlueXP 에서 Amazon FSx for NetApp ONTAP를 시작할 수 있습니다.</block>
   <block id="c947186ad38a1acff7e8d20be0248c51" category="inline-link-macro">자격 증명 및 사용 권한을 추가합니다</block>
   <block id="867ca12036002c9fdf7da7b1fe3485ca" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="0280736b18477edd6313066237675a4e" category="inline-link-macro-rx"></block></block>
-  <block id="1163d914fc07d294d21b206f711f0f5c" category="paragraph">BlueXP 에서 FSx for ONTAP 파일 시스템을 생성하고 관리하는 데 필요한 권한을 제공하려면 AWS 자격 증명을 추가해야 합니다. 사용 권한 자동화 및 권한 읽기 중에서 선택할 수 있습니다.</block>
   <block id="74d2f2a8ee613c321072e364f7ed33b2" category="inline-link">AWS에서 커넥터를 생성하는 방법에 대해 알아보십시오</block>
   <block id="016f0cc4b9d1f1cf5dbe0851b121b350" category="list-text"><block ref="016f0cc4b9d1f1cf5dbe0851b121b350" category="inline-link-rx"></block></block>
   <block id="b926732963e0a721fc9fc28ea36c9483" category="inline-link">온-프레미스로 커넥터를 만드는 방법에 대해 알아봅니다</block>
@@ -558,12 +556,9 @@
   <block id="c043b3439543ebfc027a3c1fcb5613a5" category="paragraph">NetApp에서 이제 AWS 콘솔 내에 노출되지 않는 고급 ONTAP 구성 요소를 활용할 수 있는 CloudFormation 리소스를 제공합니다. CloudFormation은 AWS를 위한 코드형 인프라 메커니즘입니다. 복제 관계, CIFS 공유, NFS 내보내기 정책, 스냅샷 등을 생성할 수 있습니다.</block>
   <block id="01d4e72c68c36e8905e55eeb7f8aff0c" category="inline-link-macro">CloudFormation을 사용하여 Amazon FSx for NetApp ONTAP 파일 시스템을 관리합니다</block>
   <block id="f883109f2802c104ac9ae2e21a56b762" category="paragraph"><block ref="f883109f2802c104ac9ae2e21a56b762" category="inline-link-macro-rx"></block></block>
-  <block id="c92644a757476bbef61fa3b782e32d95" category="paragraph">BlueXP  워크로드 공장 스토리지에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 경우 운영하려는 권한 레벨 또는 _ 운영 모드 _ 을(를) 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _ read_or_automate_permissions가 필요합니다. BlueXP  FSx for ONTAP는 _READ_MODE 또는 _AUTOMATE_MODE를 선택하지 않는 한 _BASIC_MODE에서 작동합니다. _Read_는 보기 권한과 동일합니다. _AUTOMATE_은(는) 작동 권한과 동일합니다. <block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>..</block>
   <block id="facff49e2bd72676ffc323376c6f7c86" category="section-title">1단계: 스토리지 기능을 선택하고 IAM 정책을 생성합니다</block>
   <block id="643bb3986a2755c5582d9f82862ff934" category="paragraph">이 섹션에서는 이러한 자격 증명의 일부로 관리할 스토리지 기능과 스토리지에 대해 설정된 사용 권한을 선택합니다. 데이터베이스, GenAI 또는 VMware와 같은 다른 워크로드도 선택할 수 있습니다. 선택한 후에는 Codebox에서 선택한 각 워크로드에 대한 정책 권한을 복사하고 AWS 계정 내의 AWS 관리 콘솔에 추가하여 정책을 생성해야 합니다.</block>
   <block id="45f2112a5aef07c91c1003cce4dc5410" category="paragraph">스토리지 사용 권한은 다음 탭에서 복사할 수도 있습니다.</block>
-  <block id="7a38975bfee632036d1205b2951258b2" category="open-title">읽기 권한</block>
-  <block id="79eecef4aff74983cfd4aed5da7f2f30" category="open-title">사용 권한을 자동화합니다</block>
   <block id="be0bf2e3af6b03378bb493466f3c335f" category="section-title">Amazon CloudFormation을 사용하여 파일 시스템을 관리합니다</block>
   <block id="13ac5039f81a1aa4ae7419bf17b5b6a0" category="section-title">2025년 1월 6일</block>
   <block id="e211b2db96a2f5b2b2868517a76988c8" category="paragraph">Amazon CloudFormation을 사용하여 FSx for ONTAP 파일 시스템 리소스(볼륨, CIFS 공유, 엑스포트 정책 등)를 프로비저닝하고 관리할 수 있습니다.</block>
@@ -660,4 +655,26 @@
   <block id="04c38dfa84592feebab3e30dfe4a019a" category="list-text">선택 사항: * 자동 권한 확인 사용 * 을 선택하여 워크로드 작업을 완료하는 데 필요한 AWS 계정 권한이 있는지 확인하십시오. 검사를 활성화하면 사용 권한 정책에 가<block ref="23bd3e826a13b6d94db9e07f105dfed2" prefix=" " category="inline-code"></block> 추가됩니다. 이 권한은 사용 권한을 확인하는 용도로만 사용됩니다. 자격 증명을 추가한 후 사용 권한을 제거할 수 있지만 부분적으로 성공한 작업을 위해 리소스가 생성되지 않도록 유지하고 필요한 수동 리소스 정리를 방지하는 것이 좋습니다.</block>
   <block id="c3c7c9c146408a0ee564eedba4821f52" category="list-text">선택 사항: * 자동 권한 확인 사용 * 을 선택하여 워크로드 작업을 완료하는 데 필요한 AWS 계정 권한이 있는지 확인하십시오. 검사를 사용하면<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> 사용 권한 정책에 사용 권한이 추가됩니다. 이 권한은 사용 권한을 확인하는 용도로만 사용됩니다. 자격 증명을 추가한 후 사용 권한을 제거할 수 있지만 부분적으로 성공한 작업을 위해 리소스가 생성되지 않도록 유지하고 필요한 수동 리소스 정리를 방지하는 것이 좋습니다.</block>
   <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025년 3월 30일</block>
+  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="doc">Tracker 응답 지원</block>
+  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">이제 추적기는 작업과 관련된 REST API 출력을 볼 수 있도록 API 응답을 제공합니다.</block>
+  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">AWS Secrets Manager에 대한 링크 인증 지원</block>
+  <block id="73ecd40a86b02acff9f56b3a1ac74d7f" category="paragraph">이제 AWS Secrets Manager의 비밀을 사용하여 링크를 인증할 수 있으므로 BlueXP  워크로드에 저장된 자격 증명을 사용할 필요가 없습니다.</block>
+  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Lambda 링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
+  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
+  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">FSx for ONTAP 파일 시스템에 대한 모범 사례 구현</block>
+  <block id="bf66fc8532837c2f341b98d92d40bd27" category="paragraph">BlueXP  워크로드는 파일 시스템 구성의 체계적으로 상태를 검토할 수 있는 대시보드를 제공합니다. 이 분석을 활용하여 FSx for ONTAP 파일 시스템에 대한 모범 사례를 구현할 수 있습니다. 파일 시스템 구성 분석에는 SSD 용량 임계값, 예약된 로컬 스냅샷, 예약된 FSx for ONTAP 백업, 데이터 계층화, 원격 데이터 복제 구성이 포함됩니다.</block>
+  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">파일 시스템 구성을 위한 잘 설계된 분석에 대해 알아보십시오</block>
+  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
+  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">파일 시스템에 대한 모범 사례 구현</block>
+  <block id="a04ab86f504e47221c279d8c74e9697c" category="list-text"><block ref="a04ab86f504e47221c279d8c74e9697c" category="inline-link-macro-rx"></block></block>
+  <block id="dad34f5734adb85d9981374c4c32d1d5" category="section-title">파일 시스템 문제에 대한 체계적인 알림</block>
+  <block id="16ca2e92ee84ccef4088c5d2a61cd8d2" category="paragraph">이제 BlueXP  콘솔에서 잘 설계된 문제가 있는 FSx for ONTAP 파일 시스템의 경우 파일 시스템에서 해결해야 할 문제가 언제 발생하는지를 나타내는 알림이 Canvas에 표시됩니다.</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">워크로드 팩토리 사용자 인터페이스 및 설명서에서는 이제 "읽기 전용"을 사용하여 읽기 권한을 참조하고 "읽기-쓰기"를 사용하여 사용 권한을 자동화합니다.</block>
+  <block id="7ad34443be66bd769d7526052866c23d" category="paragraph">BlueXP  워크로드 팩토리 스토리지에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 때 운영하려는 권한 레벨 또는 _ 운영 모드 _ 을(를) 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _ 읽기 전용 _ 또는 _ 읽기/쓰기_권한이 필요합니다. 읽기 전용 모드 또는 읽기/쓰기 모드를 선택하지 않는 한 BlueXP  FSx for ONTAP는 _basic_mode에서 작동합니다. _읽기 전용_은(는) 보기 권한과 동일합니다. _Read/Write_는 Operate 권한과 동일합니다. <block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>..</block>
+  <block id="c0f13e28260a8d6334a9ba083a9ecd8c" category="list-text">사용 권한 수준(읽기/쓰기 또는 읽기 전용)을 선택할 수 있는 워크로드 기능의 경우 이러한 자격 증명으로 사용할 수 있는 사용 권한 유형을 선택합니다. <block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>..</block>
+  <block id="afcef91c603f5a2caaca0c02452c1093" category="open-title">읽기 전용 권한</block>
+  <block id="6c89d11178770d48b64eed2f5ad15ee0" category="open-title">읽기/쓰기 권한</block>
+  <block id="bff2a32004a29ed6a2b848b515ee2ed4" category="paragraph">BlueXP 에서 FSx for ONTAP 파일 시스템을 생성하고 관리하는 데 필요한 권한을 제공하려면 AWS 자격 증명을 추가해야 합니다. 읽기/쓰기_권한 및 _읽기 전용_권한 중에서 선택할 수 있습니다.</block>
+  <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025년 5월 4일</block>
 </blocks>
