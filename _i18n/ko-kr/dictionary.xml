@@ -590,9 +590,7 @@
   <block id="1d871a79e130277eac94bdf23b8f559d" category="summary">BlueXP 에서 Tracker를 통해 FSx for ONTAP 작업을 추적하고 운영 진행률을 모니터링합니다.</block>
   <block id="16edaff1d441f823f269cfb57989844e" category="doc">BlueXP 에서 Tracker를 통해 FSx for ONTAP 운영 모니터링</block>
   <block id="c51aab10e5fd03127f375a02c70e31d1" category="paragraph">BlueXP 에서 Tracker를 통해 FSx for ONTAP 작업의 실행을 모니터링 및 추적하고 작업 진행 상황을 모니터링합니다.</block>
-  <block id="030aa1dc2f523ee33fca72b98728f303" category="paragraph">BlueXP 에서 제공하는 작업 모니터링 기능인 Tracker를 사용하면 자격 증명, FSx for ONTAP 및 링크 작업의 진행 상황과 상태를 모니터링 및 추적하고, 작업 및 하위 작업에 대한 세부 정보를 검토하며, 문제 또는 장애를 진단하고, 실패한 작업에 대한 매개 변수를 편집하고, 실패한 작업을 재시도할 수 있습니다.</block>
   <block id="6092aff2fd96382c8039bf4b05f69f42" category="paragraph">Tracker에서 몇 가지 작업을 사용할 수 있습니다. 시간 프레임(최근 24시간, 7일, 14일 또는 30일), 작업 부하, 상태 및 사용자별로 작업을 필터링하고 검색 기능을 사용하여 작업을 찾고 작업 테이블을 CSV 파일로 다운로드할 수 있습니다. 언제든지 Tracker를 새로 고칠 수 있습니다. 그리고 실패한 작업을 빠르게 다시 시도하거나 실패한 작업에 대한 매개 변수를 편집하고 작업을 다시 시도할 수 있습니다.</block>
-  <block id="f2cee538b7196c0114b7722b311de074" category="paragraph">Tracker는 두 가지 수준의 모니터링을 지원합니다. 파일 시스템 생성과 같은 각 작업은 작업 설명, 상태, 시작 시간, 작업 기간, 사용자, 영역, 프록시 리소스(연결 연결), 작업 ID 및 모든 관련 하위 작업을 표시합니다.</block>
   <block id="5cdbeb1c4cc65e8f551e161828701113" category="list-text">예를 포함한 추적기 작업 수준</block>
   <block id="05bee9860c0a2efcc43ba9c2e7d71a73" category="list-text">레벨 1(상위 작업): 파일 시스템 배포를 추적합니다.</block>
   <block id="bf4ab25188da8d1000fe4fd110b6cc4e" category="list-text">레벨 2(하위 작업): 파일 시스템 구축과 관련된 하위 작업을 추적합니다.</block>
@@ -677,4 +675,6 @@
   <block id="6c89d11178770d48b64eed2f5ad15ee0" category="open-title">읽기/쓰기 권한</block>
   <block id="bff2a32004a29ed6a2b848b515ee2ed4" category="paragraph">BlueXP 에서 FSx for ONTAP 파일 시스템을 생성하고 관리하는 데 필요한 권한을 제공하려면 AWS 자격 증명을 추가해야 합니다. 읽기/쓰기_권한 및 _읽기 전용_권한 중에서 선택할 수 있습니다.</block>
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025년 5월 4일</block>
+  <block id="5a727a54cd3005d4cc50f72f6b62d2d0" category="paragraph">BlueXP 에서 제공하는 작업 모니터링 기능인 Tracker를 사용하면 자격 증명, FSx for ONTAP 및 링크 작업의 진행 상황과 상태를 모니터링 및 추적하고, 운영 작업 및 하위 작업에 대한 세부 정보를 검토하며, 문제나 장애를 진단할 수 있습니다.</block>
+  <block id="9233b1148f18eb744b69d4d3620c296c" category="paragraph">추적기는 작업에 따라 두 가지 수준의 모니터링을 지원합니다. 파일 시스템 배포와 같은 각 작업은 작업 설명, 상태, 시작 시간, 작업 기간, 사용자, 영역, 프록시 리소스, 작업 ID 및 모든 관련 하위 작업을 표시합니다. API 응답을 보고 작업 중에 발생한 상황을 파악할 수 있습니다.</block>
 </blocks>
