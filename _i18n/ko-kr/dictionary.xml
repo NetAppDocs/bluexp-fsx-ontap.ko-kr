@@ -371,7 +371,6 @@
   <block id="a471354974165e2329f7a2cc4bea33c9" category="list-text">BlueXP  워크로드 자격 증명 추가 페이지에서 * 자격 증명 이름 * 을 확장합니다.</block>
   <block id="a961eea4fc631a6689d895b16be74287" category="list-text">이러한 자격 증명에 사용할 이름을 입력합니다.</block>
   <block id="027a8d7e43e765637f8ef1ae06ce3700" category="list-text">Add * 를 선택하여 자격 증명을 생성합니다.</block>
-  <block id="28036fcfd12b510a25017e4b8aed004c" category="paragraph">자격 증명이 생성되고 자격 증명 페이지에서 볼 수 있습니다. 이제 ONTAP 작업 환경에 대한 FSx를 생성할 때 자격 증명을 사용할 수 있습니다.</block>
   <block id="5512d35e832df0796cf2e9bbfc4ef8e7" category="section-title">CloudFormation을 사용하여 계정에 자격 증명을 추가합니다</block>
   <block id="91395da04fc4e81b8503a349a42837c8" category="paragraph">사용할 워크로드 기능을 선택한 다음, AWS 계정에서 AWS CloudFormation 스택을 시작하여 AWS CloudFormation 스택을 사용하여 BlueXP  워크로드에 AWS 자격 증명을 추가할 수 있습니다. CloudFormation은 선택한 워크로드 기능을 기반으로 IAM 정책 및 IAM 역할을 생성합니다.</block>
   <block id="f48f7e164b0415ad7634845f95eb03e1" category="list-text">CloudFormation 스택을 사용하여 자격 증명을 추가할 때 AWS 계정에 다음 권한이 있어야 합니다.</block>
@@ -511,7 +510,6 @@
   <block id="09268df17735c9b5a1451dfeacf85b4a" category="section-title">데이터를 스캔하고 분류합니다</block>
   <block id="602092b7bfa82b05561c89daaa069630" category="paragraph">BlueXP 분류를 통해 조직의 하이브리드 멀티 클라우드 전반에서 데이터를 스캔하고 분류할 수 있습니다.</block>
   <block id="d8de079e15da5552ea52e16c0712106a" category="inline-link">BlueXP  분류를 시작하십시오</block>
-  <block id="472d7c50c99e8a4ceb030233bf6e333a" category="paragraph">BlueXP  복제를 사용하면 ONTAP 스토리지 시스템 간에 데이터를 복제하여 클라우드 또는 클라우드 간에 백업 및 재해 복구를 지원할 수 있습니다.</block>
   <block id="7e0c92d9ea0baa7f084f0d447b311869" category="inline-link">BlueXP  복제를 시작합니다</block>
   <block id="16c3de9bb24bfc929036891ca3fd5ec9" category="section-title">액세스 속도를 높이거나 트래픽을 오프로드합니다</block>
   <block id="181a7eb5793d6eaf19eeb2203348f0db" category="paragraph">BlueXP  볼륨 캐싱은 원격 위치에 쓰기 가능한 영구 볼륨을 제공합니다. BlueXP 볼륨 캐싱을 사용하여 데이터 액세스 속도를 높이거나 자주 액세스하는 볼륨에서 트래픽을 오프로드할 수 있습니다.</block>
@@ -668,13 +666,63 @@
   <block id="dad34f5734adb85d9981374c4c32d1d5" category="section-title">파일 시스템 문제에 대한 체계적인 알림</block>
   <block id="16ca2e92ee84ccef4088c5d2a61cd8d2" category="paragraph">이제 BlueXP  콘솔에서 잘 설계된 문제가 있는 FSx for ONTAP 파일 시스템의 경우 파일 시스템에서 해결해야 할 문제가 언제 발생하는지를 나타내는 알림이 Canvas에 표시됩니다.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">사용 권한 용어가 업데이트되었습니다</block>
-  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">워크로드 팩토리 사용자 인터페이스 및 설명서에서는 이제 "읽기 전용"을 사용하여 읽기 권한을 참조하고 "읽기-쓰기"를 사용하여 사용 권한을 자동화합니다.</block>
-  <block id="7ad34443be66bd769d7526052866c23d" category="paragraph">BlueXP  워크로드 팩토리 스토리지에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 때 운영하려는 권한 레벨 또는 _ 운영 모드 _ 을(를) 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _ 읽기 전용 _ 또는 _ 읽기/쓰기_권한이 필요합니다. 읽기 전용 모드 또는 읽기/쓰기 모드를 선택하지 않는 한 BlueXP  FSx for ONTAP는 _basic_mode에서 작동합니다. _읽기 전용_은(는) 보기 권한과 동일합니다. _Read/Write_는 Operate 권한과 동일합니다. <block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>..</block>
-  <block id="c0f13e28260a8d6334a9ba083a9ecd8c" category="list-text">사용 권한 수준(읽기/쓰기 또는 읽기 전용)을 선택할 수 있는 워크로드 기능의 경우 이러한 자격 증명으로 사용할 수 있는 사용 권한 유형을 선택합니다. <block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>..</block>
   <block id="afcef91c603f5a2caaca0c02452c1093" category="open-title">읽기 전용 권한</block>
   <block id="6c89d11178770d48b64eed2f5ad15ee0" category="open-title">읽기/쓰기 권한</block>
-  <block id="bff2a32004a29ed6a2b848b515ee2ed4" category="paragraph">BlueXP 에서 FSx for ONTAP 파일 시스템을 생성하고 관리하는 데 필요한 권한을 제공하려면 AWS 자격 증명을 추가해야 합니다. 읽기/쓰기_권한 및 _읽기 전용_권한 중에서 선택할 수 있습니다.</block>
   <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025년 5월 4일</block>
   <block id="5a727a54cd3005d4cc50f72f6b62d2d0" category="paragraph">BlueXP 에서 제공하는 작업 모니터링 기능인 Tracker를 사용하면 자격 증명, FSx for ONTAP 및 링크 작업의 진행 상황과 상태를 모니터링 및 추적하고, 운영 작업 및 하위 작업에 대한 세부 정보를 검토하며, 문제나 장애를 진단할 수 있습니다.</block>
   <block id="9233b1148f18eb744b69d4d3620c296c" category="paragraph">추적기는 작업에 따라 두 가지 수준의 모니터링을 지원합니다. 파일 시스템 배포와 같은 각 작업은 작업 설명, 상태, 시작 시간, 작업 기간, 사용자, 영역, 프록시 리소스, 작업 ID 및 모든 관련 하위 작업을 표시합니다. API 응답을 보고 작업 중에 발생한 상황을 파악할 수 있습니다.</block>
+  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">워크로드 팩토리 사용자 인터페이스와 문서에서는 이제 읽기 권한을 나타내는 데 "읽기 전용"을 사용하고 자동화 권한을 나타내는 데 "읽기/쓰기"를 사용합니다.</block>
+  <block id="737f8adcd33c506f811980c79df8aa51" category="doc">자격 증명 업데이트</block>
+  <block id="e7bb6404e9b51c8163ba1ed57cf3a336" category="paragraph">FSx for ONTAP 파일 시스템에 대한 자격 증명과 권한을 설정하면 BlueXP 자격 증명 페이지로 리디렉션됩니다. 이 페이지에서 FSx for ONTAP 자격 증명의 이름을 변경하거나 삭제할 수 있습니다.</block>
+  <block id="66985acac7963e5883cef62664b25696" category="inline-link-macro">ONTAP 파일 시스템용 FSx에 대한 권한 설정</block>
+  <block id="2c546aeb894a7ee538c66b6d3f2cdba7" category="paragraph"><block ref="2c546aeb894a7ee538c66b6d3f2cdba7" category="inline-link-macro-rx"></block></block>
+  <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">두 FSx for ONTAP 파일 시스템 간 데이터 복제 지원</block>
+  <block id="0d0e1a3896ef0e1ad8e89dad08261572" category="paragraph">이제 BlueXP 콘솔에서 두 개의 FSx for ONTAP 파일 시스템 간에 데이터를 복제할 수 있습니다.</block>
+  <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
+  <block id="e9a20287609068cd02682751db28245c" category="paragraph">BlueXP 워크로드 팩토리의 Storage에서 FSx for ONTAP에 대한 새 자격 증명을 추가할 때, 어떤 수준의 권한, 즉 _운영 모드_로 작업할지 결정해야 합니다. FSx for ONTAP 파일 시스템과 같은 AWS 리소스를 검색하고 배포하려면 _읽기 전용_ 또는 _읽기/쓰기_ 권한이 필요합니다. BlueXP FSx for ONTAP은 _읽기 전용_ 모드 또는 _읽기/쓰기_ 모드를 선택하지 않는 한 _기본_ 모드로 작동합니다. _읽기 전용_은(는) 보기 권한과 동일합니다. _Read/Write_는 Operate 권한과 동일합니다. <block ref="d6d34839020cc53cd6cb3ac295769611" category="inline-link-macro-rx"></block>..</block>
+  <block id="173ea16b498d7c64e87a722e884ac9d6" category="list-text">권한 수준(읽기 전용 또는 읽기/쓰기)을 선택할 수 있는 워크로드 기능의 경우, 해당 자격 증명으로 사용할 수 있는 권한 유형을 선택합니다. <block ref="1b00b1a76801899cea6526d97ddbb2de" category="inline-link-macro-rx"></block>..</block>
+  <block id="f7c13e0b116713f742c78d89fab49f7f" category="paragraph">자격 증명이 생성되고 자격 증명 페이지에서 볼 수 있습니다. 이제 ONTAP 작업 환경에 대한 FSx를 생성할 때 자격 증명을 사용할 수 있습니다. 필요할 때마다 자격 증명의 이름을 바꾸거나 BlueXP 콘솔에서 자격 증명을 제거할 수 있습니다.</block>
+  <block id="6e9182373a6e3d539f338abfc0b573c6" category="paragraph">BlueXP 에서 FSx for ONTAP 파일 시스템을 생성하고 관리하는 데 필요한 권한을 제공하려면 AWS 자격 증명을 추가해야 합니다. _읽기 전용_ 권한과 _읽기/쓰기_ 권한 중에서 선택할 수 있습니다.</block>
+  <block id="628cf864298bfa9a0758f894f14de547" category="paragraph">백업 및 재해 복구를 지원하기 위해 데이터를 복제합니다. FSx for ONTAP 파일 시스템과 Cloud Volumes ONTAP 간, 또는 FSx for ONTAP 파일 시스템과 온프레미스 ONTAP 시스템 간의 데이터 복제는 BlueXP 복제를 사용하여 수행할 수 있습니다. BlueXP  복제를 사용하면 ONTAP 스토리지 시스템 간에 데이터를 복제하여 클라우드 또는 클라우드 간에 백업 및 재해 복구를 지원할 수 있습니다.</block>
+  <block id="94b92a89912cd2ab11df94e26e131175" category="paragraph">BlueXP 캔버스를 통해 두 개의 FSx for ONTAP 파일 시스템 간의 데이터 복제가 가능합니다.</block>
+  <block id="513c180c5d2a9ee1b68bcde16bb98445" category="paragraph">시작하기 전에 다음 사항을 고려하세요.</block>
+  <block id="3149241572a82823e44abfd395fcbc2d" category="list-text">두 FSx for ONTAP 파일 시스템 간에 데이터를 복제하려면 파일 시스템에 연결할 수 있는 커넥터를 선택하거나 파일 시스템을 입력하여 링크를 연결해야 합니다.</block>
+  <block id="28a7654ba403e8d0905895e340495ea0" category="list-text">사용 가능, 생성됨 또는 잘못 구성됨 상태가 아닌 볼륨의 경우 복제가 지원되지 않으며, 이 경우 ONTAP 버전이 호환되지 않습니다.</block>
+  <block id="7f73cba3fdaf38a171a5add40ef5e3c6" category="list-text">BlueXP 캔버스에서 소스 FSx for ONTAP 파일 시스템을 대상 FSx for ONTAP 파일 시스템 위로 끌어다 놓고 *복제*를 선택합니다.</block>
+  <block id="9793db8d97a651febf9f052b60487a84" category="list-text">복제 생성 페이지에서 복제할 소스 볼륨을 선택한 후 *다음*을 클릭합니다.</block>
+  <block id="5bc67df36eab9c2f7b3c55d3f683100e" category="list-text">복제 대상에서 다음을 제공합니다.</block>
+  <block id="5b68795341e694ebff565b0ddc6697b3" category="list-text">*대상 이름*: 대상 이름은 캔버스에서 드래그 앤 드롭 작업 중에 이전에 선택되었습니다.</block>
+  <block id="562c87a680d962135f8e44bc0d159259" category="list-text">* 스토리지 VM 이름 *: 드롭다운 메뉴에서 스토리지 VM을 선택합니다. 선택한 스토리지 VM은 이 복제 관계에서 선택한 모든 볼륨의 대상입니다.</block>
+  <block id="56aeb18822215ccd01a9293a40c3b44a" category="list-text">* 볼륨 이름 * : 대상 볼륨 이름은 다음 형식으로 자동으로<block ref="4b5beb37da0fa6444b7f9f92238aadb1" prefix=" " category="inline-code"></block>생성됩니다. 자동 생성된 볼륨 이름을 사용하거나 다른 볼륨 이름을 입력할 수 있습니다.</block>
+  <block id="22965065ba7ae1409232e37abbbb066f" category="list-text">* 활용 사례 *: 다음 복제 사용 사례 중 하나를 선택하십시오. 선택한 사용 사례에 따라 워크로드 공장 출하 시 Best Practice에 따라 권장 값으로 양식이 채워집니다. 양식을 작성하는 동안 권장 값을 적용하거나 변경할 수 있습니다.</block>
+  <block id="257ce4bae137964f3625a1e1d6f1369b" category="list-text">마이그레이션: 데이터를 대상 FSx for ONTAP 파일 시스템으로 전송합니다</block>
+  <block id="30940cba2bad8606f971a78b21b2ec59" category="list-text">핫 재해 복구: 중요한 워크로드에 대한 고가용성 및 신속한 재해 복구를 보장합니다</block>
+  <block id="4479dbc11cc7245a39dd940a6a86b3a5" category="list-text">콜드 또는 아카이브 재해 복구:</block>
+  <block id="a7683152ac8a3322afd2ab0f568eb7ab" category="list-text">콜드 재해 복구: 더 긴 RTO(복구 시간 목표) 및 RPO(복구 시점 개체)를 사용하여 비용을 절감합니다</block>
+  <block id="24249670ae7cb490931a0cfb669e35fb" category="list-text">아카이브: 장기 스토리지 및 규정 준수를 위해 데이터 복제</block>
+  <block id="6311ae17c1ee52b36e68aaf4ad066387" category="list-text">기타</block>
+  <block id="c09b5be4c2da04f4040eef1878f258aa" category="inline-link-macro">ONTAP 9 설명서</block>
+  <block id="3611f3afb9bd4ea20ff757fe165aa678" category="paragraph">또한 사용 사례를 선택하여 복제 정책 또는 ONTAP(SnapMirror policy)를 결정합니다. 복제 정책을 설명하는 데 사용되는 용어는 에서 가져온 <block ref="20dfa0e16eac8597602ade67a04436fd" category="inline-link-macro-rx"></block>것입니다.</block>
+  <block id="b5b213ff8da55d939d5b26b2acad4e23" category="list-text">마이그레이션 및 기타 의 경우 복제 정책을 _MirrorAllSnapshots_라고 합니다. _MirrorAllSnapshots_은(는) 모든 스냅샷과 최신 활성 파일 시스템을 미러링하기 위한 비동기 정책입니다.</block>
+  <block id="5fc1e1e4cb63004511e44d8fbb5b04a2" category="list-text">핫, 콜드 또는 아카이브 재해 복구의 경우 복제 정책을 _MirrorAndVault_라고 합니다. _MirrorAndVault_는 최신 활성 파일 시스템과 일별 및 주별 스냅샷을 미러링하기 위한 비동기 및 볼트 정책입니다.</block>
+  <block id="a1eefe5e0a806535abe58cb68a54c9d1" category="paragraph">모든 활용 사례에서 장기 보존을 위해 스냅샷을 활성화하면 기본 복제 정책은 _MirrorAndVault_입니다.</block>
+  <block id="181b737a36ca59661f38fe5373437f6a" category="list-text">* Tiering policy *: 타겟 볼륨에 저장된 데이터에 대한 계층화 정책을 선택합니다. 계층화 정책은 기본적으로 선택한 활용 사례에 대해 권장되는 계층화 정책으로 설정됩니다.</block>
+  <block id="b3e9c4cd60af78168e1dfa0923b34db0" category="inline-link-macro">볼륨 스토리지 용량</block>
+  <block id="a477f639de1e54cd01d24b4d8302b5ff" category="paragraph">_Balanced (Auto) _ 는 워크로드 팩토리 콘솔을 사용하여 볼륨을 생성할 때 적용되는 기본 계층화 정책입니다. 볼륨 계층화 정책에 대한 자세한 내용은 AWS FSx for NetApp ONTAP 설명서 를 <block ref="de51d392f5d252a956349995f441f55c" category="inline-link-macro-rx"></block> 참조하십시오. 워크로드 팩토리는 계층화 정책을 위해 워크로드 공장 콘솔에서 사용 사례 기반 이름을 사용하며 FSx for ONTAP 계층화 정책 이름을 괄호 안에 포함합니다.</block>
+  <block id="960f25577dd51f8946d9ce933ec7dd9d" category="paragraph">마이그레이션 사용 사례를 선택한 경우 워크로드 공장 출하 시 에서 소스 볼륨의 계층화 정책을 타겟 볼륨에 복사하도록 자동으로 선택합니다. 계층화 정책을 복사하도록 선택을 취소하고 복제하도록 선택한 볼륨에 적용되는 계층화 정책을 선택할 수 있습니다.</block>
+  <block id="c0fb38c08c1fe26c6d51d93cc15693b0" category="list-text">* 최대 전송 속도 *: * 제한 * 을 선택하고 최대 전송 제한(MB/s)을 입력합니다 또는 * 무제한 * 을 선택합니다.</block>
+  <block id="c498491de58eb1c7c7b811d5555b1afc" category="paragraph">제한이 없으면 네트워크 및 애플리케이션 성능이 저하될 수 있습니다. 또는 중요한 워크로드(예: 재해 복구에 주로 사용되는 워크로드)에 FSx for ONTAP 파일 시스템에 대해 무제한 전송 속도를 사용하는 것이 좋습니다.</block>
+  <block id="7edcd879f968b4375bcba0ad4e18005d" category="list-text">Replication settings(복제 설정) 에서 다음을 제공합니다.</block>
+  <block id="def706abaa127d74aee20fd4789add37" category="list-text">* 복제 간격 *: 소스 볼륨에서 타겟 볼륨으로 스냅샷이 전송되는 빈도를 선택합니다.</block>
+  <block id="3fa74f1d72fd1aab6c47bb2b48e47218" category="list-text">*장기 보존*: 장기 보존을 위해 스냅샷을 선택적으로 사용할 수 있습니다. 장기 보존을 통해 전체 사이트 장애가 발생하더라도 비즈니스 서비스를 계속 운영할 수 있으므로, 보조 복사본을 사용하여 애플리케이션을 투명하게 페일오버할 수 있습니다.</block>
+  <block id="70fc7bb591b365ee183f47900503df43" category="paragraph">장기 보존이 없는 복제는 _MirrorAllSnapshots_ 정책을 사용합니다. 장기 보존을 활성화하면 복제에 _MirrorAndVault_ 정책이 할당됩니다.</block>
+  <block id="7f5d1f7be42587a8d5bb2f5b6098ce8c" category="paragraph">장기 보존을 사용하도록 설정한 경우 기존 정책을 선택하거나 새 정책을 생성하여 복제할 스냅샷 및 유지할 스냅샷 수를 정의합니다.</block>
+  <block id="079c30a70413acebb5440fd932a014ad" category="admonition">장기간 보존을 위해서는 소스 및 타겟 레이블이 일치해야 합니다. 원하는 경우 워크로드 공장에서 누락된 레이블을 생성할 수 있습니다.</block>
+  <block id="0cbe076a4ce5208b10cdb81c9e175006" category="list-text">* 기존 정책 선택 *: 드롭다운 메뉴에서 기존 정책을 선택합니다.</block>
+  <block id="fca40712560cec2d2b7a47110cfecda1" category="list-text">*새 정책 만들기*: *정책 이름*을 입력하세요.</block>
+  <block id="0546ab198c101c424e412d1355272bcd" category="list-text">*변경 불가능한 스냅샷*: 선택 사항. 보존 기간 동안 이 정책에서 생성한 스냅샷이 삭제되지 않도록 하려면 * 변경 불가능한 스냅샷 활성화 * 를 선택합니다.</block>
+  <block id="4e41f89501d754d5c6885a51e74ac5f0" category="list-text">보존 기간 * 을 시간, 일, 월 또는 년 수로 설정합니다.</block>
+  <block id="28ef75c94389e1f7dfa4614197978d9e" category="list-text">* Snapshot policies *: 표에서 스냅샷 정책 빈도와 유지할 복제본 수를 선택합니다. 두 개 이상의 스냅샷 정책을 선택할 수 있습니다.</block>
+  <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">Create * 를 선택합니다.</block>
+  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025년 6월 29일</block>
 </blocks>
