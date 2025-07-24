@@ -136,7 +136,6 @@
   <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023년 1월 1일</block>
   <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">자동 용량 관리</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Google Cloud용 Cloud Volumes Service</block>
   <block id="b284ee716f958658a642a656a79699dc" category="paragraph">BlueXP 또는 BlueXP 스토리지 솔루션 및 서비스에 대한 일반적인 질문은 인라인 BlueXP 채팅으로 시작할 수 있습니다.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023년 3월 5일</block>
@@ -196,7 +195,6 @@
   <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link-macro">BlueXP 배포 모드</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">이 ID는 이메일에 매핑되는 시스템 생성 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
@@ -726,4 +724,6 @@
   <block id="bf18811faac9b8e4fcaebab51afd1113" category="list-text">Create * 를 선택합니다.</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025년 6월 29일</block>
   <block id="f2673d4a3fe0162a501d43f5168ae950" category="section-title">2025년 7월 14일</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
 </blocks>
